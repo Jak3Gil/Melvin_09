@@ -1,0 +1,60 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dSYM/
+melvin
+melvin_standalone
+
+# Test binaries (keep .c and .sh source files)
+/test_*
+!/test_*.c
+!/test_*.sh
+!/test_*.py
+
+# Debug binaries (keep source files)
+/debug_*
+!/debug_*.c
+!/debug_*.sh
+
+# Other binaries (keep source files)
+/verify_*
+!/verify_*.c
+/show_*
+!/show_*.c
+/demo_*
+!/demo_*.sh
+/ml_demo
+/ml_demo.c
+/inspect_*
+!/inspect_*.c
+/watch_*
+!/watch_*.sh
+
+# Brain files
+*.m
+
+# CSV results
+*.csv
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.bak2
+*.bak3
+*.bak4
+
+# Cursor IDE
+.cursor/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary files
+*.tmp
+*.temp
+
