@@ -25,6 +25,14 @@ typedef struct MFile MFile;
  * PORT FRAME STRUCTURE (CAN Bus-Style Data Packaging)
  * ============================================================================ */
 
+/* Port ID definitions (multi-modal input/output routing) */
+#define PORT_TEXT    0x01   // Text input/output
+#define PORT_AUDIO   0x02   // Audio input/output (PCM samples)
+#define PORT_VIDEO   0x03   // Video input/output (frame data)
+#define PORT_CANBUS  0x04   // CAN bus input/output
+#define PORT_MOTOR   0x05   // Motor control output
+#define PORT_SENSOR  0x06   // Sensor input (generic)
+
 /* PortFrame: External data packaging
  * - Used by melvin_in_port.c and melvin_out_port.c
  * - Format: [port_id (1)] + [timestamp (8)] + [data_size (4)] + [data (N)]
@@ -59,6 +67,7 @@ void melvin_m_universal_input_clear(MelvinMFile *mfile);
 /* Processing */
 int melvin_m_process_input(MelvinMFile *mfile);
 uint8_t melvin_m_get_last_input_port_id(MelvinMFile *mfile);
+void melvin_m_set_last_input_port_id(MelvinMFile *mfile, uint8_t port_id);
 
 /* Universal output operations */
 size_t melvin_m_universal_output_size(MelvinMFile *mfile);

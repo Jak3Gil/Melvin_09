@@ -125,30 +125,13 @@ int melvin_in_port_process_device(MelvinMFile *mfile,
                                    size_t data_size) {
     if (!mfile || !raw_data || data_size == 0) return -1;
     
-    // Allocate buffer for PortFrame (flexible array member)
-    size_t frame_size = sizeof(PortFrame) + data_size;
-    PortFrame *frame = malloc(frame_size);
-    if (!frame) return -1;
+    // Store port_id in mfile for routing (NOT in graph data)
+    // This is metadata for output routing, not part of the learned patterns
+    melvin_m_set_last_input_port_id(mfile, port_id);
     
-    // Fill PortFrame
-    frame->port_id = port_id;
-    frame->timestamp = get_timestamp();
-    frame->data_size = data_size;
-    if (data_size > 0) {
-        memcpy(frame->data, raw_data, data_size);
-    }
-    
-    // Serialize frame
-    uint8_t packaged[8192];  // Buffer for serialization
-    size_t packaged_size = port_frame_serialize(frame, packaged, sizeof(packaged));
-    free(frame);
-    
-    if (packaged_size == 0) {
-        return -1;  // Serialization failed
-    }
-    
-    // Write to .m file universal input
-    melvin_m_universal_input_write(mfile, packaged, packaged_size);
+    // Write ONLY raw data to universal input (no PortFrame wrapper)
+    // Nodes will get port_id set during processing
+    melvin_m_universal_input_write(mfile, raw_data, data_size);
     
     // Process (triggers wave propagation, learning, output generation)
     int result = melvin_m_process_input(mfile);
@@ -207,9 +190,10 @@ int melvin_in_port_handle_text_file(MelvinMFile *mfile,
         return -1;
     }
     
+    // Set port_id for routing
+    melvin_m_set_last_input_port_id(mfile, port_id);
+    
     // Write raw data directly to universal input (no PortFrame wrapper)
-    // melvin_m_process_input expects raw data, not PortFrame format
-    (void)port_id;  // Unused for now - raw data processing
     melvin_m_universal_input_write(mfile, text, bytes_read);
     int result = melvin_m_process_input(mfile);
     

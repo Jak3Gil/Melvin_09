@@ -6,21 +6,28 @@
 
 ```bash
 # Build
-make all-apps
+make all
 
-# Run production dataset processor
-./dataset_port dataset.txt brain.m
+# Feed any dataset (auto-detects type and routes to correct port)
+./melvin_feed dataset.txt brain.m
+./melvin_feed audio.wav brain.m
+./melvin_feed image.jpg brain.m
+./melvin_feed code.c brain.m
 
-# Monitor in another terminal
-./monitor_brain.sh brain.m
-# or
-./show_brain brain.m
+# Advanced usage
+./melvin_feed corpus.txt brain.m --passes 3 --watch
+./melvin_feed data.bin brain.m --port 0x01
 
-# Detailed analysis
-./analyze_mfile brain.m analysis.txt
+# Watch brain in real-time (separate terminal)
+./melvin_watch brain.m
+
+# Test multi-modal port system
+./tests/test_port_system
 ```
 
 See [PRODUCTION.md](PRODUCTION.md) for complete production system documentation.
+See [PORT_SYSTEM.md](docs/PORT_SYSTEM.md) for multi-modal port system documentation.
+See [AI_ACCELERATION.md](docs/AI_ACCELERATION.md) for AI model integration and self-regulation.
 
 ---
 

@@ -49,6 +49,8 @@ typedef struct Node {
     uint8_t *payload;                 // Actual data (flexible, 0 to unlimited)
     size_t payload_size;              // Size in bytes (0 = blank node)
     
+    uint8_t port_id;                  // Port ID where this node originated (0 = unknown/original)
+    
     float activation_strength;        // Current activation (0.0-1.0)
     float weight;                     // Activation history (local)
     float bias;                       // Self-regulating bias
@@ -920,6 +922,7 @@ static Node* node_create(const uint8_t *payload, size_t payload_size, uint32_t a
     }
     node->payload_size = payload_size;
     node->abstraction_level = abstraction_level;
+    node->port_id = 0;  // Default: unknown/original (will be set during input processing)
     
     // Start with capacity 1 (minimal, grows immediately when needed)
     node->outgoing_capacity = 1;
@@ -3265,10 +3268,16 @@ static void generate_from_pattern(MFile *mfile, ActivationPattern *pattern,
         }
     }
     
+    // Get expected output port from routing table
+    uint8_t input_port = mfile->last_input_port_id;
+    uint8_t output_port = input_port;  // Default: same port (text_in → text_out)
+    // Note: melvin_out_port can override this with routing table
+    
     // Collect only nodes that:
     // 1. Are NOT input nodes (discovered via spreading)
     // 2. Have valid payload
     // 3. Are not newlines (control characters shouldn't start output)
+    // 4. Match output port (port_id filtering for multi-modal)
     for (size_t i = 0; i < pattern->count; i++) {
         Node *node = pattern->nodes[i];
         float activation = pattern->activations[i];
@@ -3277,6 +3286,14 @@ static void generate_from_pattern(MFile *mfile, ActivationPattern *pattern,
         if (node->payload[0] == 0x00) continue;  // Skip EOS
         if (node->payload[0] == 0x0a) continue;  // Skip newlines (control char)
         if (activation < 0.01f) continue;  // Skip very weak activations
+        
+        // PORT ID FILTERING: Only include nodes from compatible port
+        // This prevents text nodes from outputting to audio port, etc.
+        // port_id == 0 means unknown/original (always compatible)
+        // Edges can still connect across ports for cross-modal learning!
+        if (node->port_id != 0 && output_port != 0 && node->port_id != output_port) {
+            continue;  // Wrong port, skip (but edges remain for learning)
+        }
         
         // ONLY include nodes that are NOT input nodes
         // These are continuation nodes discovered via spreading
@@ -5005,6 +5022,9 @@ static Node* create_hierarchy_node(Graph *graph, Node *node1, Node *node2) {
     
     if (!hierarchy) return NULL;
     
+    // Inherit port_id from first node (hierarchies inherit their source port)
+    hierarchy->port_id = node1->port_id;
+    
     // Update graph's max abstraction level
     if (new_level > graph->max_abstraction_level) {
         graph->max_abstraction_level = new_level;
@@ -5253,6 +5273,8 @@ MelvinMFile* melvin_m_load(const char *path) {
                                 if (trace_read == sizeof(float) * 8) {
                                     // Also read context_trace_len
                                     read(fd, &node->context_trace_len, sizeof(uint8_t));
+                                    // Also read port_id (multi-modal support)
+                                    read(fd, &node->port_id, sizeof(uint8_t));
                                 }
                                 // If read fails, context_trace remains zeroed (backward compatible)
                             }
@@ -5408,13 +5430,14 @@ int melvin_m_save(MelvinMFile *mfile) {
         Node *node = graph->nodes[i];
         node_offsets[i] = current_offset;
         
-        // Node data size: payload_size + payload + 14 floats + 1 uint32_t + 1 uint8_t
+        // Node data size: payload_size + payload + 14 floats + 1 uint32_t + 2 uint8_t
         // (weight, bias, activation_strength, outgoing_weight_sum, incoming_weight_sum, state) = 6 floats
         // (context_trace[8]) = 8 floats
         // abstraction_level = 1 uint32_t
         // context_trace_len = 1 uint8_t
+        // port_id = 1 uint8_t (NEW)
         size_t node_data_size = sizeof(size_t) + (node ? node->payload_size : 0) + 
-                               sizeof(float) * 14 + sizeof(uint32_t) + sizeof(uint8_t);
+                               sizeof(float) * 14 + sizeof(uint32_t) + 2 * sizeof(uint8_t);
         current_offset += node_data_size;
     }
     
@@ -5468,6 +5491,8 @@ int melvin_m_save(MelvinMFile *mfile) {
         // CONTEXT TRACE (RNN-like hidden state) - 8 floats + 1 byte
         if (write(mfile->fd, node->context_trace, sizeof(float) * 8) != sizeof(float) * 8) { free(node_offsets); return -1; }
         if (write(mfile->fd, &node->context_trace_len, sizeof(uint8_t)) != sizeof(uint8_t)) { free(node_offsets); return -1; }
+        // PORT ID (multi-modal routing) - 1 byte
+        if (write(mfile->fd, &node->port_id, sizeof(uint8_t)) != sizeof(uint8_t)) { free(node_offsets); return -1; }
         
         node->file_offset = node_offsets[i];
         node->loaded = 1;
@@ -5611,6 +5636,8 @@ int melvin_m_process_input(MelvinMFile *mfile) {
         for (size_t i = 0; i < data_size; i++) {
             pattern_nodes[i] = graph_find_or_create_pattern_node(mfile->graph, &data_start[i], 1);
             if (pattern_nodes[i]) {
+                // Set port_id on node (where this data came from)
+                pattern_nodes[i]->port_id = mfile->last_input_port_id;
                 pattern_node_count++;
             }
         }
@@ -5789,6 +5816,12 @@ int melvin_m_process_input(MelvinMFile *mfile) {
 uint8_t melvin_m_get_last_input_port_id(MelvinMFile *mfile) {
     if (!mfile) return 0;
     return mfile->last_input_port_id;
+}
+
+/* Set last input port ID (for routing) */
+void melvin_m_set_last_input_port_id(MelvinMFile *mfile, uint8_t port_id) {
+    if (!mfile) return;
+    mfile->last_input_port_id = port_id;
 }
 
 /* Get universal output size */
