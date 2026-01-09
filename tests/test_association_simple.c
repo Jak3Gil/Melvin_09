@@ -38,6 +38,9 @@ int main(int argc, char *argv[]) {
     const char *test_input = "hello";
     printf("Input: '%s'\n", test_input);
     
+    // Clear any output from training iterations
+    melvin_m_universal_output_clear(mfile);
+    
     melvin_in_port_handle_buffer(mfile, 0, (uint8_t*)test_input, strlen(test_input));
     
     // Get output

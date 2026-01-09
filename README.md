@@ -96,9 +96,9 @@ Everything learned helps learn the next thing. Existing knowledge accelerates fi
 
 The system adapts its learning strategy based on context. Not purely linear or purely compounding - the compounding rate itself adapts.
 
-- Exploratory behavior when in new territory (slower learning)
-- Compounding behavior when building on existing knowledge (faster learning)
-- Learning rates adapt based on local context and observed change rates
+- Exploratory behavior when in new territory (weaker connections)
+- Compounding behavior when building on existing knowledge (stronger connections)
+- Weight updates are direct (Hebbian learning) with decay providing natural bounds
 - Pattern size limits adapt to local node sizes
 
 ### 6. Continuous Learning
@@ -177,8 +177,8 @@ Like Brain: Recurrent cortical processing
 
 1. **Recurrent Dynamics** (3 iterations):
    - Self-activation (momentum): nodes retain 60% activation
-   - Neighbor input: connected nodes boost each other
-   - Context fit: nodes matching context get boosted
+   - Neighbor input: connected nodes prime each other through spreading activation
+   - Context fit: nodes matching context receive stronger activation (priming)
    
 2. **Emergent Attention**: 
    - Nodes connected to active context strengthen
@@ -186,6 +186,14 @@ Like Brain: Recurrent cortical processing
    - No explicit attention mechanism - it EMERGES
 
 **Result**: Refined pattern where continuation nodes are ranked by relevance.
+
+### Priming (Brain-Inspired)
+
+Like the human brain, activation spreads unconditionally to all connected nodes:
+- Strong connections receive large activation
+- Weak connections receive small activation (priming)
+- No filtering - all paths get a chance to compete
+- Priming prevents catastrophic forgetting by keeping weak memories alive
 
 **PHASE 2C: DECODE (Activation → Output)**
 
@@ -209,7 +217,7 @@ Like Brain: Motor output from motor cortex
 
 **Edge Strengthening** (during decode):
 - Edges used during generation get strengthened
-- `edge->weight += learning_rate * activation`
+- `edge->weight += activation` (direct Hebbian learning)
 - "Neurons that fire together, wire together"
 
 **Structure Formation**:
@@ -234,10 +242,11 @@ Like Brain: Motor output from motor cortex
 
 ### Biological Learning (Not Backpropagation)
 
-- Edges strengthen when activated: `edge->weight += learning_rate * activation`
-- Nodes strengthen when activated: `node->weight += learning_rate * activation`
+- Edges strengthen when activated: `edge->weight += activation` (direct Hebbian learning)
+- Nodes strengthen when activated: `node->weight += activation` (direct Hebbian learning)
 - Happens immediately during wave propagation
 - No gradients, no error signals, no backpropagation
+- No learning rate - decay and competition provide natural bounds
 - "Neurons that fire together, wire together"
 
 ### Local-Only Operations
@@ -249,7 +258,7 @@ Like Brain: Motor output from motor cortex
 
 ### Adaptive Everything
 
-- Learning rates adapt from local change rates
+- Weight updates are direct and immediate (pure Hebbian learning)
 - Thresholds adapt from local context
 - Pattern sizes adapt from local node sizes
 - No hardcoded values

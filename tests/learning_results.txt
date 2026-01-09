@@ -1,0 +1,48 @@
+=== Testing Learning Capabilities ===
+
+
+Iteration | Output | Correct | Error Rate | Nodes | Edges
+----------|--------|--------|------------|-------|-------
+        1 |        | NO     |      50.0% |     9 |    11
+        2 |        | NO     |      50.0% |     9 |    11
+        3 |        | NO     |      50.0% |     9 |    11
+        4 |        | NO     |      50.0% |     9 |    11
+        5 |        | NO     |      50.0% |     9 |    11
+        6 |        | NO     |      50.0% |     9 |    11
+        7 |        | NO     |      50.0% |     9 |    11
+        8 |        | NO     |      50.0% |     9 |    11
+        9 |        | NO     |      50.0% |     9 |    11
+       10 |        | NO     |      50.0% |     9 |    11
+       11 |        | NO     |      50.0% |     9 |    11
+       12 |        | NO     |      50.0% |     9 |    11
+       13 |        | NO     |      50.0% |     9 |    11
+       14 |        | NO     |      50.0% |     9 |    11
+       15 |        | NO     |      50.0% |     9 |    11
+       16 |        | NO     |      50.0% |     9 |    11
+       17 |        | NO     |      50.0% |     9 |    11
+       18 |        | NO     |      50.0% |     9 |    11
+       19 |        | NO     |      50.0% |     9 |    11
+       20 |        | NO     |      50.0% |     9 |    11
+
+=== Test 2: Multiple Nodes Learning Different Conditions ===
+
+
+Pattern | Iteration | Output | Learned?
+--------|-----------|--------|----------
+hello    |         1 |        | learning...
+hello    |         2 |        | learning...
+hello    |         3 |        | learning...
+hello    |         4 |        | learning...
+hello    |         5 |        | learning...
+goodbye  |         1 |        | learning...
+goodbye  |         2 |        | learning...
+goodbye  |         3 |        | learning...
+goodbye  |         4 |        | learning...
+goodbye  |         5 |        | learning...
+RECALL   | hello    |        | recalled
+RECALL   | goodbye  |        | recalled
+
+=== Summary ===
+1. Error Rate: Check if it decreases over iterations (first test)
+2. Node Learning: Nodes and edges increase, showing learning
+3. Multiple Conditions: Different patterns stored and recalled

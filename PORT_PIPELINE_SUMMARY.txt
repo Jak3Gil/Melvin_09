@@ -1,0 +1,43 @@
+================================================================================
+PORT PIPELINE: MINIMAL CHANGE FOR TESTS
+================================================================================
+
+BEFORE (Direct API - bypasses ports):
+  melvin_m_universal_input_write(mfile, data, size);
+  melvin_m_process_input(mfile);
+
+AFTER (Port Pipeline - proper way):
+  melvin_in_port_process_device(mfile, port_id, data, size);
+
+WHAT CHANGED:
+  • 2 function calls → 1 function call
+  • Port ID now tracked (enables routing)
+  • Same functionality, proper pipeline
+
+WHAT TO ADD:
+  1. #include "melvin_in_port.h"
+  2. Compile with: src/melvin_in_port.c src/melvin_out_port.c
+
+PORT IDs:
+  • Port 0 = standard input (use this for most tests)
+  • Port 1 = error/debug
+  • Port 2+ = custom devices
+
+EXAMPLE TEST:
+  See: tests/test_with_ports.c
+  Run: ./tests/test_with_ports
+
+OUTPUT READING:
+  • Can still use direct API (melvin_m_universal_output_read)
+  • Or use port routing (melvin_out_port_read_and_route)
+  • Your choice - both work
+
+BENEFIT:
+  ✅ Tests now use full pipeline
+  ✅ Port tracking enabled
+  ✅ Proper data flow tested
+  ✅ Minimal code change
+
+================================================================================
+STATUS: Example test created and working ✅
+================================================================================
