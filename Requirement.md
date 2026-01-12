@@ -1,0 +1,12 @@
+Melvin.c is required to...
+-NO O(n) searchs, no global searchs for anything.
+-No hardcoded limits we dont want to add maxes or mins
+-No hardcoded thresholds
+-No Fallbacks
+-context is a payload, of that activated nodes from a input and the desicions made, the current node holds the context of the last x number, that context changes the edge weights of the current node. If a node has strong edges to the context payload then it changes its mini prediction
+-edges are paths they are the only paths that nodes can take, if a node doesnt have a edge between another node it cant touch that one or predict it, they also transform locally in the same LLM transform globally
+-nodes make mini prediction they predict what comes next what edge comes next and what node that edge connects to. 
+-Enable embeddings for output generation only (not during training)
+-Use cached embeddings (already implemented)
+-Only compute for candidate nodes (not all nodes)
+-

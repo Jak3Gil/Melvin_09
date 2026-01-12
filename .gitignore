@@ -6,6 +6,8 @@
 *.dSYM/
 melvin
 melvin_standalone
+melvin_feed
+melvin_watch
 
 # Test binaries (keep .c and .sh source files)
 /test_*
@@ -40,6 +42,12 @@ melvin_standalone
 
 # Log files
 *.log
+
+# Large training data files (exceed GitHub 100MB limit)
+training_data/wikipedia/simplewiki-latest-pages-articles.xml.bz2
+training_data/wikipedia_1gb.txt
+training_data/wikipedia_text.txt
+training_data/wikipedia_text_full.txt
 
 # Backup files
 *.bak

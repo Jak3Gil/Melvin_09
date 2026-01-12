@@ -1,0 +1,11 @@
+Introduction to Physics
+
+Physics is the natural science that studies matter, energy, and their interactions. It seeks to understand the fundamental laws that govern the universe.
+
+Classical mechanics describes the motion of objects under the influence of forces. Newton's laws of motion form the foundation of this field. Objects at rest stay at rest unless acted upon by a force. Force equals mass times acceleration.
+
+Thermodynamics deals with heat, temperature, and energy transfer. The first law states that energy is conserved. The second law introduces the concept of entropy, which tends to increase in isolated systems.
+
+Electromagnetism explains electric and magnetic phenomena. Electric charges create electric fields. Moving charges create magnetic fields. Light is an electromagnetic wave that travels through space.
+
+Quantum mechanics describes the behavior of matter at atomic and subatomic scales. Particles exhibit both wave and particle properties. The uncertainty principle limits what can be known simultaneously about a particle's position and momentum.

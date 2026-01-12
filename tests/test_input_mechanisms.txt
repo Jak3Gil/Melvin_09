@@ -1,0 +1,6 @@
+cat cat cat
+dog dog dog
+cat dog cat dog
+cat cat dog dog
+similar1 similar2 similar3
+repeat repeat repeat repeat

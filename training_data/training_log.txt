@@ -1,0 +1,3129 @@
+[LOG] process_input_entry mfile=0x150e05b40
+[DEBUG] ALLOCATED pattern_nodes: 0x150f04090, size=5 (HypB)
+[DEBUG] activation_pattern_create: pattern=0x150f055e0, nodes=0x150f05650, activations=0x150f056f0, cap=20 (HypA)
+[LOG] phase4_entry initial_count=5 has_pattern=1
+[LOG] calling_detect_initial i=0 node=0x150f040c0
+[LOG] returned_from_detect i=0
+[LOG] calling_detect_initial i=1 node=0x150f04360
+[LOG] returned_from_detect i=1
+[LOG] calling_detect_initial i=2 node=0x150f04610
+[LOG] returned_from_detect i=2
+[LOG] calling_detect_initial i=3 node=0x150f048f0
+[LOG] returned_from_detect i=3
+[LOG] calling_detect_initial i=4 node=0x150f04be0
+[LOG] returned_from_detect i=4
+[HIERARCHY] Created level 1: 'Ap' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'pr' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ri' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'il' (edge weight 0.00)
+[DEBUG] BEFORE pattern free: pattern=0x150f055e0, pattern_nodes=0x150f04090 (HypA)
+[DEBUG] activation_pattern_free ENTRY: pattern=0x150f055e0, nodes=0x150f05650, activations=0x150f056f0 (HypA)
+[DEBUG] freeing pattern->nodes: 0x150f05650 (HypB)
+[DEBUG] freeing pattern struct: 0x150f055e0 (HypA)
+[DEBUG] AFTER pattern free: pattern=0x0 (HypA)
+[DEBUG] BEFORE pattern_nodes free: 0x150f04090 (HypB)
+[DEBUG] AFTER pattern_nodes free: 0x0 (HypB)
+[LOG] process_input_entry mfile=0x150e05b40
+[DEBUG] ALLOCATED pattern_nodes: 0x152808200, size=158 (HypB)
+[DEBUG] activation_pattern_create: pattern=0x15201e190, nodes=0x152824a00, activations=0x152825e00, cap=632 (HypA)
+  Hierarchy (level 1, 2 bytes): 'Ap'
+  Hierarchy (level 1, 2 bytes): 'pr'
+  Hierarchy (level 1, 2 bytes): 'ri'
+  Hierarchy (level 1, 2 bytes): 'il'
+[LOG] phase4_entry initial_count=158 has_pattern=1
+[LOG] calling_detect_initial i=0 node=0x150f040c0
+[LOG] returned_from_detect i=0
+[LOG] calling_detect_initial i=1 node=0x150f04360
+[LOG] returned_from_detect i=1
+[LOG] calling_detect_initial i=2 node=0x150f04610
+[LOG] returned_from_detect i=2
+[LOG] calling_detect_initial i=3 node=0x150f048f0
+[LOG] returned_from_detect i=3
+[LOG] calling_detect_initial i=4 node=0x150f04be0
+[LOG] returned_from_detect i=4
+[LOG] calling_detect_initial i=5 node=0x152004220
+[LOG] returned_from_detect i=5
+[LOG] calling_detect_initial i=6 node=0x1520044c0
+[LOG] returned_from_detect i=6
+[LOG] calling_detect_initial i=7 node=0x150f040c0
+[LOG] returned_from_detect i=7
+[LOG] calling_detect_initial i=8 node=0x150f04360
+[LOG] returned_from_detect i=8
+[LOG] calling_detect_initial i=9 node=0x150f04610
+[LOG] returned_from_detect i=9
+[LOG] calling_detect_initial i=10 node=0x152004760
+[LOG] returned_from_detect i=10
+[LOG] calling_detect_initial i=11 node=0x152004a00
+[LOG] returned_from_detect i=11
+[LOG] calling_detect_initial i=12 node=0x152004220
+[LOG] returned_from_detect i=12
+[LOG] calling_detect_initial i=13 node=0x150f048f0
+[LOG] returned_from_detect i=13
+[LOG] calling_detect_initial i=14 node=0x152004ca0
+[LOG] returned_from_detect i=14
+[LOG] calling_detect_initial i=15 node=0x152004220
+[LOG] returned_from_detect i=15
+[LOG] calling_detect_initial i=16 node=0x152004f40
+[LOG] returned_from_detect i=16
+[LOG] calling_detect_initial i=17 node=0x1520051d0
+[LOG] returned_from_detect i=17
+[LOG] calling_detect_initial i=18 node=0x152005470
+[LOG] returned_from_detect i=18
+[LOG] calling_detect_initial i=19 node=0x152004220
+[LOG] returned_from_detect i=19
+[LOG] calling_detect_initial i=20 node=0x152005ac0
+[LOG] returned_from_detect i=20
+[LOG] calling_detect_initial i=21 node=0x152005d50
+[LOG] returned_from_detect i=21
+[LOG] calling_detect_initial i=22 node=0x152005ff0
+[LOG] returned_from_detect i=22
+[LOG] calling_detect_initial i=23 node=0x150f04610
+[LOG] returned_from_detect i=23
+[LOG] calling_detect_initial i=24 node=0x152004f40
+[LOG] returned_from_detect i=24
+[LOG] calling_detect_initial i=25 node=0x1520051d0
+[LOG] returned_from_detect i=25
+[LOG] calling_detect_initial i=26 node=0x152004220
+[LOG] returned_from_detect i=26
+[LOG] calling_detect_initial i=27 node=0x152006290
+[LOG] returned_from_detect i=27
+[LOG] calling_detect_initial i=28 node=0x152005d50
+[LOG] returned_from_detect i=28
+[LOG] calling_detect_initial i=29 node=0x152006530
+[LOG] returned_from_detect i=29
+[LOG] calling_detect_initial i=30 node=0x152004f40
+[LOG] returned_from_detect i=30
+[LOG] calling_detect_initial i=31 node=0x1520051d0
+[LOG] returned_from_detect i=31
+[LOG] calling_detect_initial i=32 node=0x152004220
+[LOG] returned_from_detect i=32
+[LOG] calling_detect_initial i=33 node=0x152005d50
+[LOG] returned_from_detect i=33
+[LOG] calling_detect_initial i=34 node=0x152005ac0
+[LOG] returned_from_detect i=34
+[LOG] calling_detect_initial i=35 node=0x152004220
+[LOG] returned_from_detect i=35
+[LOG] calling_detect_initial i=36 node=0x152004f40
+[LOG] returned_from_detect i=36
+[LOG] calling_detect_initial i=37 node=0x1520051d0
+[LOG] returned_from_detect i=37
+[LOG] calling_detect_initial i=38 node=0x152005470
+[LOG] returned_from_detect i=38
+[LOG] calling_detect_initial i=39 node=0x152004220
+[LOG] returned_from_detect i=39
+[LOG] calling_detect_initial i=40 node=0x1520067d0
+[LOG] returned_from_detect i=40
+[LOG] calling_detect_initial i=41 node=0x152005470
+[LOG] returned_from_detect i=41
+[LOG] calling_detect_initial i=42 node=0x152006a70
+[LOG] returned_from_detect i=42
+[LOG] calling_detect_initial i=43 node=0x150f04610
+[LOG] returned_from_detect i=43
+[LOG] calling_detect_initial i=44 node=0x152004220
+[LOG] returned_from_detect i=44
+[LOG] calling_detect_initial i=45 node=0x150f048f0
+[LOG] returned_from_detect i=45
+[LOG] calling_detect_initial i=46 node=0x152006530
+[LOG] returned_from_detect i=46
+[LOG] calling_detect_initial i=47 node=0x152004220
+[LOG] returned_from_detect i=47
+[LOG] calling_detect_initial i=48 node=0x152004f40
+[LOG] returned_from_detect i=48
+[LOG] calling_detect_initial i=49 node=0x1520051d0
+[LOG] returned_from_detect i=49
+[LOG] calling_detect_initial i=50 node=0x152005470
+[LOG] returned_from_detect i=50
+[LOG] calling_detect_initial i=51 node=0x152004220
+[LOG] returned_from_detect i=51
+[LOG] calling_detect_initial i=52 node=0x152006d10
+[LOG] returned_from_detect i=52
+[LOG] calling_detect_initial i=53 node=0x152005ff0
+[LOG] returned_from_detect i=53
+[LOG] calling_detect_initial i=54 node=0x150f04be0
+[LOG] returned_from_detect i=54
+[LOG] calling_detect_initial i=55 node=0x150f048f0
+[LOG] returned_from_detect i=55
+[LOG] calling_detect_initial i=56 node=0x152006a70
+[LOG] returned_from_detect i=56
+[LOG] calling_detect_initial i=57 node=0x152006530
+[LOG] returned_from_detect i=57
+[LOG] calling_detect_initial i=58 node=0x152004220
+[LOG] returned_from_detect i=58
+[LOG] calling_detect_initial i=59 node=0x152006a70
+[LOG] returned_from_detect i=59
+[LOG] calling_detect_initial i=60 node=0x152006530
+[LOG] returned_from_detect i=60
+[LOG] calling_detect_initial i=61 node=0x152006fc0
+[LOG] returned_from_detect i=61
+[LOG] calling_detect_initial i=62 node=0x152004220
+[LOG] returned_from_detect i=62
+[LOG] calling_detect_initial i=63 node=0x152007260
+[LOG] returned_from_detect i=63
+[LOG] calling_detect_initial i=64 node=0x150f04610
+[LOG] returned_from_detect i=64
+[LOG] calling_detect_initial i=65 node=0x152005470
+[LOG] returned_from_detect i=65
+[LOG] calling_detect_initial i=66 node=0x152007500
+[LOG] returned_from_detect i=66
+[LOG] calling_detect_initial i=67 node=0x152005d50
+[LOG] returned_from_detect i=67
+[LOG] calling_detect_initial i=68 node=0x150f04610
+[LOG] returned_from_detect i=68
+[LOG] calling_detect_initial i=69 node=0x150f048f0
+[LOG] returned_from_detect i=69
+[LOG] calling_detect_initial i=70 node=0x152006a70
+[LOG] returned_from_detect i=70
+[LOG] calling_detect_initial i=71 node=0x152006530
+[LOG] returned_from_detect i=71
+[LOG] calling_detect_initial i=72 node=0x152004220
+[LOG] returned_from_detect i=72
+[LOG] calling_detect_initial i=73 node=0x152007790
+[LOG] returned_from_detect i=73
+[LOG] calling_detect_initial i=74 node=0x152006a70
+[LOG] returned_from_detect i=74
+[LOG] calling_detect_initial i=75 node=0x150f04be0
+[LOG] returned_from_detect i=75
+[LOG] calling_detect_initial i=76 node=0x152005470
+[LOG] returned_from_detect i=76
+[LOG] calling_detect_initial i=77 node=0x152006530
+[LOG] returned_from_detect i=77
+[LOG] calling_detect_initial i=78 node=0x152006fc0
+[LOG] returned_from_detect i=78
+[LOG] calling_detect_initial i=79 node=0x152006a70
+[LOG] returned_from_detect i=79
+[LOG] calling_detect_initial i=80 node=0x150f04610
+[LOG] returned_from_detect i=80
+[LOG] calling_detect_initial i=81 node=0x152004ca0
+[LOG] returned_from_detect i=81
+[LOG] calling_detect_initial i=82 node=0x152007a40
+[LOG] returned_from_detect i=82
+[LOG] calling_detect_initial i=83 node=0x152004220
+[LOG] returned_from_detect i=83
+[LOG] calling_detect_initial i=84 node=0x152006a70
+[LOG] returned_from_detect i=84
+[LOG] calling_detect_initial i=85 node=0x152006530
+[LOG] returned_from_detect i=85
+[LOG] calling_detect_initial i=86 node=0x152006fc0
+[LOG] returned_from_detect i=86
+[LOG] calling_detect_initial i=87 node=0x152004220
+[LOG] returned_from_detect i=87
+[LOG] calling_detect_initial i=88 node=0x152007790
+[LOG] returned_from_detect i=88
+[LOG] calling_detect_initial i=89 node=0x152005d50
+[LOG] returned_from_detect i=89
+[LOG] calling_detect_initial i=90 node=0x152006290
+[LOG] returned_from_detect i=90
+[LOG] calling_detect_initial i=91 node=0x152005470
+[LOG] returned_from_detect i=91
+[LOG] calling_detect_initial i=92 node=0x152004ca0
+[LOG] returned_from_detect i=92
+[LOG] calling_detect_initial i=93 node=0x152004220
+[LOG] returned_from_detect i=93
+[LOG] calling_detect_initial i=94 node=0x152007cd0
+[LOG] returned_from_detect i=94
+[LOG] calling_detect_initial i=95 node=0x152005470
+[LOG] returned_from_detect i=95
+[LOG] calling_detect_initial i=96 node=0x152004f40
+[LOG] returned_from_detect i=96
+[LOG] calling_detect_initial i=97 node=0x152007f70
+[LOG] returned_from_detect i=97
+[LOG] calling_detect_initial i=98 node=0x152005470
+[LOG] returned_from_detect i=98
+[LOG] calling_detect_initial i=99 node=0x152005470
+[LOG] returned_from_detect i=99
+[LOG] calling_detect_initial i=100 node=0x152006530
+[LOG] returned_from_detect i=100
+[LOG] calling_detect_initial i=101 node=0x152004220
+[LOG] returned_from_detect i=101
+[LOG] calling_detect_initial i=102 node=0x152008210
+[LOG] returned_from_detect i=102
+[LOG] calling_detect_initial i=103 node=0x152006a70
+[LOG] returned_from_detect i=103
+[LOG] calling_detect_initial i=104 node=0x150f04610
+[LOG] returned_from_detect i=104
+[LOG] calling_detect_initial i=105 node=0x152007790
+[LOG] returned_from_detect i=105
+[LOG] calling_detect_initial i=106 node=0x1520051d0
+[LOG] returned_from_detect i=106
+[LOG] calling_detect_initial i=107 node=0x152004220
+[LOG] returned_from_detect i=107
+[LOG] calling_detect_initial i=108 node=0x152006a70
+[LOG] returned_from_detect i=108
+[LOG] calling_detect_initial i=109 node=0x152006530
+[LOG] returned_from_detect i=109
+[LOG] calling_detect_initial i=110 node=0x152006fc0
+[LOG] returned_from_detect i=110
+[LOG] calling_detect_initial i=111 node=0x152004220
+[LOG] returned_from_detect i=111
+[LOG] calling_detect_initial i=112 node=0x152008210
+[LOG] returned_from_detect i=112
+[LOG] calling_detect_initial i=113 node=0x152006a70
+[LOG] returned_from_detect i=113
+[LOG] calling_detect_initial i=114 node=0x1520067d0
+[LOG] returned_from_detect i=114
+[LOG] calling_detect_initial i=115 node=0x152004760
+[LOG] returned_from_detect i=115
+[LOG] calling_detect_initial i=116 node=0x152004220
+[LOG] returned_from_detect i=116
+[LOG] calling_detect_initial i=117 node=0x1520057f0
+[LOG] returned_from_detect i=117
+[LOG] calling_detect_initial i=118 node=0x152004f40
+[LOG] returned_from_detect i=118
+[LOG] calling_detect_initial i=119 node=0x152004220
+[LOG] returned_from_detect i=119
+[LOG] calling_detect_initial i=120 node=0x150f048f0
+[LOG] returned_from_detect i=120
+[LOG] calling_detect_initial i=121 node=0x152004ca0
+[LOG] returned_from_detect i=121
+[LOG] calling_detect_initial i=122 node=0x152004220
+[LOG] returned_from_detect i=122
+[LOG] calling_detect_initial i=123 node=0x152005d50
+[LOG] returned_from_detect i=123
+[LOG] calling_detect_initial i=124 node=0x152006530
+[LOG] returned_from_detect i=124
+[LOG] calling_detect_initial i=125 node=0x152005470
+[LOG] returned_from_detect i=125
+[LOG] calling_detect_initial i=126 node=0x152004220
+[LOG] returned_from_detect i=126
+[LOG] calling_detect_initial i=127 node=0x152005d50
+[LOG] returned_from_detect i=127
+[LOG] calling_detect_initial i=128 node=0x152005ac0
+[LOG] returned_from_detect i=128
+[LOG] calling_detect_initial i=129 node=0x152004220
+[LOG] returned_from_detect i=129
+[LOG] calling_detect_initial i=130 node=0x152005ac0
+[LOG] returned_from_detect i=130
+[LOG] calling_detect_initial i=131 node=0x152005d50
+[LOG] returned_from_detect i=131
+[LOG] calling_detect_initial i=132 node=0x152005ff0
+[LOG] returned_from_detect i=132
+[LOG] calling_detect_initial i=133 node=0x150f04610
+[LOG] returned_from_detect i=133
+[LOG] calling_detect_initial i=134 node=0x152004220
+[LOG] returned_from_detect i=134
+[LOG] calling_detect_initial i=135 node=0x152006290
+[LOG] returned_from_detect i=135
+[LOG] calling_detect_initial i=136 node=0x152005d50
+[LOG] returned_from_detect i=136
+[LOG] calling_detect_initial i=137 node=0x152006530
+[LOG] returned_from_detect i=137
+[LOG] calling_detect_initial i=138 node=0x152004f40
+[LOG] returned_from_detect i=138
+[LOG] calling_detect_initial i=139 node=0x1520051d0
+[LOG] returned_from_detect i=139
+[LOG] calling_detect_initial i=140 node=0x152004ca0
+[LOG] returned_from_detect i=140
+[LOG] calling_detect_initial i=141 node=0x152004220
+[LOG] returned_from_detect i=141
+[LOG] calling_detect_initial i=142 node=0x152004f40
+[LOG] returned_from_detect i=142
+[LOG] calling_detect_initial i=143 node=0x152005d50
+[LOG] returned_from_detect i=143
+[LOG] calling_detect_initial i=144 node=0x152004220
+[LOG] returned_from_detect i=144
+[LOG] calling_detect_initial i=145 node=0x1520051d0
+[LOG] returned_from_detect i=145
+[LOG] calling_detect_initial i=146 node=0x152006a70
+[LOG] returned_from_detect i=146
+[LOG] calling_detect_initial i=147 node=0x152008680
+[LOG] returned_from_detect i=147
+[LOG] calling_detect_initial i=148 node=0x152005470
+[LOG] returned_from_detect i=148
+[LOG] calling_detect_initial i=149 node=0x152004220
+[LOG] returned_from_detect i=149
+[LOG] calling_detect_initial i=150 node=0x1520088f0
+[LOG] returned_from_detect i=150
+[LOG] calling_detect_initial i=151 node=0x152008ba0
+[LOG] returned_from_detect i=151
+[LOG] calling_detect_initial i=152 node=0x152004220
+[LOG] returned_from_detect i=152
+[LOG] calling_detect_initial i=153 node=0x152006fc0
+[LOG] returned_from_detect i=153
+[LOG] calling_detect_initial i=154 node=0x152006a70
+[LOG] returned_from_detect i=154
+[LOG] calling_detect_initial i=155 node=0x1520067d0
+[LOG] returned_from_detect i=155
+[LOG] calling_detect_initial i=156 node=0x152004ca0
+[LOG] returned_from_detect i=156
+[LOG] calling_detect_initial i=157 node=0x152004760
+[LOG] returned_from_detect i=157
+[HIERARCHY] Created level 1: 'l ' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' (' (edge weight 0.00)
+[HIERARCHY] Created level 1: '(A' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'r.' (edge weight 0.00)
+[HIERARCHY] Created level 1: '.)' (edge weight 0.00)
+[HIERARCHY] Created level 1: ') ' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' i' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'is' (edge weight 0.00)
+[HIERARCHY] Created level 1: 's ' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' t' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'th' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'he' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'e ' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' f' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'fo' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ou' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ur' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'rt' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'h ' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' m' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'mo' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'on' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'nt' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' o' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'of' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'f ' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' y' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ye' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ea' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ar' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'r ' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'in' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'n ' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' J' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'Ju' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ul' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'li' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ia' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'an' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' a' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'nd' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'd ' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' G' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'Gr' (edge weight 0.00)
+[HIERARCHY] Created level 1: 're' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'eg' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'go' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'or' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' c' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ca' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'al' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'le' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'en' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'da' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'rs' (edge weight 0.00)
+[HIERARCHY] Created level 1: 's,' (edge weight 0.00)
+[HIERARCHY] Created level 1: ', ' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'co' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'om' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'me' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'es' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' b' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'be' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'et' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'tw' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'we' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ee' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' M' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'Ma' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'rc' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ch' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ay' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'y.' (edge weight 0.00)
+[HIERARCHY] Created level 1: '. ' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' I' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'It' (edge weight 0.00)
+[HIERARCHY] Created level 1: 't ' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ne' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'hs' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'to' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'o ' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' h' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ha' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'av' (edge weight 0.00)
+[HIERARCHY] Created level 1: 've' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' 3' (edge weight 0.00)
+[HIERARCHY] Created level 1: '30' (edge weight 0.00)
+[HIERARCHY] Created level 1: '0 ' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' d' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ys' (edge weight 0.00)
+[HIERARCHY] Created level 1: 's.' (edge weight 0.00)
+[DEBUG] BEFORE pattern free: pattern=0x15201e190, pattern_nodes=0x152808200 (HypA)
+[DEBUG] activation_pattern_free ENTRY: pattern=0x15201e190, nodes=0x152824a00, activations=0x152825e00 (HypA)
+[DEBUG] freeing pattern->nodes: 0x152824a00 (HypB)
+[DEBUG] freeing pattern struct: 0x15201e190 (HypA)
+[DEBUG] AFTER pattern free: pattern=0x0 (HypA)
+[DEBUG] BEFORE pattern_nodes free: 0x152808200 (HypB)
+[DEBUG] AFTER pattern_nodes free: 0x0 (HypB)
+[LOG] process_input_entry mfile=0x150e05b40
+[DEBUG] ALLOCATED pattern_nodes: 0x15301f400, size=156 (HypB)
+[DEBUG] activation_pattern_create: pattern=0x15222b7a0, nodes=0x153021c00, activations=0x153023000, cap=624 (HypA)
+[LOG] phase4_entry initial_count=156 has_pattern=1
+[LOG] calling_detect_initial i=0 node=0x150f040c0
+[LOG] link_blank_entry concrete=0x150f040c0 blank=0x15222c1b0 graph=0x150e05f20
+[LOG] returned_from_detect i=0
+[LOG] calling_detect_initial i=1 node=0x150f04360
+[LOG] returned_from_detect i=1
+[LOG] calling_detect_initial i=2 node=0x150f04610
+[LOG] returned_from_detect i=2
+[LOG] calling_detect_initial i=3 node=0x150f048f0
+[LOG] returned_from_detect i=3
+[LOG] calling_detect_initial i=4 node=0x150f04be0
+[LOG] returned_from_detect i=4
+[LOG] calling_detect_initial i=5 node=0x152004220
+[LOG] returned_from_detect i=5
+[LOG] calling_detect_initial i=6 node=0x152006a70
+[LOG] returned_from_detect i=6
+[LOG] calling_detect_initial i=7 node=0x150f04be0
+[LOG] returned_from_detect i=7
+[LOG] calling_detect_initial i=8 node=0x152007f70
+[LOG] returned_from_detect i=8
+[LOG] calling_detect_initial i=9 node=0x152006a70
+[LOG] returned_from_detect i=9
+[LOG] calling_detect_initial i=10 node=0x1520067d0
+[LOG] returned_from_detect i=10
+[LOG] calling_detect_initial i=11 node=0x152004ca0
+[LOG] returned_from_detect i=11
+[LOG] calling_detect_initial i=12 node=0x152004220
+[LOG] returned_from_detect i=12
+[LOG] calling_detect_initial i=13 node=0x152007cd0
+[LOG] returned_from_detect i=13
+[LOG] calling_detect_initial i=14 node=0x152005470
+[LOG] returned_from_detect i=14
+[LOG] calling_detect_initial i=15 node=0x152007500
+[LOG] returned_from_detect i=15
+[LOG] calling_detect_initial i=16 node=0x150f048f0
+[LOG] returned_from_detect i=16
+[LOG] calling_detect_initial i=17 node=0x152006530
+[LOG] returned_from_detect i=17
+[LOG] calling_detect_initial i=18 node=0x152004ca0
+[LOG] returned_from_detect i=18
+[LOG] calling_detect_initial i=19 node=0x152004220
+[LOG] returned_from_detect i=19
+[LOG] calling_detect_initial i=20 node=0x152005d50
+[LOG] returned_from_detect i=20
+[LOG] calling_detect_initial i=21 node=0x152006530
+[LOG] returned_from_detect i=21
+[LOG] calling_detect_initial i=22 node=0x152004220
+[LOG] returned_from_detect i=22
+[LOG] calling_detect_initial i=23 node=0x152004f40
+[LOG] returned_from_detect i=23
+[LOG] calling_detect_initial i=24 node=0x1520051d0
+[LOG] returned_from_detect i=24
+[LOG] calling_detect_initial i=25 node=0x152005470
+[LOG] returned_from_detect i=25
+[LOG] calling_detect_initial i=26 node=0x152004220
+[LOG] returned_from_detect i=26
+[LOG] calling_detect_initial i=27 node=0x152004ca0
+[LOG] returned_from_detect i=27
+[LOG] calling_detect_initial i=28 node=0x152006a70
+[LOG] returned_from_detect i=28
+[LOG] calling_detect_initial i=29 node=0x152006290
+[LOG] returned_from_detect i=29
+[LOG] calling_detect_initial i=30 node=0x152005470
+[LOG] returned_from_detect i=30
+[LOG] calling_detect_initial i=31 node=0x152004220
+[LOG] returned_from_detect i=31
+[LOG] calling_detect_initial i=32 node=0x152006fc0
+[LOG] returned_from_detect i=32
+[LOG] calling_detect_initial i=33 node=0x152006a70
+[LOG] returned_from_detect i=33
+[LOG] calling_detect_initial i=34 node=0x1520067d0
+[LOG] returned_from_detect i=34
+[LOG] calling_detect_initial i=35 node=0x152004220
+[LOG] returned_from_detect i=35
+[LOG] calling_detect_initial i=36 node=0x152005d50
+[LOG] returned_from_detect i=36
+[LOG] calling_detect_initial i=37 node=0x152005ac0
+[LOG] returned_from_detect i=37
+[LOG] calling_detect_initial i=38 node=0x152004220
+[LOG] returned_from_detect i=38
+[LOG] calling_detect_initial i=39 node=0x152004f40
+[LOG] returned_from_detect i=39
+[LOG] calling_detect_initial i=40 node=0x1520051d0
+[LOG] returned_from_detect i=40
+[LOG] calling_detect_initial i=41 node=0x152005470
+[LOG] returned_from_detect i=41
+[LOG] calling_detect_initial i=42 node=0x152004220
+[LOG] returned_from_detect i=42
+[LOG] calling_detect_initial i=43 node=0x152007f70
+[LOG] returned_from_detect i=43
+[LOG] calling_detect_initial i=44 node=0x152005470
+[LOG] returned_from_detect i=44
+[LOG] calling_detect_initial i=45 node=0x152005470
+[LOG] returned_from_detect i=45
+[LOG] calling_detect_initial i=46 node=0x152214730
+[LOG] returned_from_detect i=46
+[LOG] calling_detect_initial i=47 node=0x152004220
+[LOG] returned_from_detect i=47
+[LOG] calling_detect_initial i=48 node=0x152006a70
+[LOG] returned_from_detect i=48
+[LOG] calling_detect_initial i=49 node=0x152004ca0
+[LOG] returned_from_detect i=49
+[LOG] calling_detect_initial i=50 node=0x152004220
+[LOG] returned_from_detect i=50
+[LOG] calling_detect_initial i=51 node=0x152006d10
+[LOG] returned_from_detect i=51
+[LOG] calling_detect_initial i=52 node=0x152005ff0
+[LOG] returned_from_detect i=52
+[LOG] calling_detect_initial i=53 node=0x150f04be0
+[LOG] returned_from_detect i=53
+[LOG] calling_detect_initial i=54 node=0x1520067d0
+[LOG] returned_from_detect i=54
+[LOG] calling_detect_initial i=55 node=0x152007a40
+[LOG] returned_from_detect i=55
+[LOG] calling_detect_initial i=56 node=0x152004220
+[LOG] returned_from_detect i=56
+[LOG] calling_detect_initial i=57 node=0x152006a70
+[LOG] returned_from_detect i=57
+[LOG] calling_detect_initial i=58 node=0x152006530
+[LOG] returned_from_detect i=58
+[LOG] calling_detect_initial i=59 node=0x152006fc0
+[LOG] returned_from_detect i=59
+[LOG] calling_detect_initial i=60 node=0x152004220
+[LOG] returned_from_detect i=60
+[LOG] calling_detect_initial i=61 node=0x152006a70
+[LOG] returned_from_detect i=61
+[LOG] calling_detect_initial i=62 node=0x152006fc0
+[LOG] returned_from_detect i=62
+[LOG] calling_detect_initial i=63 node=0x152006fc0
+[LOG] returned_from_detect i=63
+[LOG] calling_detect_initial i=64 node=0x150f048f0
+[LOG] returned_from_detect i=64
+[LOG] calling_detect_initial i=65 node=0x152004f40
+[LOG] returned_from_detect i=65
+[LOG] calling_detect_initial i=66 node=0x150f048f0
+[LOG] returned_from_detect i=66
+[LOG] calling_detect_initial i=67 node=0x152005d50
+[LOG] returned_from_detect i=67
+[LOG] calling_detect_initial i=68 node=0x152006530
+[LOG] returned_from_detect i=68
+[LOG] calling_detect_initial i=69 node=0x152006a70
+[LOG] returned_from_detect i=69
+[LOG] calling_detect_initial i=70 node=0x150f04be0
+[LOG] returned_from_detect i=70
+[LOG] calling_detect_initial i=71 node=0x150f04be0
+[LOG] returned_from_detect i=71
+[LOG] calling_detect_initial i=72 node=0x1520067d0
+[LOG] returned_from_detect i=72
+[LOG] calling_detect_initial i=73 node=0x152007a40
+[LOG] returned_from_detect i=73
+[LOG] calling_detect_initial i=74 node=0x152004220
+[LOG] returned_from_detect i=74
+[LOG] calling_detect_initial i=75 node=0x152006d10
+[LOG] returned_from_detect i=75
+[LOG] calling_detect_initial i=76 node=0x152006a70
+[LOG] returned_from_detect i=76
+[LOG] calling_detect_initial i=77 node=0x152006530
+[LOG] returned_from_detect i=77
+[LOG] calling_detect_initial i=78 node=0x152005ff0
+[LOG] returned_from_detect i=78
+[LOG] calling_detect_initial i=79 node=0x152006a70
+[LOG] returned_from_detect i=79
+[LOG] calling_detect_initial i=80 node=0x150f04610
+[LOG] returned_from_detect i=80
+[LOG] calling_detect_initial i=81 node=0x1520067d0
+[LOG] returned_from_detect i=81
+[LOG] calling_detect_initial i=82 node=0x152004220
+[LOG] returned_from_detect i=82
+[LOG] calling_detect_initial i=83 node=0x150f048f0
+[LOG] returned_from_detect i=83
+[LOG] calling_detect_initial i=84 node=0x152006530
+[LOG] returned_from_detect i=84
+[LOG] calling_detect_initial i=85 node=0x152004220
+[LOG] returned_from_detect i=85
+[LOG] calling_detect_initial i=86 node=0x150f04be0
+[LOG] returned_from_detect i=86
+[LOG] calling_detect_initial i=87 node=0x152005470
+[LOG] returned_from_detect i=87
+[LOG] calling_detect_initial i=88 node=0x152006a70
+[LOG] returned_from_detect i=88
+[LOG] calling_detect_initial i=89 node=0x150f04360
+[LOG] returned_from_detect i=89
+[LOG] calling_detect_initial i=90 node=0x152004220
+[LOG] returned_from_detect i=90
+[LOG] calling_detect_initial i=91 node=0x1520067d0
+[LOG] returned_from_detect i=91
+[LOG] calling_detect_initial i=92 node=0x152005470
+[LOG] returned_from_detect i=92
+[LOG] calling_detect_initial i=93 node=0x152006a70
+[LOG] returned_from_detect i=93
+[LOG] calling_detect_initial i=94 node=0x150f04610
+[LOG] returned_from_detect i=94
+[LOG] calling_detect_initial i=95 node=0x152004ca0
+[LOG] returned_from_detect i=95
+[LOG] calling_detect_initial i=96 node=0x152004760
+[LOG] returned_from_detect i=96
+[LOG] calling_detect_initial i=97 node=0x152004220
+[LOG] returned_from_detect i=97
+[LOG] calling_detect_initial i=98 node=0x150f040c0
+[LOG] returned_from_detect i=98
+[LOG] calling_detect_initial i=99 node=0x150f04360
+[LOG] returned_from_detect i=99
+[LOG] calling_detect_initial i=100 node=0x150f04610
+[LOG] returned_from_detect i=100
+[LOG] calling_detect_initial i=101 node=0x150f048f0
+[LOG] returned_from_detect i=101
+[LOG] calling_detect_initial i=102 node=0x150f04be0
+[LOG] returned_from_detect i=102
+[LOG] calling_detect_initial i=103 node=0x152004220
+[LOG] returned_from_detect i=103
+[LOG] calling_detect_initial i=104 node=0x152006a70
+[LOG] returned_from_detect i=104
+[LOG] calling_detect_initial i=105 node=0x150f04be0
+[LOG] returned_from_detect i=105
+[LOG] calling_detect_initial i=106 node=0x152007f70
+[LOG] returned_from_detect i=106
+[LOG] calling_detect_initial i=107 node=0x152006a70
+[LOG] returned_from_detect i=107
+[LOG] calling_detect_initial i=108 node=0x1520067d0
+[LOG] returned_from_detect i=108
+[LOG] calling_detect_initial i=109 node=0x152004ca0
+[LOG] returned_from_detect i=109
+[LOG] calling_detect_initial i=110 node=0x152004220
+[LOG] returned_from_detect i=110
+[LOG] calling_detect_initial i=111 node=0x152005470
+[LOG] returned_from_detect i=111
+[LOG] calling_detect_initial i=112 node=0x152006530
+[LOG] returned_from_detect i=112
+[LOG] calling_detect_initial i=113 node=0x152006fc0
+[LOG] returned_from_detect i=113
+[LOG] calling_detect_initial i=114 node=0x152004ca0
+[LOG] returned_from_detect i=114
+[LOG] calling_detect_initial i=115 node=0x152004220
+[LOG] returned_from_detect i=115
+[LOG] calling_detect_initial i=116 node=0x152005d50
+[LOG] returned_from_detect i=116
+[LOG] calling_detect_initial i=117 node=0x152006530
+[LOG] returned_from_detect i=117
+[LOG] calling_detect_initial i=118 node=0x152004220
+[LOG] returned_from_detect i=118
+[LOG] calling_detect_initial i=119 node=0x152004f40
+[LOG] returned_from_detect i=119
+[LOG] calling_detect_initial i=120 node=0x1520051d0
+[LOG] returned_from_detect i=120
+[LOG] calling_detect_initial i=121 node=0x152005470
+[LOG] returned_from_detect i=121
+[LOG] calling_detect_initial i=122 node=0x152004220
+[LOG] returned_from_detect i=122
+[LOG] calling_detect_initial i=123 node=0x152004ca0
+[LOG] returned_from_detect i=123
+[LOG] calling_detect_initial i=124 node=0x152006a70
+[LOG] returned_from_detect i=124
+[LOG] calling_detect_initial i=125 node=0x152006290
+[LOG] returned_from_detect i=125
+[LOG] calling_detect_initial i=126 node=0x152005470
+[LOG] returned_from_detect i=126
+[LOG] calling_detect_initial i=127 node=0x152004220
+[LOG] returned_from_detect i=127
+[LOG] calling_detect_initial i=128 node=0x152006fc0
+[LOG] returned_from_detect i=128
+[LOG] calling_detect_initial i=129 node=0x152006a70
+[LOG] returned_from_detect i=129
+[LOG] calling_detect_initial i=130 node=0x1520067d0
+[LOG] returned_from_detect i=130
+[LOG] calling_detect_initial i=131 node=0x152004220
+[LOG] returned_from_detect i=131
+[LOG] calling_detect_initial i=132 node=0x152005d50
+[LOG] returned_from_detect i=132
+[LOG] calling_detect_initial i=133 node=0x152005ac0
+[LOG] returned_from_detect i=133
+[LOG] calling_detect_initial i=134 node=0x152004220
+[LOG] returned_from_detect i=134
+[LOG] calling_detect_initial i=135 node=0x152004f40
+[LOG] returned_from_detect i=135
+[LOG] calling_detect_initial i=136 node=0x1520051d0
+[LOG] returned_from_detect i=136
+[LOG] calling_detect_initial i=137 node=0x152005470
+[LOG] returned_from_detect i=137
+[LOG] calling_detect_initial i=138 node=0x152004220
+[LOG] returned_from_detect i=138
+[LOG] calling_detect_initial i=139 node=0x152007f70
+[LOG] returned_from_detect i=139
+[LOG] calling_detect_initial i=140 node=0x152005470
+[LOG] returned_from_detect i=140
+[LOG] calling_detect_initial i=141 node=0x152005470
+[LOG] returned_from_detect i=141
+[LOG] calling_detect_initial i=142 node=0x152214730
+[LOG] returned_from_detect i=142
+[LOG] calling_detect_initial i=143 node=0x152004220
+[LOG] returned_from_detect i=143
+[LOG] calling_detect_initial i=144 node=0x152006a70
+[LOG] returned_from_detect i=144
+[LOG] calling_detect_initial i=145 node=0x152004ca0
+[LOG] returned_from_detect i=145
+[LOG] calling_detect_initial i=146 node=0x152004220
+[LOG] returned_from_detect i=146
+[LOG] calling_detect_initial i=147 node=0x152214ec0
+[LOG] returned_from_detect i=147
+[LOG] calling_detect_initial i=148 node=0x152005470
+[LOG] returned_from_detect i=148
+[LOG] calling_detect_initial i=149 node=0x152007790
+[LOG] returned_from_detect i=149
+[LOG] calling_detect_initial i=150 node=0x152005470
+[LOG] returned_from_detect i=150
+[LOG] calling_detect_initial i=151 node=0x152006290
+[LOG] returned_from_detect i=151
+[LOG] calling_detect_initial i=152 node=0x152007cd0
+[LOG] returned_from_detect i=152
+[LOG] calling_detect_initial i=153 node=0x152005470
+[LOG] returned_from_detect i=153
+[LOG] calling_detect_initial i=154 node=0x150f04610
+[LOG] returned_from_detect i=154
+[LOG] calling_detect_initial i=155 node=0x152004760
+[LOG] returned_from_detect i=155
+[HIERARCHY] Created level 1: 'lw' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'wa' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'gi' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ns' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' s' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'sa' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'am' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'y ' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' w' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ek' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'k ' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'as' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ly' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'y,' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ad' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'dd' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'di' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'it' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ti' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'io' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'na' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'll' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'Ja' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'nu' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ua' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ry' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' l' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ap' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'p ' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' A' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' e' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ds' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' D' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'De' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ec' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ce' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'em' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'mb' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'er' (edge weight 0.00)
+[DEBUG] BEFORE pattern free: pattern=0x15222b7a0, pattern_nodes=0x15301f400 (HypA)
+[DEBUG] activation_pattern_free ENTRY: pattern=0x15222b7a0, nodes=0x153021c00, activations=0x153023000 (HypA)
+[DEBUG] freeing pattern->nodes: 0x153021c00 (HypB)
+[DEBUG] freeing pattern struct: 0x15222b7a0 (HypA)
+[DEBUG] AFTER pattern free: pattern=0x0 (HypA)
+[DEBUG] BEFORE pattern_nodes free: 0x15301f400 (HypB)
+[DEBUG] AFTER pattern_nodes free: 0x0 (HypB)
+[LOG] process_input_entry mfile=0x150e05b40
+[DEBUG] ALLOCATED pattern_nodes: 0x15202c820, size=9 (HypB)
+[DEBUG] activation_pattern_create: pattern=0x15202e390, nodes=0x15202e400, activations=0x15202e520, cap=36 (HypA)
+[LOG] phase4_entry initial_count=9 has_pattern=1
+[LOG] calling_detect_initial i=0 node=0x15222c1b0
+[LOG] returned_from_detect i=0
+[LOG] calling_detect_initial i=1 node=0x1520051d0
+[LOG] returned_from_detect i=1
+[LOG] calling_detect_initial i=2 node=0x152005470
+[LOG] returned_from_detect i=2
+[LOG] calling_detect_initial i=3 node=0x152004220
+[LOG] returned_from_detect i=3
+[LOG] calling_detect_initial i=4 node=0x152008210
+[LOG] link_blank_entry concrete=0x152008210 blank=0x150f19830 graph=0x150e05f20
+[LOG] returned_from_detect i=4
+[LOG] calling_detect_initial i=5 node=0x152005d50
+[LOG] returned_from_detect i=5
+[LOG] calling_detect_initial i=6 node=0x152006530
+[LOG] returned_from_detect i=6
+[LOG] calling_detect_initial i=7 node=0x152004f40
+[LOG] returned_from_detect i=7
+[LOG] calling_detect_initial i=8 node=0x1520051d0
+[LOG] returned_from_detect i=8
+[LOG] link_blank_entry concrete=0x150f11a10 blank=0x150e127d0 graph=0x150e05f20
+[HIERARCHY] Created level 1: 'Mo' (edge weight 0.00)
+[DEBUG] BEFORE pattern free: pattern=0x15202e390, pattern_nodes=0x15202c820 (HypA)
+[DEBUG] activation_pattern_free ENTRY: pattern=0x15202e390, nodes=0x15282fe00, activations=0x15202ef30 (HypA)
+[DEBUG] freeing pattern->nodes: 0x15282fe00 (HypB)
+[DEBUG] freeing pattern struct: 0x15202e390 (HypA)
+[DEBUG] AFTER pattern free: pattern=0x0 (HypA)
+[DEBUG] BEFORE pattern_nodes free: 0x15202c820 (HypB)
+[DEBUG] AFTER pattern_nodes free: 0x0 (HypB)
+[LOG] process_input_entry mfile=0x150e05b40
+[DEBUG] ALLOCATED pattern_nodes: 0x1522334b0, size=89 (HypB)
+[DEBUG] activation_pattern_create: pattern=0x15223aa10, nodes=0x153021a00, activations=0x15301f400, cap=356 (HypA)
+[LOG] phase4_entry initial_count=89 has_pattern=1
+[LOG] calling_detect_initial i=0 node=0x152004f40
+[LOG] returned_from_detect i=0
+[LOG] calling_detect_initial i=1 node=0x1520051d0
+[LOG] returned_from_detect i=1
+[LOG] calling_detect_initial i=2 node=0x152005ff0
+[LOG] returned_from_detect i=2
+[LOG] calling_detect_initial i=3 node=0x152006290
+[LOG] returned_from_detect i=3
+[LOG] calling_detect_initial i=4 node=0x152007cd0
+[LOG] returned_from_detect i=4
+[LOG] calling_detect_initial i=5 node=0x15222c1b0
+[LOG] returned_from_detect i=5
+[LOG] calling_detect_initial i=6 node=0x15222c1b0
+[LOG] returned_from_detect i=6
+[LOG] calling_detect_initial i=7 node=0x15222c1b0
+[LOG] returned_from_detect i=7
+[LOG] calling_detect_initial i=8 node=0x152008ba0
+[LOG] returned_from_detect i=8
+[LOG] calling_detect_initial i=9 node=0x150f04360
+[LOG] returned_from_detect i=9
+[LOG] calling_detect_initial i=10 node=0x15222c1b0
+[LOG] returned_from_detect i=10
+[LOG] calling_detect_initial i=11 node=0x15222c1b0
+[LOG] returned_from_detect i=11
+[LOG] calling_detect_initial i=12 node=0x150f04610
+[LOG] returned_from_detect i=12
+[LOG] calling_detect_initial i=13 node=0x150f048f0
+[LOG] returned_from_detect i=13
+[LOG] calling_detect_initial i=14 node=0x152007500
+[LOG] returned_from_detect i=14
+[LOG] calling_detect_initial i=15 node=0x1520051d0
+[LOG] returned_from_detect i=15
+[LOG] calling_detect_initial i=16 node=0x152004f40
+[LOG] returned_from_detect i=16
+[LOG] calling_detect_initial i=17 node=0x15222c1b0
+[LOG] returned_from_detect i=17
+[LOG] calling_detect_initial i=18 node=0x15222c1b0
+[LOG] returned_from_detect i=18
+[LOG] calling_detect_initial i=19 node=0x15222c1b0
+[LOG] returned_from_detect i=19
+[LOG] calling_detect_initial i=20 node=0x15222c1b0
+[LOG] returned_from_detect i=20
+[LOG] calling_detect_initial i=21 node=0x150f04360
+[LOG] returned_from_detect i=21
+[LOG] calling_detect_initial i=22 node=0x150f04610
+[LOG] returned_from_detect i=22
+[LOG] calling_detect_initial i=23 node=0x150f048f0
+[LOG] returned_from_detect i=23
+[LOG] calling_detect_initial i=24 node=0x152006530
+[LOG] returned_from_detect i=24
+[LOG] calling_detect_initial i=25 node=0x152007500
+[LOG] returned_from_detect i=25
+[LOG] calling_detect_initial i=26 node=0x152004220
+[LOG] returned_from_detect i=26
+[LOG] calling_detect_initial i=27 node=0x1520044c0
+[LOG] returned_from_detect i=27
+[LOG] calling_detect_initial i=28 node=0x152004ca0
+[LOG] returned_from_detect i=28
+[LOG] calling_detect_initial i=29 node=0x152005470
+[LOG] returned_from_detect i=29
+[LOG] calling_detect_initial i=30 node=0x152006a70
+[LOG] returned_from_detect i=30
+[LOG] calling_detect_initial i=31 node=0x152004ca0
+[LOG] returned_from_detect i=31
+[LOG] calling_detect_initial i=32 node=0x152005d50
+[LOG] returned_from_detect i=32
+[LOG] calling_detect_initial i=33 node=0x152006530
+[LOG] returned_from_detect i=33
+[LOG] calling_detect_initial i=34 node=0x152004a00
+[LOG] returned_from_detect i=34
+[LOG] calling_detect_initial i=35 node=0x15222c1b0
+[LOG] returned_from_detect i=35
+[LOG] calling_detect_initial i=36 node=0x15222c1b0
+[LOG] returned_from_detect i=36
+[LOG] calling_detect_initial i=37 node=0x150f04360
+[LOG] returned_from_detect i=37
+[LOG] calling_detect_initial i=38 node=0x150f04610
+[LOG] returned_from_detect i=38
+[LOG] calling_detect_initial i=39 node=0x150f048f0
+[LOG] returned_from_detect i=39
+[LOG] calling_detect_initial i=40 node=0x152006530
+[LOG] returned_from_detect i=40
+[LOG] calling_detect_initial i=41 node=0x152007500
+[LOG] returned_from_detect i=41
+[LOG] calling_detect_initial i=42 node=0x152004220
+[LOG] returned_from_detect i=42
+[LOG] calling_detect_initial i=43 node=0x152005ac0
+[LOG] returned_from_detect i=43
+[LOG] calling_detect_initial i=44 node=0x150f04be0
+[LOG] returned_from_detect i=44
+[LOG] calling_detect_initial i=45 node=0x152005d50
+[LOG] returned_from_detect i=45
+[LOG] calling_detect_initial i=46 node=0x152007f70
+[LOG] returned_from_detect i=46
+[LOG] calling_detect_initial i=47 node=0x152005470
+[LOG] returned_from_detect i=47
+[LOG] calling_detect_initial i=48 node=0x150f04610
+[LOG] returned_from_detect i=48
+[LOG] calling_detect_initial i=49 node=0x152004ca0
+[LOG] returned_from_detect i=49
+[LOG] calling_detect_initial i=50 node=0x152004220
+[LOG] returned_from_detect i=50
+[LOG] calling_detect_initial i=51 node=0x150f048f0
+[LOG] returned_from_detect i=51
+[LOG] calling_detect_initial i=52 node=0x152006530
+[LOG] returned_from_detect i=52
+[LOG] calling_detect_initial i=53 node=0x152004220
+[LOG] returned_from_detect i=53
+[LOG] calling_detect_initial i=54 node=0x150f040c0
+[LOG] returned_from_detect i=54
+[LOG] calling_detect_initial i=55 node=0x150f04360
+[LOG] returned_from_detect i=55
+[LOG] calling_detect_initial i=56 node=0x150f04610
+[LOG] returned_from_detect i=56
+[LOG] calling_detect_initial i=57 node=0x150f048f0
+[LOG] returned_from_detect i=57
+[LOG] calling_detect_initial i=58 node=0x150f04be0
+[LOG] returned_from_detect i=58
+[LOG] calling_detect_initial i=59 node=0x152004220
+[LOG] returned_from_detect i=59
+[LOG] calling_detect_initial i=60 node=0x150f048f0
+[LOG] returned_from_detect i=60
+[LOG] calling_detect_initial i=61 node=0x152006530
+[LOG] returned_from_detect i=61
+[LOG] calling_detect_initial i=62 node=0x152004220
+[LOG] returned_from_detect i=62
+[LOG] calling_detect_initial i=63 node=0x152004f40
+[LOG] returned_from_detect i=63
+[LOG] calling_detect_initial i=64 node=0x1520051d0
+[LOG] returned_from_detect i=64
+[LOG] calling_detect_initial i=65 node=0x152005470
+[LOG] returned_from_detect i=65
+[LOG] calling_detect_initial i=66 node=0x152004220
+[LOG] returned_from_detect i=66
+[LOG] calling_detect_initial i=67 node=0x15222c1b0
+[LOG] returned_from_detect i=67
+[LOG] calling_detect_initial i=68 node=0x152005d50
+[LOG] returned_from_detect i=68
+[LOG] calling_detect_initial i=69 node=0x150f04610
+[LOG] returned_from_detect i=69
+[LOG] calling_detect_initial i=70 node=0x152004f40
+[LOG] returned_from_detect i=70
+[LOG] calling_detect_initial i=71 node=0x1520051d0
+[LOG] returned_from_detect i=71
+[LOG] calling_detect_initial i=72 node=0x152005470
+[LOG] returned_from_detect i=72
+[LOG] calling_detect_initial i=73 node=0x150f04610
+[LOG] returned_from_detect i=73
+[LOG] calling_detect_initial i=74 node=0x152006530
+[LOG] returned_from_detect i=74
+[LOG] calling_detect_initial i=75 node=0x152004220
+[LOG] returned_from_detect i=75
+[LOG] calling_detect_initial i=76 node=0x15222c1b0
+[LOG] returned_from_detect i=76
+[LOG] calling_detect_initial i=77 node=0x152005470
+[LOG] returned_from_detect i=77
+[LOG] calling_detect_initial i=78 node=0x152006290
+[LOG] returned_from_detect i=78
+[LOG] calling_detect_initial i=79 node=0x150f048f0
+[LOG] returned_from_detect i=79
+[LOG] calling_detect_initial i=80 node=0x152004ca0
+[LOG] returned_from_detect i=80
+[LOG] calling_detect_initial i=81 node=0x150f04360
+[LOG] returned_from_detect i=81
+[LOG] calling_detect_initial i=82 node=0x1520051d0
+[LOG] returned_from_detect i=82
+[LOG] calling_detect_initial i=83 node=0x152005470
+[LOG] returned_from_detect i=83
+[LOG] calling_detect_initial i=84 node=0x150f04610
+[LOG] returned_from_detect i=84
+[LOG] calling_detect_initial i=85 node=0x152005470
+[LOG] returned_from_detect i=85
+[LOG] calling_detect_initial i=86 node=0x152004760
+[LOG] returned_from_detect i=86
+[LOG] calling_detect_initial i=87 node=0x15222c1b0
+[LOG] returned_from_detect i=87
+[LOG] calling_detect_initial i=88 node=0x15222c1b0
+[LOG] returned_from_detect i=88
+[HIERARCHY] Created level 1: 'hu' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'um' (edge weight 0.00)
+[HIERARCHY] Created level 1: '0p' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ig' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'gh' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ht' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ng' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'g ' (edge weight 0.00)
+[HIERARCHY] Created level 1: '(s' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'se' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'so' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'n)' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'fl' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'lo' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ow' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'rn' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'mi' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'sp' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ph' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'e.' (edge weight 0.00)
+[DEBUG] BEFORE pattern free: pattern=0x15223aa10, pattern_nodes=0x1522334b0 (HypA)
+[DEBUG] activation_pattern_free ENTRY: pattern=0x15223aa10, nodes=0x153021a00, activations=0x15301f400 (HypA)
+[DEBUG] freeing pattern->nodes: 0x153021a00 (HypB)
+[DEBUG] freeing pattern struct: 0x15223aa10 (HypA)
+[DEBUG] AFTER pattern free: pattern=0x0 (HypA)
+[DEBUG] BEFORE pattern_nodes free: 0x1522334b0 (HypB)
+[DEBUG] AFTER pattern_nodes free: 0x0 (HypB)
+[LOG] process_input_entry mfile=0x150e05b40
+[DEBUG] ALLOCATED pattern_nodes: 0x15302d800, size=203 (HypB)
+[DEBUG] activation_pattern_create: pattern=0x15225e4d0, nodes=0x153023000, activations=0x153024a00, cap=812 (HypA)
+[LOG] phase4_entry initial_count=203 has_pattern=1
+[LOG] calling_detect_initial i=0 node=0x150f040c0
+[LOG] returned_from_detect i=0
+[LOG] calling_detect_initial i=1 node=0x150f04360
+[LOG] returned_from_detect i=1
+[LOG] calling_detect_initial i=2 node=0x150f04610
+[LOG] returned_from_detect i=2
+[LOG] calling_detect_initial i=3 node=0x150f048f0
+[LOG] returned_from_detect i=3
+[LOG] calling_detect_initial i=4 node=0x150f04be0
+[LOG] returned_from_detect i=4
+[LOG] calling_detect_initial i=5 node=0x152004220
+[LOG] returned_from_detect i=5
+[LOG] calling_detect_initial i=6 node=0x152007790
+[LOG] returned_from_detect i=6
+[LOG] calling_detect_initial i=7 node=0x152005d50
+[LOG] returned_from_detect i=7
+[LOG] calling_detect_initial i=8 node=0x152006290
+[LOG] returned_from_detect i=8
+[LOG] calling_detect_initial i=9 node=0x152005470
+[LOG] returned_from_detect i=9
+[LOG] calling_detect_initial i=10 node=0x152004ca0
+[LOG] returned_from_detect i=10
+[LOG] calling_detect_initial i=11 node=0x152004220
+[LOG] returned_from_detect i=11
+[LOG] calling_detect_initial i=12 node=0x152007cd0
+[LOG] returned_from_detect i=12
+[LOG] calling_detect_initial i=13 node=0x152005470
+[LOG] returned_from_detect i=13
+[LOG] calling_detect_initial i=14 node=0x152004f40
+[LOG] returned_from_detect i=14
+[LOG] calling_detect_initial i=15 node=0x152007f70
+[LOG] returned_from_detect i=15
+[LOG] calling_detect_initial i=16 node=0x152005470
+[LOG] returned_from_detect i=16
+[LOG] calling_detect_initial i=17 node=0x152005470
+[LOG] returned_from_detect i=17
+[LOG] calling_detect_initial i=18 node=0x152006530
+[LOG] returned_from_detect i=18
+[LOG] calling_detect_initial i=19 node=0x152004220
+[LOG] returned_from_detect i=19
+[LOG] calling_detect_initial i=20 node=0x152008210
+[LOG] returned_from_detect i=20
+[LOG] calling_detect_initial i=21 node=0x152006a70
+[LOG] returned_from_detect i=21
+[LOG] calling_detect_initial i=22 node=0x150f04610
+[LOG] returned_from_detect i=22
+[LOG] calling_detect_initial i=23 node=0x152007790
+[LOG] returned_from_detect i=23
+[LOG] calling_detect_initial i=24 node=0x1520051d0
+[LOG] returned_from_detect i=24
+[LOG] calling_detect_initial i=25 node=0x152004220
+[LOG] returned_from_detect i=25
+[LOG] calling_detect_initial i=26 node=0x152006a70
+[LOG] returned_from_detect i=26
+[LOG] calling_detect_initial i=27 node=0x152006530
+[LOG] returned_from_detect i=27
+[LOG] calling_detect_initial i=28 node=0x152006fc0
+[LOG] returned_from_detect i=28
+[LOG] calling_detect_initial i=29 node=0x152004220
+[LOG] returned_from_detect i=29
+[LOG] calling_detect_initial i=30 node=0x152008210
+[LOG] returned_from_detect i=30
+[LOG] calling_detect_initial i=31 node=0x152006a70
+[LOG] returned_from_detect i=31
+[LOG] calling_detect_initial i=32 node=0x1520067d0
+[LOG] returned_from_detect i=32
+[LOG] calling_detect_initial i=33 node=0x152007a40
+[LOG] returned_from_detect i=33
+[LOG] calling_detect_initial i=34 node=0x152004220
+[LOG] returned_from_detect i=34
+[LOG] calling_detect_initial i=35 node=0x152006290
+[LOG] returned_from_detect i=35
+[LOG] calling_detect_initial i=36 node=0x152006a70
+[LOG] returned_from_detect i=36
+[LOG] calling_detect_initial i=37 node=0x152214730
+[LOG] returned_from_detect i=37
+[LOG] calling_detect_initial i=38 node=0x150f048f0
+[LOG] returned_from_detect i=38
+[LOG] calling_detect_initial i=39 node=0x152006530
+[LOG] returned_from_detect i=39
+[LOG] calling_detect_initial i=40 node=0x152007500
+[LOG] returned_from_detect i=40
+[LOG] calling_detect_initial i=41 node=0x152004220
+[LOG] returned_from_detect i=41
+[LOG] calling_detect_initial i=42 node=0x150f048f0
+[LOG] returned_from_detect i=42
+[LOG] calling_detect_initial i=43 node=0x152004f40
+[LOG] returned_from_detect i=43
+[LOG] calling_detect_initial i=44 node=0x152004220
+[LOG] returned_from_detect i=44
+[LOG] calling_detect_initial i=45 node=0x152004f40
+[LOG] returned_from_detect i=45
+[LOG] calling_detect_initial i=46 node=0x1520051d0
+[LOG] returned_from_detect i=46
+[LOG] calling_detect_initial i=47 node=0x152005470
+[LOG] returned_from_detect i=47
+[LOG] calling_detect_initial i=48 node=0x152004220
+[LOG] returned_from_detect i=48
+[LOG] calling_detect_initial i=49 node=0x152005ac0
+[LOG] returned_from_detect i=49
+[LOG] calling_detect_initial i=50 node=0x152005d50
+[LOG] returned_from_detect i=50
+[LOG] calling_detect_initial i=51 node=0x152005ff0
+[LOG] returned_from_detect i=51
+[LOG] calling_detect_initial i=52 node=0x150f04610
+[LOG] returned_from_detect i=52
+[LOG] calling_detect_initial i=53 node=0x152004f40
+[LOG] returned_from_detect i=53
+[LOG] calling_detect_initial i=54 node=0x1520051d0
+[LOG] returned_from_detect i=54
+[LOG] calling_detect_initial i=55 node=0x152004220
+[LOG] returned_from_detect i=55
+[LOG] calling_detect_initial i=56 node=0x152006290
+[LOG] returned_from_detect i=56
+[LOG] calling_detect_initial i=57 node=0x152005d50
+[LOG] returned_from_detect i=57
+[LOG] calling_detect_initial i=58 node=0x152006530
+[LOG] returned_from_detect i=58
+[LOG] calling_detect_initial i=59 node=0x152004f40
+[LOG] returned_from_detect i=59
+[LOG] calling_detect_initial i=60 node=0x1520051d0
+[LOG] returned_from_detect i=60
+[LOG] calling_detect_initial i=61 node=0x152004220
+[LOG] returned_from_detect i=61
+[LOG] calling_detect_initial i=62 node=0x152005d50
+[LOG] returned_from_detect i=62
+[LOG] calling_detect_initial i=63 node=0x152005ac0
+[LOG] returned_from_detect i=63
+[LOG] calling_detect_initial i=64 node=0x152004220
+[LOG] returned_from_detect i=64
+[LOG] calling_detect_initial i=65 node=0x152004f40
+[LOG] returned_from_detect i=65
+[LOG] calling_detect_initial i=66 node=0x1520051d0
+[LOG] returned_from_detect i=66
+[LOG] calling_detect_initial i=67 node=0x152005470
+[LOG] returned_from_detect i=67
+[LOG] calling_detect_initial i=68 node=0x152004220
+[LOG] returned_from_detect i=68
+[LOG] calling_detect_initial i=69 node=0x1520067d0
+[LOG] returned_from_detect i=69
+[LOG] calling_detect_initial i=70 node=0x152005470
+[LOG] returned_from_detect i=70
+[LOG] calling_detect_initial i=71 node=0x152006a70
+[LOG] returned_from_detect i=71
+[LOG] calling_detect_initial i=72 node=0x150f04610
+[LOG] returned_from_detect i=72
+[LOG] calling_detect_initial i=73 node=0x152004760
+[LOG] returned_from_detect i=73
+[LOG] calling_detect_initial i=74 node=0x152004220
+[LOG] returned_from_detect i=74
+[LOG] calling_detect_initial i=75 node=0x1520057f0
+[LOG] link_blank_entry concrete=0x1520057f0 blank=0x152022fd0 graph=0x150e05f20
+[LOG] returned_from_detect i=75
+[LOG] calling_detect_initial i=76 node=0x152004f40
+[LOG] returned_from_detect i=76
+[LOG] calling_detect_initial i=77 node=0x152004220
+[LOG] returned_from_detect i=77
+[LOG] calling_detect_initial i=78 node=0x152006a70
+[LOG] returned_from_detect i=78
+[LOG] calling_detect_initial i=79 node=0x150f04be0
+[LOG] returned_from_detect i=79
+[LOG] calling_detect_initial i=80 node=0x152004ca0
+[LOG] returned_from_detect i=80
+[LOG] calling_detect_initial i=81 node=0x152005d50
+[LOG] returned_from_detect i=81
+[LOG] calling_detect_initial i=82 node=0x152004220
+[LOG] returned_from_detect i=82
+[LOG] calling_detect_initial i=83 node=0x152007790
+[LOG] returned_from_detect i=83
+[LOG] calling_detect_initial i=84 node=0x152005d50
+[LOG] returned_from_detect i=84
+[LOG] calling_detect_initial i=85 node=0x152006290
+[LOG] returned_from_detect i=85
+[LOG] calling_detect_initial i=86 node=0x152005470
+[LOG] returned_from_detect i=86
+[LOG] calling_detect_initial i=87 node=0x152004ca0
+[LOG] returned_from_detect i=87
+[LOG] calling_detect_initial i=88 node=0x152004220
+[LOG] returned_from_detect i=88
+[LOG] calling_detect_initial i=89 node=0x152005ac0
+[LOG] returned_from_detect i=89
+[LOG] calling_detect_initial i=90 node=0x150f048f0
+[LOG] returned_from_detect i=90
+[LOG] calling_detect_initial i=91 node=0x150f04610
+[LOG] returned_from_detect i=91
+[LOG] calling_detect_initial i=92 node=0x152004ca0
+[LOG] returned_from_detect i=92
+[LOG] calling_detect_initial i=93 node=0x152004f40
+[LOG] returned_from_detect i=93
+[LOG] calling_detect_initial i=94 node=0x152004220
+[LOG] returned_from_detect i=94
+[LOG] calling_detect_initial i=95 node=0x150f048f0
+[LOG] returned_from_detect i=95
+[LOG] calling_detect_initial i=96 node=0x152006530
+[LOG] returned_from_detect i=96
+[LOG] calling_detect_initial i=97 node=0x152004220
+[LOG] returned_from_detect i=97
+[LOG] calling_detect_initial i=98 node=0x152004f40
+[LOG] returned_from_detect i=98
+[LOG] calling_detect_initial i=99 node=0x1520051d0
+[LOG] returned_from_detect i=99
+[LOG] calling_detect_initial i=100 node=0x152005470
+[LOG] returned_from_detect i=100
+[LOG] calling_detect_initial i=101 node=0x152004220
+[LOG] returned_from_detect i=101
+[LOG] calling_detect_initial i=102 node=0x1520067d0
+[LOG] returned_from_detect i=102
+[LOG] calling_detect_initial i=103 node=0x152005470
+[LOG] returned_from_detect i=103
+[LOG] calling_detect_initial i=104 node=0x152006a70
+[LOG] returned_from_detect i=104
+[LOG] calling_detect_initial i=105 node=0x150f04610
+[LOG] returned_from_detect i=105
+[LOG] calling_detect_initial i=106 node=0x152004220
+[LOG] returned_from_detect i=106
+[LOG] calling_detect_initial i=107 node=0x152005d50
+[LOG] returned_from_detect i=107
+[LOG] calling_detect_initial i=108 node=0x152005ff0
+[LOG] returned_from_detect i=108
+[LOG] calling_detect_initial i=109 node=0x152004f40
+[LOG] returned_from_detect i=109
+[LOG] calling_detect_initial i=110 node=0x152004220
+[LOG] returned_from_detect i=110
+[LOG] calling_detect_initial i=111 node=0x152005d50
+[LOG] returned_from_detect i=111
+[LOG] calling_detect_initial i=112 node=0x152005ac0
+[LOG] returned_from_detect i=112
+[LOG] calling_detect_initial i=113 node=0x152004220
+[LOG] returned_from_detect i=113
+[LOG] calling_detect_initial i=114 node=0x152004f40
+[LOG] returned_from_detect i=114
+[LOG] calling_detect_initial i=115 node=0x1520051d0
+[LOG] returned_from_detect i=115
+[LOG] calling_detect_initial i=116 node=0x152005470
+[LOG] returned_from_detect i=116
+[LOG] calling_detect_initial i=117 node=0x152004220
+[LOG] returned_from_detect i=117
+[LOG] calling_detect_initial i=118 node=0x152005ac0
+[LOG] returned_from_detect i=118
+[LOG] calling_detect_initial i=119 node=0x152005d50
+[LOG] returned_from_detect i=119
+[LOG] calling_detect_initial i=120 node=0x152005ff0
+[LOG] returned_from_detect i=120
+[LOG] calling_detect_initial i=121 node=0x150f04610
+[LOG] returned_from_detect i=121
+[LOG] calling_detect_initial i=122 node=0x152004220
+[LOG] returned_from_detect i=122
+[LOG] calling_detect_initial i=123 node=0x152006290
+[LOG] returned_from_detect i=123
+[LOG] calling_detect_initial i=124 node=0x152005d50
+[LOG] returned_from_detect i=124
+[LOG] calling_detect_initial i=125 node=0x152006530
+[LOG] returned_from_detect i=125
+[LOG] calling_detect_initial i=126 node=0x152004f40
+[LOG] returned_from_detect i=126
+[LOG] calling_detect_initial i=127 node=0x1520051d0
+[LOG] returned_from_detect i=127
+[LOG] calling_detect_initial i=128 node=0x152004ca0
+[LOG] returned_from_detect i=128
+[LOG] calling_detect_initial i=129 node=0x152004220
+[LOG] returned_from_detect i=129
+[LOG] calling_detect_initial i=130 node=0x152004f40
+[LOG] returned_from_detect i=130
+[LOG] calling_detect_initial i=131 node=0x1520051d0
+[LOG] returned_from_detect i=131
+[LOG] calling_detect_initial i=132 node=0x152006a70
+[LOG] returned_from_detect i=132
+[LOG] calling_detect_initial i=133 node=0x152004f40
+[LOG] returned_from_detect i=133
+[LOG] calling_detect_initial i=134 node=0x152004220
+[LOG] returned_from_detect i=134
+[LOG] calling_detect_initial i=135 node=0x1520051d0
+[LOG] returned_from_detect i=135
+[LOG] calling_detect_initial i=136 node=0x152006a70
+[LOG] returned_from_detect i=136
+[LOG] calling_detect_initial i=137 node=0x152008680
+[LOG] returned_from_detect i=137
+[LOG] calling_detect_initial i=138 node=0x152005470
+[LOG] returned_from_detect i=138
+[LOG] calling_detect_initial i=139 node=0x152004220
+[LOG] returned_from_detect i=139
+[LOG] calling_detect_initial i=140 node=0x1520088f0
+[LOG] link_blank_entry concrete=0x1520088f0 blank=0x15202e390 graph=0x150e05f20
+[LOG] returned_from_detect i=140
+[LOG] calling_detect_initial i=141 node=0x152008ba0
+[LOG] returned_from_detect i=141
+[LOG] calling_detect_initial i=142 node=0x152004220
+[LOG] returned_from_detect i=142
+[LOG] calling_detect_initial i=143 node=0x152006fc0
+[LOG] returned_from_detect i=143
+[LOG] calling_detect_initial i=144 node=0x152006a70
+[LOG] returned_from_detect i=144
+[LOG] calling_detect_initial i=145 node=0x1520067d0
+[LOG] returned_from_detect i=145
+[LOG] calling_detect_initial i=146 node=0x152004ca0
+[LOG] returned_from_detect i=146
+[LOG] calling_detect_initial i=147 node=0x152007a40
+[LOG] returned_from_detect i=147
+[LOG] calling_detect_initial i=148 node=0x152004220
+[LOG] returned_from_detect i=148
+[LOG] calling_detect_initial i=149 node=0x152006a70
+[LOG] returned_from_detect i=149
+[LOG] calling_detect_initial i=150 node=0x152004ca0
+[LOG] returned_from_detect i=150
+[LOG] calling_detect_initial i=151 node=0x152004220
+[LOG] returned_from_detect i=151
+[LOG] calling_detect_initial i=152 node=0x152006d10
+[LOG] returned_from_detect i=152
+[LOG] calling_detect_initial i=153 node=0x152005ff0
+[LOG] returned_from_detect i=153
+[LOG] calling_detect_initial i=154 node=0x152006530
+[LOG] returned_from_detect i=154
+[LOG] calling_detect_initial i=155 node=0x152005470
+[LOG] returned_from_detect i=155
+[LOG] calling_detect_initial i=156 node=0x152007a40
+[LOG] returned_from_detect i=156
+[LOG] calling_detect_initial i=157 node=0x152004220
+[LOG] returned_from_detect i=157
+[LOG] calling_detect_initial i=158 node=0x15222c1b0
+[LOG] returned_from_detect i=158
+[LOG] calling_detect_initial i=159 node=0x152005470
+[LOG] returned_from_detect i=159
+[LOG] calling_detect_initial i=160 node=0x150f04360
+[LOG] returned_from_detect i=160
+[LOG] calling_detect_initial i=161 node=0x152004f40
+[LOG] returned_from_detect i=161
+[LOG] calling_detect_initial i=162 node=0x152005470
+[LOG] returned_from_detect i=162
+[LOG] calling_detect_initial i=163 node=0x152006290
+[LOG] returned_from_detect i=163
+[LOG] calling_detect_initial i=164 node=0x152007cd0
+[LOG] returned_from_detect i=164
+[LOG] calling_detect_initial i=165 node=0x152005470
+[LOG] returned_from_detect i=165
+[LOG] calling_detect_initial i=166 node=0x150f04610
+[LOG] returned_from_detect i=166
+[LOG] calling_detect_initial i=167 node=0x152004220
+[LOG] returned_from_detect i=167
+[LOG] calling_detect_initial i=168 node=0x152006a70
+[LOG] returned_from_detect i=168
+[LOG] calling_detect_initial i=169 node=0x152006530
+[LOG] returned_from_detect i=169
+[LOG] calling_detect_initial i=170 node=0x152006fc0
+[LOG] returned_from_detect i=170
+[LOG] calling_detect_initial i=171 node=0x152004220
+[LOG] returned_from_detect i=171
+[LOG] calling_detect_initial i=172 node=0x15222c1b0
+[LOG] returned_from_detect i=172
+[LOG] calling_detect_initial i=173 node=0x152005d50
+[LOG] returned_from_detect i=173
+[LOG] calling_detect_initial i=174 node=0x152008680
+[LOG] returned_from_detect i=174
+[LOG] calling_detect_initial i=175 node=0x152005470
+[LOG] returned_from_detect i=175
+[LOG] calling_detect_initial i=176 node=0x152006290
+[LOG] returned_from_detect i=176
+[LOG] calling_detect_initial i=177 node=0x152007cd0
+[LOG] returned_from_detect i=177
+[LOG] calling_detect_initial i=178 node=0x152005470
+[LOG] returned_from_detect i=178
+[LOG] calling_detect_initial i=179 node=0x150f04610
+[LOG] returned_from_detect i=179
+[LOG] calling_detect_initial i=180 node=0x152004220
+[LOG] returned_from_detect i=180
+[LOG] calling_detect_initial i=181 node=0x152006a70
+[LOG] returned_from_detect i=181
+[LOG] calling_detect_initial i=182 node=0x150f04610
+[LOG] returned_from_detect i=182
+[LOG] calling_detect_initial i=183 node=0x152005470
+[LOG] returned_from_detect i=183
+[LOG] calling_detect_initial i=184 node=0x152004220
+[LOG] returned_from_detect i=184
+[LOG] calling_detect_initial i=185 node=0x150f04be0
+[LOG] returned_from_detect i=185
+[LOG] calling_detect_initial i=186 node=0x152006a70
+[LOG] returned_from_detect i=186
+[LOG] calling_detect_initial i=187 node=0x152004f40
+[LOG] returned_from_detect i=187
+[LOG] calling_detect_initial i=188 node=0x152005470
+[LOG] returned_from_detect i=188
+[LOG] calling_detect_initial i=189 node=0x150f04610
+[LOG] returned_from_detect i=189
+[LOG] calling_detect_initial i=190 node=0x152004220
+[LOG] returned_from_detect i=190
+[LOG] calling_detect_initial i=191 node=0x150f048f0
+[LOG] returned_from_detect i=191
+[LOG] calling_detect_initial i=192 node=0x152006530
+[LOG] returned_from_detect i=192
+[LOG] calling_detect_initial i=193 node=0x152004220
+[LOG] returned_from_detect i=193
+[LOG] calling_detect_initial i=194 node=0x152004f40
+[LOG] returned_from_detect i=194
+[LOG] calling_detect_initial i=195 node=0x1520051d0
+[LOG] returned_from_detect i=195
+[LOG] calling_detect_initial i=196 node=0x152005470
+[LOG] returned_from_detect i=196
+[LOG] calling_detect_initial i=197 node=0x152004220
+[LOG] returned_from_detect i=197
+[LOG] calling_detect_initial i=198 node=0x1520067d0
+[LOG] returned_from_detect i=198
+[LOG] calling_detect_initial i=199 node=0x152005470
+[LOG] returned_from_detect i=199
+[LOG] calling_detect_initial i=200 node=0x152006a70
+[LOG] returned_from_detect i=200
+[LOG] calling_detect_initial i=201 node=0x150f04610
+[LOG] returned_from_detect i=201
+[LOG] calling_detect_initial i=202 node=0x152004760
+[LOG] returned_from_detect i=202
+[HIERARCHY] Created level 1: 'ma' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ak' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ki' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ls' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'fi' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ir' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'st' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ut' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'at' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'un' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'e,' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ep' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'pt' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'te' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ov' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'la' (edge weight 0.00)
+[DEBUG] BEFORE pattern free: pattern=0x15225e4d0, pattern_nodes=0x15302d800 (HypA)
+[DEBUG] activation_pattern_free ENTRY: pattern=0x15225e4d0, nodes=0x153023000, activations=0x153024a00 (HypA)
+[DEBUG] freeing pattern->nodes: 0x153023000 (HypB)
+[DEBUG] freeing pattern struct: 0x15225e4d0 (HypA)
+[DEBUG] AFTER pattern free: pattern=0x0 (HypA)
+[DEBUG] BEFORE pattern_nodes free: 0x15302d800 (HypB)
+[DEBUG] AFTER pattern_nodes free: 0x0 (HypB)
+[LOG] process_input_entry mfile=0x150e05b40
+[DEBUG] ALLOCATED pattern_nodes: 0x15302d800, size=245 (HypB)
+[DEBUG] activation_pattern_create: pattern=0x15203d4d0, nodes=0x152836800, activations=0x152824a00, cap=980 (HypA)
+[LOG] phase4_entry initial_count=245 has_pattern=1
+[LOG] calling_detect_initial i=0 node=0x150f040c0
+[LOG] returned_from_detect i=0
+[LOG] calling_detect_initial i=1 node=0x150f04360
+[LOG] returned_from_detect i=1
+[LOG] calling_detect_initial i=2 node=0x150f04610
+[LOG] returned_from_detect i=2
+[LOG] calling_detect_initial i=3 node=0x150f048f0
+[LOG] returned_from_detect i=3
+[LOG] calling_detect_initial i=4 node=0x150f04be0
+[LOG] returned_from_detect i=4
+[LOG] calling_detect_initial i=5 node=0x152004220
+[LOG] returned_from_detect i=5
+[LOG] calling_detect_initial i=6 node=0x152007cd0
+[LOG] returned_from_detect i=6
+[LOG] calling_detect_initial i=7 node=0x152005470
+[LOG] returned_from_detect i=7
+[LOG] calling_detect_initial i=8 node=0x152007500
+[LOG] returned_from_detect i=8
+[LOG] calling_detect_initial i=9 node=0x150f048f0
+[LOG] returned_from_detect i=9
+[LOG] calling_detect_initial i=10 node=0x152006530
+[LOG] returned_from_detect i=10
+[LOG] calling_detect_initial i=11 node=0x152004ca0
+[LOG] returned_from_detect i=11
+[LOG] calling_detect_initial i=12 node=0x152004220
+[LOG] returned_from_detect i=12
+[LOG] calling_detect_initial i=13 node=0x152005d50
+[LOG] returned_from_detect i=13
+[LOG] calling_detect_initial i=14 node=0x152006530
+[LOG] returned_from_detect i=14
+[LOG] calling_detect_initial i=15 node=0x152004220
+[LOG] returned_from_detect i=15
+[LOG] calling_detect_initial i=16 node=0x152004f40
+[LOG] returned_from_detect i=16
+[LOG] calling_detect_initial i=17 node=0x1520051d0
+[LOG] returned_from_detect i=17
+[LOG] calling_detect_initial i=18 node=0x152005470
+[LOG] returned_from_detect i=18
+[LOG] calling_detect_initial i=19 node=0x152004220
+[LOG] returned_from_detect i=19
+[LOG] calling_detect_initial i=20 node=0x152004ca0
+[LOG] returned_from_detect i=20
+[LOG] calling_detect_initial i=21 node=0x152006a70
+[LOG] returned_from_detect i=21
+[LOG] calling_detect_initial i=22 node=0x152006290
+[LOG] returned_from_detect i=22
+[LOG] calling_detect_initial i=23 node=0x152005470
+[LOG] returned_from_detect i=23
+[LOG] calling_detect_initial i=24 node=0x152004220
+[LOG] returned_from_detect i=24
+[LOG] calling_detect_initial i=25 node=0x152006fc0
+[LOG] returned_from_detect i=25
+[LOG] calling_detect_initial i=26 node=0x152006a70
+[LOG] returned_from_detect i=26
+[LOG] calling_detect_initial i=27 node=0x1520067d0
+[LOG] returned_from_detect i=27
+[LOG] calling_detect_initial i=28 node=0x152004220
+[LOG] returned_from_detect i=28
+[LOG] calling_detect_initial i=29 node=0x152005d50
+[LOG] returned_from_detect i=29
+[LOG] calling_detect_initial i=30 node=0x152005ac0
+[LOG] returned_from_detect i=30
+[LOG] calling_detect_initial i=31 node=0x152004220
+[LOG] returned_from_detect i=31
+[LOG] calling_detect_initial i=32 node=0x152004f40
+[LOG] returned_from_detect i=32
+[LOG] calling_detect_initial i=33 node=0x1520051d0
+[LOG] returned_from_detect i=33
+[LOG] calling_detect_initial i=34 node=0x152005470
+[LOG] returned_from_detect i=34
+[LOG] calling_detect_initial i=35 node=0x152004220
+[LOG] returned_from_detect i=35
+[LOG] calling_detect_initial i=36 node=0x152007f70
+[LOG] returned_from_detect i=36
+[LOG] calling_detect_initial i=37 node=0x152005470
+[LOG] returned_from_detect i=37
+[LOG] calling_detect_initial i=38 node=0x152005470
+[LOG] returned_from_detect i=38
+[LOG] calling_detect_initial i=39 node=0x152214730
+[LOG] returned_from_detect i=39
+[LOG] calling_detect_initial i=40 node=0x152004220
+[LOG] returned_from_detect i=40
+[LOG] calling_detect_initial i=41 node=0x152006a70
+[LOG] returned_from_detect i=41
+[LOG] calling_detect_initial i=42 node=0x152004ca0
+[LOG] returned_from_detect i=42
+[LOG] calling_detect_initial i=43 node=0x152004220
+[LOG] returned_from_detect i=43
+[LOG] calling_detect_initial i=44 node=0x152006d10
+[LOG] returned_from_detect i=44
+[LOG] calling_detect_initial i=45 node=0x152005ff0
+[LOG] returned_from_detect i=45
+[LOG] calling_detect_initial i=46 node=0x150f04be0
+[LOG] returned_from_detect i=46
+[LOG] calling_detect_initial i=47 node=0x1520067d0
+[LOG] returned_from_detect i=47
+[LOG] calling_detect_initial i=48 node=0x152004220
+[LOG] returned_from_detect i=48
+[LOG] calling_detect_initial i=49 node=0x152005470
+[LOG] returned_from_detect i=49
+[LOG] calling_detect_initial i=50 node=0x152008680
+[LOG] returned_from_detect i=50
+[LOG] calling_detect_initial i=51 node=0x152005470
+[LOG] returned_from_detect i=51
+[LOG] calling_detect_initial i=52 node=0x150f04610
+[LOG] returned_from_detect i=52
+[LOG] calling_detect_initial i=53 node=0x1520067d0
+[LOG] returned_from_detect i=53
+[LOG] calling_detect_initial i=54 node=0x152004220
+[LOG] returned_from_detect i=54
+[LOG] calling_detect_initial i=55 node=0x1520067d0
+[LOG] returned_from_detect i=55
+[LOG] calling_detect_initial i=56 node=0x152005470
+[LOG] returned_from_detect i=56
+[LOG] calling_detect_initial i=57 node=0x152006a70
+[LOG] returned_from_detect i=57
+[LOG] calling_detect_initial i=58 node=0x150f04610
+[LOG] returned_from_detect i=58
+[LOG] calling_detect_initial i=59 node=0x152004220
+[LOG] returned_from_detect i=59
+[LOG] calling_detect_initial i=60 node=0x152006a70
+[LOG] returned_from_detect i=60
+[LOG] calling_detect_initial i=61 node=0x152006530
+[LOG] returned_from_detect i=61
+[LOG] calling_detect_initial i=62 node=0x152006fc0
+[LOG] returned_from_detect i=62
+[LOG] calling_detect_initial i=63 node=0x152004220
+[LOG] returned_from_detect i=63
+[LOG] calling_detect_initial i=64 node=0x152005d50
+[LOG] returned_from_detect i=64
+[LOG] calling_detect_initial i=65 node=0x152006530
+[LOG] returned_from_detect i=65
+[LOG] calling_detect_initial i=66 node=0x152004220
+[LOG] returned_from_detect i=66
+[LOG] calling_detect_initial i=67 node=0x152004f40
+[LOG] returned_from_detect i=67
+[LOG] calling_detect_initial i=68 node=0x1520051d0
+[LOG] returned_from_detect i=68
+[LOG] calling_detect_initial i=69 node=0x152005470
+[LOG] returned_from_detect i=69
+[LOG] calling_detect_initial i=70 node=0x152004220
+[LOG] returned_from_detect i=70
+[LOG] calling_detect_initial i=71 node=0x152004ca0
+[LOG] returned_from_detect i=71
+[LOG] calling_detect_initial i=72 node=0x152006a70
+[LOG] returned_from_detect i=72
+[LOG] calling_detect_initial i=73 node=0x152006290
+[LOG] returned_from_detect i=73
+[LOG] calling_detect_initial i=74 node=0x152005470
+[LOG] returned_from_detect i=74
+[LOG] calling_detect_initial i=75 node=0x152004220
+[LOG] returned_from_detect i=75
+[LOG] calling_detect_initial i=76 node=0x152006fc0
+[LOG] returned_from_detect i=76
+[LOG] calling_detect_initial i=77 node=0x152006a70
+[LOG] returned_from_detect i=77
+[LOG] calling_detect_initial i=78 node=0x1520067d0
+[LOG] returned_from_detect i=78
+[LOG] calling_detect_initial i=79 node=0x152004220
+[LOG] returned_from_detect i=79
+[LOG] calling_detect_initial i=80 node=0x152005d50
+[LOG] returned_from_detect i=80
+[LOG] calling_detect_initial i=81 node=0x152005ac0
+[LOG] returned_from_detect i=81
+[LOG] calling_detect_initial i=82 node=0x152004220
+[LOG] returned_from_detect i=82
+[LOG] calling_detect_initial i=83 node=0x152004f40
+[LOG] returned_from_detect i=83
+[LOG] calling_detect_initial i=84 node=0x1520051d0
+[LOG] returned_from_detect i=84
+[LOG] calling_detect_initial i=85 node=0x152005470
+[LOG] returned_from_detect i=85
+[LOG] calling_detect_initial i=86 node=0x152004220
+[LOG] returned_from_detect i=86
+[LOG] calling_detect_initial i=87 node=0x152007f70
+[LOG] returned_from_detect i=87
+[LOG] calling_detect_initial i=88 node=0x152005470
+[LOG] returned_from_detect i=88
+[LOG] calling_detect_initial i=89 node=0x152005470
+[LOG] returned_from_detect i=89
+[LOG] calling_detect_initial i=90 node=0x152214730
+[LOG] returned_from_detect i=90
+[LOG] calling_detect_initial i=91 node=0x152004220
+[LOG] returned_from_detect i=91
+[LOG] calling_detect_initial i=92 node=0x152006a70
+[LOG] returned_from_detect i=92
+[LOG] calling_detect_initial i=93 node=0x152004ca0
+[LOG] returned_from_detect i=93
+[LOG] calling_detect_initial i=94 node=0x152004220
+[LOG] returned_from_detect i=94
+[LOG] calling_detect_initial i=95 node=0x152006d10
+[LOG] returned_from_detect i=95
+[LOG] calling_detect_initial i=96 node=0x152006a70
+[LOG] returned_from_detect i=96
+[LOG] calling_detect_initial i=97 node=0x152006530
+[LOG] returned_from_detect i=97
+[LOG] calling_detect_initial i=98 node=0x152005ff0
+[LOG] returned_from_detect i=98
+[LOG] calling_detect_initial i=99 node=0x152006a70
+[LOG] returned_from_detect i=99
+[LOG] calling_detect_initial i=100 node=0x150f04610
+[LOG] returned_from_detect i=100
+[LOG] calling_detect_initial i=101 node=0x1520067d0
+[LOG] returned_from_detect i=101
+[LOG] calling_detect_initial i=102 node=0x152004220
+[LOG] returned_from_detect i=102
+[LOG] calling_detect_initial i=103 node=0x150f048f0
+[LOG] returned_from_detect i=103
+[LOG] calling_detect_initial i=104 node=0x152006530
+[LOG] returned_from_detect i=104
+[LOG] calling_detect_initial i=105 node=0x152004220
+[LOG] returned_from_detect i=105
+[LOG] calling_detect_initial i=106 node=0x150f04be0
+[LOG] returned_from_detect i=106
+[LOG] calling_detect_initial i=107 node=0x152005470
+[LOG] returned_from_detect i=107
+[LOG] calling_detect_initial i=108 node=0x152006a70
+[LOG] returned_from_detect i=108
+[LOG] calling_detect_initial i=109 node=0x150f04360
+[LOG] returned_from_detect i=109
+[LOG] calling_detect_initial i=110 node=0x152004220
+[LOG] returned_from_detect i=110
+[LOG] calling_detect_initial i=111 node=0x1520067d0
+[LOG] returned_from_detect i=111
+[LOG] calling_detect_initial i=112 node=0x152005470
+[LOG] returned_from_detect i=112
+[LOG] calling_detect_initial i=113 node=0x152006a70
+[LOG] returned_from_detect i=113
+[LOG] calling_detect_initial i=114 node=0x150f04610
+[LOG] returned_from_detect i=114
+[LOG] calling_detect_initial i=115 node=0x152004ca0
+[LOG] returned_from_detect i=115
+[LOG] calling_detect_initial i=116 node=0x152004760
+[LOG] returned_from_detect i=116
+[LOG] calling_detect_initial i=117 node=0x152004220
+[LOG] returned_from_detect i=117
+[LOG] calling_detect_initial i=118 node=0x150f040c0
+[LOG] returned_from_detect i=118
+[LOG] calling_detect_initial i=119 node=0x150f04360
+[LOG] returned_from_detect i=119
+[LOG] calling_detect_initial i=120 node=0x150f04610
+[LOG] returned_from_detect i=120
+[LOG] calling_detect_initial i=121 node=0x150f048f0
+[LOG] returned_from_detect i=121
+[LOG] calling_detect_initial i=122 node=0x150f04be0
+[LOG] returned_from_detect i=122
+[LOG] calling_detect_initial i=123 node=0x152004220
+[LOG] returned_from_detect i=123
+[LOG] calling_detect_initial i=124 node=0x152005470
+[LOG] returned_from_detect i=124
+[LOG] calling_detect_initial i=125 node=0x152006530
+[LOG] returned_from_detect i=125
+[LOG] calling_detect_initial i=126 node=0x152006fc0
+[LOG] returned_from_detect i=126
+[LOG] calling_detect_initial i=127 node=0x152004ca0
+[LOG] returned_from_detect i=127
+[LOG] calling_detect_initial i=128 node=0x152004220
+[LOG] returned_from_detect i=128
+[LOG] calling_detect_initial i=129 node=0x152005d50
+[LOG] returned_from_detect i=129
+[LOG] calling_detect_initial i=130 node=0x152006530
+[LOG] returned_from_detect i=130
+[LOG] calling_detect_initial i=131 node=0x152004220
+[LOG] returned_from_detect i=131
+[LOG] calling_detect_initial i=132 node=0x152004f40
+[LOG] returned_from_detect i=132
+[LOG] calling_detect_initial i=133 node=0x1520051d0
+[LOG] returned_from_detect i=133
+[LOG] calling_detect_initial i=134 node=0x152005470
+[LOG] returned_from_detect i=134
+[LOG] calling_detect_initial i=135 node=0x152004220
+[LOG] returned_from_detect i=135
+[LOG] calling_detect_initial i=136 node=0x152004ca0
+[LOG] returned_from_detect i=136
+[LOG] calling_detect_initial i=137 node=0x152006a70
+[LOG] returned_from_detect i=137
+[LOG] calling_detect_initial i=138 node=0x152006290
+[LOG] returned_from_detect i=138
+[LOG] calling_detect_initial i=139 node=0x152005470
+[LOG] returned_from_detect i=139
+[LOG] calling_detect_initial i=140 node=0x152004220
+[LOG] returned_from_detect i=140
+[LOG] calling_detect_initial i=141 node=0x152006fc0
+[LOG] returned_from_detect i=141
+[LOG] calling_detect_initial i=142 node=0x152006a70
+[LOG] returned_from_detect i=142
+[LOG] calling_detect_initial i=143 node=0x1520067d0
+[LOG] returned_from_detect i=143
+[LOG] calling_detect_initial i=144 node=0x152004220
+[LOG] returned_from_detect i=144
+[LOG] calling_detect_initial i=145 node=0x152005d50
+[LOG] returned_from_detect i=145
+[LOG] calling_detect_initial i=146 node=0x152005ac0
+[LOG] returned_from_detect i=146
+[LOG] calling_detect_initial i=147 node=0x152004220
+[LOG] returned_from_detect i=147
+[LOG] calling_detect_initial i=148 node=0x152004f40
+[LOG] returned_from_detect i=148
+[LOG] calling_detect_initial i=149 node=0x1520051d0
+[LOG] returned_from_detect i=149
+[LOG] calling_detect_initial i=150 node=0x152005470
+[LOG] returned_from_detect i=150
+[LOG] calling_detect_initial i=151 node=0x152004220
+[LOG] returned_from_detect i=151
+[LOG] calling_detect_initial i=152 node=0x152007f70
+[LOG] returned_from_detect i=152
+[LOG] calling_detect_initial i=153 node=0x152005470
+[LOG] returned_from_detect i=153
+[LOG] calling_detect_initial i=154 node=0x152005470
+[LOG] returned_from_detect i=154
+[LOG] calling_detect_initial i=155 node=0x152214730
+[LOG] returned_from_detect i=155
+[LOG] calling_detect_initial i=156 node=0x152004220
+[LOG] returned_from_detect i=156
+[LOG] calling_detect_initial i=157 node=0x152006a70
+[LOG] returned_from_detect i=157
+[LOG] calling_detect_initial i=158 node=0x152004ca0
+[LOG] returned_from_detect i=158
+[LOG] calling_detect_initial i=159 node=0x152004220
+[LOG] returned_from_detect i=159
+[LOG] calling_detect_initial i=160 node=0x152214ec0
+[LOG] link_blank_entry concrete=0x152214ec0 blank=0x150e133a0 graph=0x150e05f20
+[LOG] returned_from_detect i=160
+[LOG] calling_detect_initial i=161 node=0x152005470
+[LOG] returned_from_detect i=161
+[LOG] calling_detect_initial i=162 node=0x152007790
+[LOG] returned_from_detect i=162
+[LOG] calling_detect_initial i=163 node=0x152005470
+[LOG] returned_from_detect i=163
+[LOG] calling_detect_initial i=164 node=0x152006290
+[LOG] returned_from_detect i=164
+[LOG] calling_detect_initial i=165 node=0x152007cd0
+[LOG] returned_from_detect i=165
+[LOG] calling_detect_initial i=166 node=0x152005470
+[LOG] returned_from_detect i=166
+[LOG] calling_detect_initial i=167 node=0x150f04610
+[LOG] returned_from_detect i=167
+[LOG] calling_detect_initial i=168 node=0x152004220
+[LOG] returned_from_detect i=168
+[LOG] calling_detect_initial i=169 node=0x152005470
+[LOG] returned_from_detect i=169
+[LOG] calling_detect_initial i=170 node=0x152008680
+[LOG] returned_from_detect i=170
+[LOG] calling_detect_initial i=171 node=0x152005470
+[LOG] returned_from_detect i=171
+[LOG] calling_detect_initial i=172 node=0x150f04610
+[LOG] returned_from_detect i=172
+[LOG] calling_detect_initial i=173 node=0x1520067d0
+[LOG] returned_from_detect i=173
+[LOG] calling_detect_initial i=174 node=0x152004220
+[LOG] returned_from_detect i=174
+[LOG] calling_detect_initial i=175 node=0x1520067d0
+[LOG] returned_from_detect i=175
+[LOG] calling_detect_initial i=176 node=0x152005470
+[LOG] returned_from_detect i=176
+[LOG] calling_detect_initial i=177 node=0x152006a70
+[LOG] returned_from_detect i=177
+[LOG] calling_detect_initial i=178 node=0x150f04610
+[LOG] returned_from_detect i=178
+[LOG] calling_detect_initial i=179 node=0x152007a40
+[LOG] returned_from_detect i=179
+[LOG] calling_detect_initial i=180 node=0x152004220
+[LOG] returned_from_detect i=180
+[LOG] calling_detect_initial i=181 node=0x152006a70
+[LOG] returned_from_detect i=181
+[LOG] calling_detect_initial i=182 node=0x152004ca0
+[LOG] returned_from_detect i=182
+[LOG] calling_detect_initial i=183 node=0x152004220
+[LOG] returned_from_detect i=183
+[LOG] calling_detect_initial i=184 node=0x152005470
+[LOG] returned_from_detect i=184
+[LOG] calling_detect_initial i=185 node=0x152006a70
+[LOG] returned_from_detect i=185
+[LOG] calling_detect_initial i=186 node=0x152007790
+[LOG] returned_from_detect i=186
+[LOG] calling_detect_initial i=187 node=0x1520051d0
+[LOG] returned_from_detect i=187
+[LOG] calling_detect_initial i=188 node=0x152004220
+[LOG] returned_from_detect i=188
+[LOG] calling_detect_initial i=189 node=0x152005d50
+[LOG] returned_from_detect i=189
+[LOG] calling_detect_initial i=190 node=0x152004f40
+[LOG] returned_from_detect i=190
+[LOG] calling_detect_initial i=191 node=0x1520051d0
+[LOG] returned_from_detect i=191
+[LOG] calling_detect_initial i=192 node=0x152005470
+[LOG] returned_from_detect i=192
+[LOG] calling_detect_initial i=193 node=0x150f04610
+[LOG] returned_from_detect i=193
+[LOG] calling_detect_initial i=194 node=0x15222c1b0
+[LOG] returned_from_detect i=194
+[LOG] calling_detect_initial i=195 node=0x152004ca0
+[LOG] returned_from_detect i=195
+[LOG] calling_detect_initial i=196 node=0x152004220
+[LOG] returned_from_detect i=196
+[LOG] calling_detect_initial i=197 node=0x150f04be0
+[LOG] returned_from_detect i=197
+[LOG] calling_detect_initial i=198 node=0x152006a70
+[LOG] returned_from_detect i=198
+[LOG] calling_detect_initial i=199 node=0x152004ca0
+[LOG] returned_from_detect i=199
+[LOG] calling_detect_initial i=200 node=0x152004f40
+[LOG] returned_from_detect i=200
+[LOG] calling_detect_initial i=201 node=0x152004220
+[LOG] returned_from_detect i=201
+[LOG] calling_detect_initial i=202 node=0x152006fc0
+[LOG] returned_from_detect i=202
+[LOG] calling_detect_initial i=203 node=0x152006a70
+[LOG] returned_from_detect i=203
+[LOG] calling_detect_initial i=204 node=0x1520067d0
+[LOG] returned_from_detect i=204
+[LOG] calling_detect_initial i=205 node=0x152004ca0
+[LOG] returned_from_detect i=205
+[LOG] calling_detect_initial i=206 node=0x152004220
+[LOG] returned_from_detect i=206
+[LOG] calling_detect_initial i=207 node=0x152006a70
+[LOG] returned_from_detect i=207
+[LOG] calling_detect_initial i=208 node=0x150f04610
+[LOG] returned_from_detect i=208
+[LOG] calling_detect_initial i=209 node=0x152005470
+[LOG] returned_from_detect i=209
+[LOG] calling_detect_initial i=210 node=0x152004220
+[LOG] returned_from_detect i=210
+[LOG] calling_detect_initial i=211 node=0x152005470
+[LOG] returned_from_detect i=211
+[LOG] calling_detect_initial i=212 node=0x15222c1b0
+[LOG] returned_from_detect i=212
+[LOG] calling_detect_initial i=213 node=0x152006a70
+[LOG] returned_from_detect i=213
+[LOG] calling_detect_initial i=214 node=0x152007790
+[LOG] returned_from_detect i=214
+[LOG] calling_detect_initial i=215 node=0x152004f40
+[LOG] returned_from_detect i=215
+[LOG] calling_detect_initial i=216 node=0x150f04be0
+[LOG] returned_from_detect i=216
+[LOG] calling_detect_initial i=217 node=0x1520067d0
+[LOG] returned_from_detect i=217
+[LOG] calling_detect_initial i=218 node=0x152004220
+[LOG] returned_from_detect i=218
+[LOG] calling_detect_initial i=219 node=0x1520088f0
+[LOG] returned_from_detect i=219
+[LOG] calling_detect_initial i=220 node=0x15222c1b0
+[LOG] returned_from_detect i=220
+[LOG] calling_detect_initial i=221 node=0x152004220
+[LOG] returned_from_detect i=221
+[LOG] calling_detect_initial i=222 node=0x152007f70
+[LOG] returned_from_detect i=222
+[LOG] calling_detect_initial i=223 node=0x152005470
+[LOG] returned_from_detect i=223
+[LOG] calling_detect_initial i=224 node=0x152005470
+[LOG] returned_from_detect i=224
+[LOG] calling_detect_initial i=225 node=0x152214730
+[LOG] returned_from_detect i=225
+[LOG] calling_detect_initial i=226 node=0x152004ca0
+[LOG] returned_from_detect i=226
+[LOG] calling_detect_initial i=227 node=0x152004220
+[LOG] returned_from_detect i=227
+[LOG] calling_detect_initial i=228 node=0x1520044c0
+[LOG] returned_from_detect i=228
+[LOG] calling_detect_initial i=229 node=0x15222c1b0
+[LOG] returned_from_detect i=229
+[LOG] calling_detect_initial i=230 node=0x15222c1b0
+[LOG] returned_from_detect i=230
+[LOG] calling_detect_initial i=231 node=0x15222c1b0
+[LOG] returned_from_detect i=231
+[LOG] calling_detect_initial i=232 node=0x152004220
+[LOG] returned_from_detect i=232
+[LOG] calling_detect_initial i=233 node=0x152006fc0
+[LOG] returned_from_detect i=233
+[LOG] calling_detect_initial i=234 node=0x152006a70
+[LOG] returned_from_detect i=234
+[LOG] calling_detect_initial i=235 node=0x1520067d0
+[LOG] returned_from_detect i=235
+[LOG] calling_detect_initial i=236 node=0x152004ca0
+[LOG] returned_from_detect i=236
+[LOG] calling_detect_initial i=237 node=0x152004a00
+[LOG] returned_from_detect i=237
+[LOG] calling_detect_initial i=238 node=0x152004220
+[LOG] returned_from_detect i=238
+[LOG] calling_detect_initial i=239 node=0x152006a70
+[LOG] returned_from_detect i=239
+[LOG] calling_detect_initial i=240 node=0x150f04360
+[LOG] returned_from_detect i=240
+[LOG] calling_detect_initial i=241 node=0x152006a70
+[LOG] returned_from_detect i=241
+[LOG] calling_detect_initial i=242 node=0x150f04610
+[LOG] returned_from_detect i=242
+[LOG] calling_detect_initial i=243 node=0x152004f40
+[LOG] returned_from_detect i=243
+[LOG] calling_detect_initial i=244 node=0x152004760
+[LOG] returned_from_detect i=244
+[HIERARCHY] Created level 1: 'ev' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'r,' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ac' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ot' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ct' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'tl' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ks' (edge weight 0.00)
+[HIERARCHY] Created level 1: 's)' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'pa' (edge weight 0.00)
+[HIERARCHY] Created level 1: 't.' (edge weight 0.00)
+[DEBUG] BEFORE pattern free: pattern=0x15203d4d0, pattern_nodes=0x15302d800 (HypA)
+[DEBUG] activation_pattern_free ENTRY: pattern=0x15203d4d0, nodes=0x152836800, activations=0x152824a00 (HypA)
+[DEBUG] freeing pattern->nodes: 0x152836800 (HypB)
+[DEBUG] freeing pattern struct: 0x15203d4d0 (HypA)
+[DEBUG] AFTER pattern free: pattern=0x0 (HypA)
+[DEBUG] BEFORE pattern_nodes free: 0x15302d800 (HypB)
+[DEBUG] AFTER pattern_nodes free: 0x0 (HypB)
+[LOG] process_input_entry mfile=0x150e05b40
+[DEBUG] ALLOCATED pattern_nodes: 0x151845600, size=543 (HypB)
+[DEBUG] activation_pattern_create: pattern=0x152288dd0, nodes=0x153062800, activations=0x153066c00, cap=2172 (HypA)
+[LOG] phase4_entry initial_count=543 has_pattern=1
+[LOG] calling_detect_initial i=0 node=0x1520057f0
+[LOG] returned_from_detect i=0
+[LOG] calling_detect_initial i=1 node=0x152006530
+[LOG] returned_from_detect i=1
+[LOG] calling_detect_initial i=2 node=0x152004220
+[LOG] returned_from_detect i=2
+[LOG] calling_detect_initial i=3 node=0x152007790
+[LOG] returned_from_detect i=3
+[LOG] calling_detect_initial i=4 node=0x152005d50
+[LOG] returned_from_detect i=4
+[LOG] calling_detect_initial i=5 node=0x152006290
+[LOG] returned_from_detect i=5
+[LOG] calling_detect_initial i=6 node=0x152006290
+[LOG] returned_from_detect i=6
+[LOG] calling_detect_initial i=7 node=0x152005d50
+[LOG] returned_from_detect i=7
+[LOG] calling_detect_initial i=8 node=0x152006530
+[LOG] returned_from_detect i=8
+[LOG] calling_detect_initial i=9 node=0x152004220
+[LOG] returned_from_detect i=9
+[LOG] calling_detect_initial i=10 node=0x1520067d0
+[LOG] returned_from_detect i=10
+[LOG] calling_detect_initial i=11 node=0x152005470
+[LOG] returned_from_detect i=11
+[LOG] calling_detect_initial i=12 node=0x152006a70
+[LOG] returned_from_detect i=12
+[LOG] calling_detect_initial i=13 node=0x150f04610
+[LOG] returned_from_detect i=13
+[LOG] calling_detect_initial i=14 node=0x152004ca0
+[LOG] returned_from_detect i=14
+[LOG] calling_detect_initial i=15 node=0x152007a40
+[LOG] returned_from_detect i=15
+[LOG] calling_detect_initial i=16 node=0x152004220
+[LOG] returned_from_detect i=16
+[LOG] calling_detect_initial i=17 node=0x150f040c0
+[LOG] returned_from_detect i=17
+[LOG] calling_detect_initial i=18 node=0x150f04360
+[LOG] returned_from_detect i=18
+[LOG] calling_detect_initial i=19 node=0x150f04610
+[LOG] returned_from_detect i=19
+[LOG] calling_detect_initial i=20 node=0x150f048f0
+[LOG] returned_from_detect i=20
+[LOG] calling_detect_initial i=21 node=0x150f04be0
+[LOG] returned_from_detect i=21
+[LOG] calling_detect_initial i=22 node=0x152004220
+[LOG] returned_from_detect i=22
+[LOG] calling_detect_initial i=23 node=0x152004ca0
+[LOG] returned_from_detect i=23
+[LOG] calling_detect_initial i=24 node=0x152004f40
+[LOG] returned_from_detect i=24
+[LOG] calling_detect_initial i=25 node=0x152006a70
+[LOG] returned_from_detect i=25
+[LOG] calling_detect_initial i=26 node=0x150f04610
+[LOG] returned_from_detect i=26
+[LOG] calling_detect_initial i=27 node=0x152004f40
+[LOG] returned_from_detect i=27
+[LOG] calling_detect_initial i=28 node=0x152004ca0
+[LOG] returned_from_detect i=28
+[LOG] calling_detect_initial i=29 node=0x152004220
+[LOG] returned_from_detect i=29
+[LOG] calling_detect_initial i=30 node=0x152005d50
+[LOG] returned_from_detect i=30
+[LOG] calling_detect_initial i=31 node=0x152006530
+[LOG] returned_from_detect i=31
+[LOG] calling_detect_initial i=32 node=0x152004220
+[LOG] returned_from_detect i=32
+[LOG] calling_detect_initial i=33 node=0x152004f40
+[LOG] returned_from_detect i=33
+[LOG] calling_detect_initial i=34 node=0x1520051d0
+[LOG] returned_from_detect i=34
+[LOG] calling_detect_initial i=35 node=0x152005470
+[LOG] returned_from_detect i=35
+[LOG] calling_detect_initial i=36 node=0x152004220
+[LOG] returned_from_detect i=36
+[LOG] calling_detect_initial i=37 node=0x152004ca0
+[LOG] returned_from_detect i=37
+[LOG] calling_detect_initial i=38 node=0x152006a70
+[LOG] returned_from_detect i=38
+[LOG] calling_detect_initial i=39 node=0x152006290
+[LOG] returned_from_detect i=39
+[LOG] calling_detect_initial i=40 node=0x152005470
+[LOG] returned_from_detect i=40
+[LOG] calling_detect_initial i=41 node=0x152004220
+[LOG] returned_from_detect i=41
+[LOG] calling_detect_initial i=42 node=0x152006fc0
+[LOG] returned_from_detect i=42
+[LOG] calling_detect_initial i=43 node=0x152006a70
+[LOG] returned_from_detect i=43
+[LOG] calling_detect_initial i=44 node=0x1520067d0
+[LOG] returned_from_detect i=44
+[LOG] calling_detect_initial i=45 node=0x152004220
+[LOG] returned_from_detect i=45
+[LOG] calling_detect_initial i=46 node=0x152005d50
+[LOG] returned_from_detect i=46
+[LOG] calling_detect_initial i=47 node=0x152005ac0
+[LOG] returned_from_detect i=47
+[LOG] calling_detect_initial i=48 node=0x152004220
+[LOG] returned_from_detect i=48
+[LOG] calling_detect_initial i=49 node=0x152004f40
+[LOG] returned_from_detect i=49
+[LOG] calling_detect_initial i=50 node=0x1520051d0
+[LOG] returned_from_detect i=50
+[LOG] calling_detect_initial i=51 node=0x152005470
+[LOG] returned_from_detect i=51
+[LOG] calling_detect_initial i=52 node=0x152004220
+[LOG] returned_from_detect i=52
+[LOG] calling_detect_initial i=53 node=0x152007f70
+[LOG] returned_from_detect i=53
+[LOG] calling_detect_initial i=54 node=0x152005470
+[LOG] returned_from_detect i=54
+[LOG] calling_detect_initial i=55 node=0x152005470
+[LOG] returned_from_detect i=55
+[LOG] calling_detect_initial i=56 node=0x152214730
+[LOG] returned_from_detect i=56
+[LOG] calling_detect_initial i=57 node=0x152004220
+[LOG] returned_from_detect i=57
+[LOG] calling_detect_initial i=58 node=0x152006a70
+[LOG] returned_from_detect i=58
+[LOG] calling_detect_initial i=59 node=0x152004ca0
+[LOG] returned_from_detect i=59
+[LOG] calling_detect_initial i=60 node=0x152004220
+[LOG] returned_from_detect i=60
+[LOG] calling_detect_initial i=61 node=0x15222c1b0
+[LOG] returned_from_detect i=61
+[LOG] calling_detect_initial i=62 node=0x152007790
+[LOG] returned_from_detect i=62
+[LOG] calling_detect_initial i=63 node=0x152004f40
+[LOG] returned_from_detect i=63
+[LOG] calling_detect_initial i=64 node=0x152005d50
+[LOG] returned_from_detect i=64
+[LOG] calling_detect_initial i=65 node=0x152007cd0
+[LOG] returned_from_detect i=65
+[LOG] calling_detect_initial i=66 node=0x152005470
+[LOG] returned_from_detect i=66
+[LOG] calling_detect_initial i=67 node=0x150f04610
+[LOG] returned_from_detect i=67
+[LOG] calling_detect_initial i=68 node=0x152004220
+[LOG] returned_from_detect i=68
+[LOG] calling_detect_initial i=69 node=0x152005d50
+[LOG] returned_from_detect i=69
+[LOG] calling_detect_initial i=70 node=0x152005ac0
+[LOG] returned_from_detect i=70
+[LOG] calling_detect_initial i=71 node=0x152004220
+[LOG] returned_from_detect i=71
+[LOG] calling_detect_initial i=72 node=0x152004f40
+[LOG] returned_from_detect i=72
+[LOG] calling_detect_initial i=73 node=0x1520051d0
+[LOG] returned_from_detect i=73
+[LOG] calling_detect_initial i=74 node=0x152005470
+[LOG] returned_from_detect i=74
+[LOG] calling_detect_initial i=75 node=0x152004220
+[LOG] returned_from_detect i=75
+[LOG] calling_detect_initial i=76 node=0x150f04360
+[LOG] returned_from_detect i=76
+[LOG] calling_detect_initial i=77 node=0x150f04610
+[LOG] returned_from_detect i=77
+[LOG] calling_detect_initial i=78 node=0x152005470
+[LOG] returned_from_detect i=78
+[LOG] calling_detect_initial i=79 node=0x152008680
+[LOG] returned_from_detect i=79
+[LOG] calling_detect_initial i=80 node=0x150f048f0
+[LOG] returned_from_detect i=80
+[LOG] calling_detect_initial i=81 node=0x152005d50
+[LOG] returned_from_detect i=81
+[LOG] calling_detect_initial i=82 node=0x152005ff0
+[LOG] returned_from_detect i=82
+[LOG] calling_detect_initial i=83 node=0x152004ca0
+[LOG] returned_from_detect i=83
+[LOG] calling_detect_initial i=84 node=0x152004220
+[LOG] returned_from_detect i=84
+[LOG] calling_detect_initial i=85 node=0x1520067d0
+[LOG] returned_from_detect i=85
+[LOG] calling_detect_initial i=86 node=0x152005470
+[LOG] returned_from_detect i=86
+[LOG] calling_detect_initial i=87 node=0x152006a70
+[LOG] returned_from_detect i=87
+[LOG] calling_detect_initial i=88 node=0x150f04610
+[LOG] returned_from_detect i=88
+[LOG] calling_detect_initial i=89 node=0x152007a40
+[LOG] returned_from_detect i=89
+[LOG] calling_detect_initial i=90 node=0x152004220
+[LOG] returned_from_detect i=90
+[LOG] calling_detect_initial i=91 node=0x152006a70
+[LOG] returned_from_detect i=91
+[LOG] calling_detect_initial i=92 node=0x152006530
+[LOG] returned_from_detect i=92
+[LOG] calling_detect_initial i=93 node=0x152006fc0
+[LOG] returned_from_detect i=93
+[LOG] calling_detect_initial i=94 node=0x152004220
+[LOG] returned_from_detect i=94
+[LOG] calling_detect_initial i=95 node=0x150f048f0
+[LOG] returned_from_detect i=95
+[LOG] calling_detect_initial i=96 node=0x152006530
+[LOG] returned_from_detect i=96
+[LOG] calling_detect_initial i=97 node=0x152004220
+[LOG] returned_from_detect i=97
+[LOG] calling_detect_initial i=98 node=0x150f04be0
+[LOG] returned_from_detect i=98
+[LOG] calling_detect_initial i=99 node=0x152005470
+[LOG] returned_from_detect i=99
+[LOG] calling_detect_initial i=100 node=0x152006a70
+[LOG] returned_from_detect i=100
+[LOG] calling_detect_initial i=101 node=0x150f04360
+[LOG] returned_from_detect i=101
+[LOG] calling_detect_initial i=102 node=0x152004220
+[LOG] returned_from_detect i=102
+[LOG] calling_detect_initial i=103 node=0x1520067d0
+[LOG] returned_from_detect i=103
+[LOG] calling_detect_initial i=104 node=0x152005470
+[LOG] returned_from_detect i=104
+[LOG] calling_detect_initial i=105 node=0x152006a70
+[LOG] returned_from_detect i=105
+[LOG] calling_detect_initial i=106 node=0x150f04610
+[LOG] returned_from_detect i=106
+[LOG] calling_detect_initial i=107 node=0x152004ca0
+[LOG] returned_from_detect i=107
+[LOG] calling_detect_initial i=108 node=0x152007a40
+[LOG] returned_from_detect i=108
+[LOG] calling_detect_initial i=109 node=0x152004220
+[LOG] returned_from_detect i=109
+[LOG] calling_detect_initial i=110 node=0x152008210
+[LOG] returned_from_detect i=110
+[LOG] calling_detect_initial i=111 node=0x152006a70
+[LOG] returned_from_detect i=111
+[LOG] calling_detect_initial i=112 node=0x1520067d0
+[LOG] returned_from_detect i=112
+[LOG] calling_detect_initial i=113 node=0x152004220
+[LOG] returned_from_detect i=113
+[LOG] calling_detect_initial i=114 node=0x152005d50
+[LOG] returned_from_detect i=114
+[LOG] calling_detect_initial i=115 node=0x152005ac0
+[LOG] returned_from_detect i=115
+[LOG] calling_detect_initial i=116 node=0x152004220
+[LOG] returned_from_detect i=116
+[LOG] calling_detect_initial i=117 node=0x152004f40
+[LOG] returned_from_detect i=117
+[LOG] calling_detect_initial i=118 node=0x1520051d0
+[LOG] returned_from_detect i=118
+[LOG] calling_detect_initial i=119 node=0x152005470
+[LOG] returned_from_detect i=119
+[LOG] calling_detect_initial i=120 node=0x152004220
+[LOG] returned_from_detect i=120
+[LOG] calling_detect_initial i=121 node=0x150f04360
+[LOG] returned_from_detect i=121
+[LOG] calling_detect_initial i=122 node=0x150f04610
+[LOG] returned_from_detect i=122
+[LOG] calling_detect_initial i=123 node=0x152005470
+[LOG] returned_from_detect i=123
+[LOG] calling_detect_initial i=124 node=0x152008680
+[LOG] returned_from_detect i=124
+[LOG] calling_detect_initial i=125 node=0x150f048f0
+[LOG] returned_from_detect i=125
+[LOG] calling_detect_initial i=126 node=0x152005d50
+[LOG] returned_from_detect i=126
+[LOG] calling_detect_initial i=127 node=0x152005ff0
+[LOG] returned_from_detect i=127
+[LOG] calling_detect_initial i=128 node=0x152004ca0
+[LOG] returned_from_detect i=128
+[LOG] calling_detect_initial i=129 node=0x152004220
+[LOG] returned_from_detect i=129
+[LOG] calling_detect_initial i=130 node=0x1520067d0
+[LOG] returned_from_detect i=130
+[LOG] calling_detect_initial i=131 node=0x152005470
+[LOG] returned_from_detect i=131
+[LOG] calling_detect_initial i=132 node=0x152006a70
+[LOG] returned_from_detect i=132
+[LOG] calling_detect_initial i=133 node=0x150f04610
+[LOG] returned_from_detect i=133
+[LOG] calling_detect_initial i=134 node=0x152004760
+[LOG] returned_from_detect i=134
+[LOG] calling_detect_initial i=135 node=0x152004220
+[LOG] returned_from_detect i=135
+[LOG] calling_detect_initial i=136 node=0x1520057f0
+[LOG] returned_from_detect i=136
+[LOG] calling_detect_initial i=137 node=0x152006530
+[LOG] returned_from_detect i=137
+[LOG] calling_detect_initial i=138 node=0x152004220
+[LOG] returned_from_detect i=138
+[LOG] calling_detect_initial i=139 node=0x152007790
+[LOG] returned_from_detect i=139
+[LOG] calling_detect_initial i=140 node=0x152005d50
+[LOG] returned_from_detect i=140
+[LOG] calling_detect_initial i=141 node=0x152006290
+[LOG] returned_from_detect i=141
+[LOG] calling_detect_initial i=142 node=0x152006290
+[LOG] returned_from_detect i=142
+[LOG] calling_detect_initial i=143 node=0x152005d50
+[LOG] returned_from_detect i=143
+[LOG] calling_detect_initial i=144 node=0x152006530
+[LOG] returned_from_detect i=144
+[LOG] calling_detect_initial i=145 node=0x152004220
+[LOG] returned_from_detect i=145
+[LOG] calling_detect_initial i=146 node=0x1520067d0
+[LOG] returned_from_detect i=146
+[LOG] calling_detect_initial i=147 node=0x152005470
+[LOG] returned_from_detect i=147
+[LOG] calling_detect_initial i=148 node=0x152006a70
+[LOG] returned_from_detect i=148
+[LOG] calling_detect_initial i=149 node=0x150f04610
+[LOG] returned_from_detect i=149
+[LOG] calling_detect_initial i=150 node=0x152004ca0
+[LOG] returned_from_detect i=150
+[LOG] calling_detect_initial i=151 node=0x152007a40
+[LOG] returned_from_detect i=151
+[LOG] calling_detect_initial i=152 node=0x152004220
+[LOG] returned_from_detect i=152
+[LOG] calling_detect_initial i=153 node=0x150f040c0
+[LOG] returned_from_detect i=153
+[LOG] calling_detect_initial i=154 node=0x150f04360
+[LOG] returned_from_detect i=154
+[LOG] calling_detect_initial i=155 node=0x150f04610
+[LOG] returned_from_detect i=155
+[LOG] calling_detect_initial i=156 node=0x150f048f0
+[LOG] returned_from_detect i=156
+[LOG] calling_detect_initial i=157 node=0x150f04be0
+[LOG] returned_from_detect i=157
+[LOG] calling_detect_initial i=158 node=0x152004220
+[LOG] returned_from_detect i=158
+[LOG] calling_detect_initial i=159 node=0x152005ac0
+[LOG] returned_from_detect i=159
+[LOG] calling_detect_initial i=160 node=0x150f048f0
+[LOG] returned_from_detect i=160
+[LOG] calling_detect_initial i=161 node=0x152006530
+[LOG] returned_from_detect i=161
+[LOG] calling_detect_initial i=162 node=0x150f048f0
+[LOG] returned_from_detect i=162
+[LOG] calling_detect_initial i=163 node=0x152004ca0
+[LOG] returned_from_detect i=163
+[LOG] calling_detect_initial i=164 node=0x1520051d0
+[LOG] returned_from_detect i=164
+[LOG] calling_detect_initial i=165 node=0x152005470
+[LOG] returned_from_detect i=165
+[LOG] calling_detect_initial i=166 node=0x152004ca0
+[LOG] returned_from_detect i=166
+[LOG] calling_detect_initial i=167 node=0x152004220
+[LOG] returned_from_detect i=167
+[LOG] calling_detect_initial i=168 node=0x152005d50
+[LOG] returned_from_detect i=168
+[LOG] calling_detect_initial i=169 node=0x152006530
+[LOG] returned_from_detect i=169
+[LOG] calling_detect_initial i=170 node=0x152004220
+[LOG] returned_from_detect i=170
+[LOG] calling_detect_initial i=171 node=0x152004f40
+[LOG] returned_from_detect i=171
+[LOG] calling_detect_initial i=172 node=0x1520051d0
+[LOG] returned_from_detect i=172
+[LOG] calling_detect_initial i=173 node=0x152005470
+[LOG] returned_from_detect i=173
+[LOG] calling_detect_initial i=174 node=0x152004220
+[LOG] returned_from_detect i=174
+[LOG] calling_detect_initial i=175 node=0x152004ca0
+[LOG] returned_from_detect i=175
+[LOG] calling_detect_initial i=176 node=0x152006a70
+[LOG] returned_from_detect i=176
+[LOG] calling_detect_initial i=177 node=0x152006290
+[LOG] returned_from_detect i=177
+[LOG] calling_detect_initial i=178 node=0x152005470
+[LOG] returned_from_detect i=178
+[LOG] calling_detect_initial i=179 node=0x152004220
+[LOG] returned_from_detect i=179
+[LOG] calling_detect_initial i=180 node=0x152006fc0
+[LOG] returned_from_detect i=180
+[LOG] calling_detect_initial i=181 node=0x152006a70
+[LOG] returned_from_detect i=181
+[LOG] calling_detect_initial i=182 node=0x1520067d0
+[LOG] returned_from_detect i=182
+[LOG] calling_detect_initial i=183 node=0x152004220
+[LOG] returned_from_detect i=183
+[LOG] calling_detect_initial i=184 node=0x152005d50
+[LOG] returned_from_detect i=184
+[LOG] calling_detect_initial i=185 node=0x152005ac0
+[LOG] returned_from_detect i=185
+[LOG] calling_detect_initial i=186 node=0x152004220
+[LOG] returned_from_detect i=186
+[LOG] calling_detect_initial i=187 node=0x152004f40
+[LOG] returned_from_detect i=187
+[LOG] calling_detect_initial i=188 node=0x1520051d0
+[LOG] returned_from_detect i=188
+[LOG] calling_detect_initial i=189 node=0x152005470
+[LOG] returned_from_detect i=189
+[LOG] calling_detect_initial i=190 node=0x152004220
+[LOG] returned_from_detect i=190
+[LOG] calling_detect_initial i=191 node=0x152007f70
+[LOG] returned_from_detect i=191
+[LOG] calling_detect_initial i=192 node=0x152005470
+[LOG] returned_from_detect i=192
+[LOG] calling_detect_initial i=193 node=0x152005470
+[LOG] returned_from_detect i=193
+[LOG] calling_detect_initial i=194 node=0x152214730
+[LOG] returned_from_detect i=194
+[LOG] calling_detect_initial i=195 node=0x152004220
+[LOG] returned_from_detect i=195
+[LOG] calling_detect_initial i=196 node=0x152006a70
+[LOG] returned_from_detect i=196
+[LOG] calling_detect_initial i=197 node=0x152004ca0
+[LOG] returned_from_detect i=197
+[LOG] calling_detect_initial i=198 node=0x152004220
+[LOG] returned_from_detect i=198
+[LOG] calling_detect_initial i=199 node=0x152006d10
+[LOG] returned_from_detect i=199
+[LOG] calling_detect_initial i=200 node=0x152005ff0
+[LOG] returned_from_detect i=200
+[LOG] calling_detect_initial i=201 node=0x150f04be0
+[LOG] returned_from_detect i=201
+[LOG] calling_detect_initial i=202 node=0x1520067d0
+[LOG] returned_from_detect i=202
+[LOG] calling_detect_initial i=203 node=0x152004220
+[LOG] returned_from_detect i=203
+[LOG] calling_detect_initial i=204 node=0x152005d50
+[LOG] returned_from_detect i=204
+[LOG] calling_detect_initial i=205 node=0x152005ac0
+[LOG] returned_from_detect i=205
+[LOG] calling_detect_initial i=206 node=0x152004220
+[LOG] returned_from_detect i=206
+[LOG] calling_detect_initial i=207 node=0x152004f40
+[LOG] returned_from_detect i=207
+[LOG] calling_detect_initial i=208 node=0x1520051d0
+[LOG] returned_from_detect i=208
+[LOG] calling_detect_initial i=209 node=0x152005470
+[LOG] returned_from_detect i=209
+[LOG] calling_detect_initial i=210 node=0x152004220
+[LOG] returned_from_detect i=210
+[LOG] calling_detect_initial i=211 node=0x150f04360
+[LOG] returned_from_detect i=211
+[LOG] calling_detect_initial i=212 node=0x150f04610
+[LOG] returned_from_detect i=212
+[LOG] calling_detect_initial i=213 node=0x152005470
+[LOG] returned_from_detect i=213
+[LOG] calling_detect_initial i=214 node=0x152008680
+[LOG] returned_from_detect i=214
+[LOG] calling_detect_initial i=215 node=0x150f048f0
+[LOG] returned_from_detect i=215
+[LOG] calling_detect_initial i=216 node=0x152005d50
+[LOG] returned_from_detect i=216
+[LOG] calling_detect_initial i=217 node=0x152005ff0
+[LOG] returned_from_detect i=217
+[LOG] calling_detect_initial i=218 node=0x152004ca0
+[LOG] returned_from_detect i=218
+[LOG] calling_detect_initial i=219 node=0x152004220
+[LOG] returned_from_detect i=219
+[LOG] calling_detect_initial i=220 node=0x1520067d0
+[LOG] returned_from_detect i=220
+[LOG] calling_detect_initial i=221 node=0x152005470
+[LOG] returned_from_detect i=221
+[LOG] calling_detect_initial i=222 node=0x152006a70
+[LOG] returned_from_detect i=222
+[LOG] calling_detect_initial i=223 node=0x150f04610
+[LOG] returned_from_detect i=223
+[LOG] calling_detect_initial i=224 node=0x152007a40
+[LOG] returned_from_detect i=224
+[LOG] calling_detect_initial i=225 node=0x152004220
+[LOG] returned_from_detect i=225
+[LOG] calling_detect_initial i=226 node=0x152006a70
+[LOG] returned_from_detect i=226
+[LOG] calling_detect_initial i=227 node=0x152006530
+[LOG] returned_from_detect i=227
+[LOG] calling_detect_initial i=228 node=0x152006fc0
+[LOG] returned_from_detect i=228
+[LOG] calling_detect_initial i=229 node=0x152004220
+[LOG] returned_from_detect i=229
+[LOG] calling_detect_initial i=230 node=0x150f048f0
+[LOG] returned_from_detect i=230
+[LOG] calling_detect_initial i=231 node=0x152006530
+[LOG] returned_from_detect i=231
+[LOG] calling_detect_initial i=232 node=0x152004220
+[LOG] returned_from_detect i=232
+[LOG] calling_detect_initial i=233 node=0x150f04be0
+[LOG] returned_from_detect i=233
+[LOG] calling_detect_initial i=234 node=0x152005470
+[LOG] returned_from_detect i=234
+[LOG] calling_detect_initial i=235 node=0x152006a70
+[LOG] returned_from_detect i=235
+[LOG] calling_detect_initial i=236 node=0x150f04360
+[LOG] returned_from_detect i=236
+[LOG] calling_detect_initial i=237 node=0x152004220
+[LOG] returned_from_detect i=237
+[LOG] calling_detect_initial i=238 node=0x1520067d0
+[LOG] returned_from_detect i=238
+[LOG] calling_detect_initial i=239 node=0x152005470
+[LOG] returned_from_detect i=239
+[LOG] calling_detect_initial i=240 node=0x152006a70
+[LOG] returned_from_detect i=240
+[LOG] calling_detect_initial i=241 node=0x150f04610
+[LOG] returned_from_detect i=241
+[LOG] calling_detect_initial i=242 node=0x152004ca0
+[LOG] returned_from_detect i=242
+[LOG] calling_detect_initial i=243 node=0x152007a40
+[LOG] returned_from_detect i=243
+[LOG] calling_detect_initial i=244 node=0x152004220
+[LOG] returned_from_detect i=244
+[LOG] calling_detect_initial i=245 node=0x15222c1b0
+[LOG] returned_from_detect i=245
+[LOG] calling_detect_initial i=246 node=0x152005470
+[LOG] returned_from_detect i=246
+[LOG] calling_detect_initial i=247 node=0x152007cd0
+[LOG] returned_from_detect i=247
+[LOG] calling_detect_initial i=248 node=0x150f04610
+[LOG] returned_from_detect i=248
+[LOG] calling_detect_initial i=249 node=0x152005ff0
+[LOG] returned_from_detect i=249
+[LOG] calling_detect_initial i=250 node=0x152006a70
+[LOG] returned_from_detect i=250
+[LOG] calling_detect_initial i=251 node=0x150f04610
+[LOG] returned_from_detect i=251
+[LOG] calling_detect_initial i=252 node=0x1520067d0
+[LOG] returned_from_detect i=252
+[LOG] calling_detect_initial i=253 node=0x152004220
+[LOG] returned_from_detect i=253
+[LOG] calling_detect_initial i=254 node=0x152006a70
+[LOG] returned_from_detect i=254
+[LOG] calling_detect_initial i=255 node=0x152006530
+[LOG] returned_from_detect i=255
+[LOG] calling_detect_initial i=256 node=0x152006fc0
+[LOG] returned_from_detect i=256
+[LOG] calling_detect_initial i=257 node=0x152004220
+[LOG] returned_from_detect i=257
+[LOG] calling_detect_initial i=258 node=0x15222c1b0
+[LOG] returned_from_detect i=258
+[LOG] calling_detect_initial i=259 node=0x152007790
+[LOG] returned_from_detect i=259
+[LOG] calling_detect_initial i=260 node=0x152004f40
+[LOG] returned_from_detect i=260
+[LOG] calling_detect_initial i=261 node=0x152005d50
+[LOG] returned_from_detect i=261
+[LOG] calling_detect_initial i=262 node=0x152007cd0
+[LOG] returned_from_detect i=262
+[LOG] calling_detect_initial i=263 node=0x152005470
+[LOG] returned_from_detect i=263
+[LOG] calling_detect_initial i=264 node=0x150f04610
+[LOG] returned_from_detect i=264
+[LOG] calling_detect_initial i=265 node=0x152004220
+[LOG] returned_from_detect i=265
+[LOG] calling_detect_initial i=266 node=0x152005d50
+[LOG] returned_from_detect i=266
+[LOG] calling_detect_initial i=267 node=0x152005ac0
+[LOG] returned_from_detect i=267
+[LOG] calling_detect_initial i=268 node=0x152004220
+[LOG] returned_from_detect i=268
+[LOG] calling_detect_initial i=269 node=0x152004f40
+[LOG] returned_from_detect i=269
+[LOG] calling_detect_initial i=270 node=0x1520051d0
+[LOG] returned_from_detect i=270
+[LOG] calling_detect_initial i=271 node=0x152005470
+[LOG] returned_from_detect i=271
+[LOG] calling_detect_initial i=272 node=0x152004220
+[LOG] returned_from_detect i=272
+[LOG] calling_detect_initial i=273 node=0x150f04360
+[LOG] returned_from_detect i=273
+[LOG] calling_detect_initial i=274 node=0x150f04610
+[LOG] returned_from_detect i=274
+[LOG] calling_detect_initial i=275 node=0x152005470
+[LOG] returned_from_detect i=275
+[LOG] calling_detect_initial i=276 node=0x152008680
+[LOG] returned_from_detect i=276
+[LOG] calling_detect_initial i=277 node=0x150f048f0
+[LOG] returned_from_detect i=277
+[LOG] calling_detect_initial i=278 node=0x152005d50
+[LOG] returned_from_detect i=278
+[LOG] calling_detect_initial i=279 node=0x152005ff0
+[LOG] returned_from_detect i=279
+[LOG] calling_detect_initial i=280 node=0x152004ca0
+[LOG] returned_from_detect i=280
+[LOG] calling_detect_initial i=281 node=0x152004220
+[LOG] returned_from_detect i=281
+[LOG] calling_detect_initial i=282 node=0x1520067d0
+[LOG] returned_from_detect i=282
+[LOG] calling_detect_initial i=283 node=0x152005470
+[LOG] returned_from_detect i=283
+[LOG] calling_detect_initial i=284 node=0x152006a70
+[LOG] returned_from_detect i=284
+[LOG] calling_detect_initial i=285 node=0x150f04610
+[LOG] returned_from_detect i=285
+[LOG] calling_detect_initial i=286 node=0x152004760
+[LOG] returned_from_detect i=286
+[LOG] calling_detect_initial i=287 node=0x152004220
+[LOG] returned_from_detect i=287
+[LOG] calling_detect_initial i=288 node=0x1520057f0
+[LOG] returned_from_detect i=288
+[LOG] calling_detect_initial i=289 node=0x152006530
+[LOG] returned_from_detect i=289
+[LOG] calling_detect_initial i=290 node=0x152004220
+[LOG] returned_from_detect i=290
+[LOG] calling_detect_initial i=291 node=0x152007790
+[LOG] returned_from_detect i=291
+[LOG] calling_detect_initial i=292 node=0x152005d50
+[LOG] returned_from_detect i=292
+[LOG] calling_detect_initial i=293 node=0x152006290
+[LOG] returned_from_detect i=293
+[LOG] calling_detect_initial i=294 node=0x152006290
+[LOG] returned_from_detect i=294
+[LOG] calling_detect_initial i=295 node=0x152005d50
+[LOG] returned_from_detect i=295
+[LOG] calling_detect_initial i=296 node=0x152006530
+[LOG] returned_from_detect i=296
+[LOG] calling_detect_initial i=297 node=0x152004220
+[LOG] returned_from_detect i=297
+[LOG] calling_detect_initial i=298 node=0x1520067d0
+[LOG] returned_from_detect i=298
+[LOG] calling_detect_initial i=299 node=0x152005470
+[LOG] returned_from_detect i=299
+[LOG] calling_detect_initial i=300 node=0x152006a70
+[LOG] returned_from_detect i=300
+[LOG] calling_detect_initial i=301 node=0x150f04610
+[LOG] returned_from_detect i=301
+[LOG] calling_detect_initial i=302 node=0x152004ca0
+[LOG] returned_from_detect i=302
+[LOG] calling_detect_initial i=303 node=0x152004220
+[LOG] returned_from_detect i=303
+[LOG] calling_detect_initial i=304 node=0x150f048f0
+[LOG] returned_from_detect i=304
+[LOG] calling_detect_initial i=305 node=0x152006290
+[LOG] returned_from_detect i=305
+[LOG] calling_detect_initial i=306 node=0x152006290
+[LOG] returned_from_detect i=306
+[LOG] calling_detect_initial i=307 node=0x152005470
+[LOG] returned_from_detect i=307
+[LOG] calling_detect_initial i=308 node=0x152006fc0
+[LOG] returned_from_detect i=308
+[LOG] calling_detect_initial i=309 node=0x150f048f0
+[LOG] returned_from_detect i=309
+[LOG] calling_detect_initial i=310 node=0x152006a70
+[LOG] returned_from_detect i=310
+[LOG] calling_detect_initial i=311 node=0x152004f40
+[LOG] returned_from_detect i=311
+[LOG] calling_detect_initial i=312 node=0x152005470
+[LOG] returned_from_detect i=312
+[LOG] calling_detect_initial i=313 node=0x150f04be0
+[LOG] returned_from_detect i=313
+[LOG] calling_detect_initial i=314 node=0x1520067d0
+[LOG] returned_from_detect i=314
+[LOG] calling_detect_initial i=315 node=0x152004220
+[LOG] returned_from_detect i=315
+[LOG] calling_detect_initial i=316 node=0x152006a70
+[LOG] returned_from_detect i=316
+[LOG] calling_detect_initial i=317 node=0x152005ac0
+[LOG] returned_from_detect i=317
+[LOG] calling_detect_initial i=318 node=0x152004f40
+[LOG] returned_from_detect i=318
+[LOG] calling_detect_initial i=319 node=0x152005470
+[LOG] returned_from_detect i=319
+[LOG] calling_detect_initial i=320 node=0x150f04610
+[LOG] returned_from_detect i=320
+[LOG] calling_detect_initial i=321 node=0x152004220
+[LOG] returned_from_detect i=321
+[LOG] calling_detect_initial i=322 node=0x152005d50
+[LOG] returned_from_detect i=322
+[LOG] calling_detect_initial i=323 node=0x152004f40
+[LOG] returned_from_detect i=323
+[LOG] calling_detect_initial i=324 node=0x1520051d0
+[LOG] returned_from_detect i=324
+[LOG] calling_detect_initial i=325 node=0x152005470
+[LOG] returned_from_detect i=325
+[LOG] calling_detect_initial i=326 node=0x150f04610
+[LOG] returned_from_detect i=326
+[LOG] calling_detect_initial i=327 node=0x152004220
+[LOG] returned_from_detect i=327
+[LOG] calling_detect_initial i=328 node=0x152007790
+[LOG] returned_from_detect i=328
+[LOG] calling_detect_initial i=329 node=0x152005d50
+[LOG] returned_from_detect i=329
+[LOG] calling_detect_initial i=330 node=0x152006290
+[LOG] returned_from_detect i=330
+[LOG] calling_detect_initial i=331 node=0x152006290
+[LOG] returned_from_detect i=331
+[LOG] calling_detect_initial i=332 node=0x152005d50
+[LOG] returned_from_detect i=332
+[LOG] calling_detect_initial i=333 node=0x152006530
+[LOG] returned_from_detect i=333
+[LOG] calling_detect_initial i=334 node=0x152004220
+[LOG] returned_from_detect i=334
+[LOG] calling_detect_initial i=335 node=0x1520067d0
+[LOG] returned_from_detect i=335
+[LOG] calling_detect_initial i=336 node=0x152005470
+[LOG] returned_from_detect i=336
+[LOG] calling_detect_initial i=337 node=0x152006a70
+[LOG] returned_from_detect i=337
+[LOG] calling_detect_initial i=338 node=0x150f04610
+[LOG] returned_from_detect i=338
+[LOG] calling_detect_initial i=339 node=0x152004ca0
+[LOG] returned_from_detect i=339
+[LOG] calling_detect_initial i=340 node=0x152007a40
+[LOG] returned_from_detect i=340
+[LOG] calling_detect_initial i=341 node=0x152004220
+[LOG] returned_from_detect i=341
+[LOG] calling_detect_initial i=342 node=0x150f040c0
+[LOG] returned_from_detect i=342
+[LOG] calling_detect_initial i=343 node=0x150f04360
+[LOG] returned_from_detect i=343
+[LOG] calling_detect_initial i=344 node=0x150f04610
+[LOG] returned_from_detect i=344
+[LOG] calling_detect_initial i=345 node=0x150f048f0
+[LOG] returned_from_detect i=345
+[LOG] calling_detect_initial i=346 node=0x150f04be0
+[LOG] returned_from_detect i=346
+[LOG] calling_detect_initial i=347 node=0x152004220
+[LOG] returned_from_detect i=347
+[LOG] calling_detect_initial i=348 node=0x152004ca0
+[LOG] returned_from_detect i=348
+[LOG] calling_detect_initial i=349 node=0x152004f40
+[LOG] returned_from_detect i=349
+[LOG] calling_detect_initial i=350 node=0x152006a70
+[LOG] returned_from_detect i=350
+[LOG] calling_detect_initial i=351 node=0x150f04610
+[LOG] returned_from_detect i=351
+[LOG] calling_detect_initial i=352 node=0x152004f40
+[LOG] returned_from_detect i=352
+[LOG] calling_detect_initial i=353 node=0x152004ca0
+[LOG] returned_from_detect i=353
+[LOG] calling_detect_initial i=354 node=0x152004220
+[LOG] returned_from_detect i=354
+[LOG] calling_detect_initial i=355 node=0x152005d50
+[LOG] returned_from_detect i=355
+[LOG] calling_detect_initial i=356 node=0x152006530
+[LOG] returned_from_detect i=356
+[LOG] calling_detect_initial i=357 node=0x152004220
+[LOG] returned_from_detect i=357
+[LOG] calling_detect_initial i=358 node=0x152004f40
+[LOG] returned_from_detect i=358
+[LOG] calling_detect_initial i=359 node=0x1520051d0
+[LOG] returned_from_detect i=359
+[LOG] calling_detect_initial i=360 node=0x152005470
+[LOG] returned_from_detect i=360
+[LOG] calling_detect_initial i=361 node=0x152004220
+[LOG] returned_from_detect i=361
+[LOG] calling_detect_initial i=362 node=0x152004ca0
+[LOG] returned_from_detect i=362
+[LOG] calling_detect_initial i=363 node=0x152006a70
+[LOG] returned_from_detect i=363
+[LOG] calling_detect_initial i=364 node=0x152006290
+[LOG] returned_from_detect i=364
+[LOG] calling_detect_initial i=365 node=0x152005470
+[LOG] returned_from_detect i=365
+[LOG] calling_detect_initial i=366 node=0x152004220
+[LOG] returned_from_detect i=366
+[LOG] calling_detect_initial i=367 node=0x152006fc0
+[LOG] returned_from_detect i=367
+[LOG] calling_detect_initial i=368 node=0x152006a70
+[LOG] returned_from_detect i=368
+[LOG] calling_detect_initial i=369 node=0x1520067d0
+[LOG] returned_from_detect i=369
+[LOG] calling_detect_initial i=370 node=0x152004220
+[LOG] returned_from_detect i=370
+[LOG] calling_detect_initial i=371 node=0x152005d50
+[LOG] returned_from_detect i=371
+[LOG] calling_detect_initial i=372 node=0x152005ac0
+[LOG] returned_from_detect i=372
+[LOG] calling_detect_initial i=373 node=0x152004220
+[LOG] returned_from_detect i=373
+[LOG] calling_detect_initial i=374 node=0x152004f40
+[LOG] returned_from_detect i=374
+[LOG] calling_detect_initial i=375 node=0x1520051d0
+[LOG] returned_from_detect i=375
+[LOG] calling_detect_initial i=376 node=0x152005470
+[LOG] returned_from_detect i=376
+[LOG] calling_detect_initial i=377 node=0x152004220
+[LOG] returned_from_detect i=377
+[LOG] calling_detect_initial i=378 node=0x152007f70
+[LOG] returned_from_detect i=378
+[LOG] calling_detect_initial i=379 node=0x152005470
+[LOG] returned_from_detect i=379
+[LOG] calling_detect_initial i=380 node=0x152005470
+[LOG] returned_from_detect i=380
+[LOG] calling_detect_initial i=381 node=0x152214730
+[LOG] returned_from_detect i=381
+[LOG] calling_detect_initial i=382 node=0x152004220
+[LOG] returned_from_detect i=382
+[LOG] calling_detect_initial i=383 node=0x152006a70
+[LOG] returned_from_detect i=383
+[LOG] calling_detect_initial i=384 node=0x152004ca0
+[LOG] returned_from_detect i=384
+[LOG] calling_detect_initial i=385 node=0x152004220
+[LOG] returned_from_detect i=385
+[LOG] calling_detect_initial i=386 node=0x152006d10
+[LOG] returned_from_detect i=386
+[LOG] calling_detect_initial i=387 node=0x152006a70
+[LOG] returned_from_detect i=387
+[LOG] calling_detect_initial i=388 node=0x152006530
+[LOG] returned_from_detect i=388
+[LOG] calling_detect_initial i=389 node=0x152005ff0
+[LOG] returned_from_detect i=389
+[LOG] calling_detect_initial i=390 node=0x152006a70
+[LOG] returned_from_detect i=390
+[LOG] calling_detect_initial i=391 node=0x150f04610
+[LOG] returned_from_detect i=391
+[LOG] calling_detect_initial i=392 node=0x1520067d0
+[LOG] returned_from_detect i=392
+[LOG] calling_detect_initial i=393 node=0x152004220
+[LOG] returned_from_detect i=393
+[LOG] calling_detect_initial i=394 node=0x152005d50
+[LOG] returned_from_detect i=394
+[LOG] calling_detect_initial i=395 node=0x152005ac0
+[LOG] returned_from_detect i=395
+[LOG] calling_detect_initial i=396 node=0x152004220
+[LOG] returned_from_detect i=396
+[LOG] calling_detect_initial i=397 node=0x152004f40
+[LOG] returned_from_detect i=397
+[LOG] calling_detect_initial i=398 node=0x1520051d0
+[LOG] returned_from_detect i=398
+[LOG] calling_detect_initial i=399 node=0x152005470
+[LOG] returned_from_detect i=399
+[LOG] calling_detect_initial i=400 node=0x152004220
+[LOG] returned_from_detect i=400
+[LOG] calling_detect_initial i=401 node=0x150f04360
+[LOG] returned_from_detect i=401
+[LOG] calling_detect_initial i=402 node=0x150f04610
+[LOG] returned_from_detect i=402
+[LOG] calling_detect_initial i=403 node=0x152005470
+[LOG] returned_from_detect i=403
+[LOG] calling_detect_initial i=404 node=0x152008680
+[LOG] returned_from_detect i=404
+[LOG] calling_detect_initial i=405 node=0x150f048f0
+[LOG] returned_from_detect i=405
+[LOG] calling_detect_initial i=406 node=0x152005d50
+[LOG] returned_from_detect i=406
+[LOG] calling_detect_initial i=407 node=0x152005ff0
+[LOG] returned_from_detect i=407
+[LOG] calling_detect_initial i=408 node=0x152004ca0
+[LOG] returned_from_detect i=408
+[LOG] calling_detect_initial i=409 node=0x152004220
+[LOG] returned_from_detect i=409
+[LOG] calling_detect_initial i=410 node=0x1520067d0
+[LOG] returned_from_detect i=410
+[LOG] calling_detect_initial i=411 node=0x152005470
+[LOG] returned_from_detect i=411
+[LOG] calling_detect_initial i=412 node=0x152006a70
+[LOG] returned_from_detect i=412
+[LOG] calling_detect_initial i=413 node=0x150f04610
+[LOG] returned_from_detect i=413
+[LOG] calling_detect_initial i=414 node=0x152007a40
+[LOG] returned_from_detect i=414
+[LOG] calling_detect_initial i=415 node=0x152004220
+[LOG] returned_from_detect i=415
+[LOG] calling_detect_initial i=416 node=0x152006a70
+[LOG] returned_from_detect i=416
+[LOG] calling_detect_initial i=417 node=0x152006530
+[LOG] returned_from_detect i=417
+[LOG] calling_detect_initial i=418 node=0x152006fc0
+[LOG] returned_from_detect i=418
+[LOG] calling_detect_initial i=419 node=0x152004220
+[LOG] returned_from_detect i=419
+[LOG] calling_detect_initial i=420 node=0x150f048f0
+[LOG] returned_from_detect i=420
+[LOG] calling_detect_initial i=421 node=0x152006530
+[LOG] returned_from_detect i=421
+[LOG] calling_detect_initial i=422 node=0x152004220
+[LOG] returned_from_detect i=422
+[LOG] calling_detect_initial i=423 node=0x150f04be0
+[LOG] returned_from_detect i=423
+[LOG] calling_detect_initial i=424 node=0x152005470
+[LOG] returned_from_detect i=424
+[LOG] calling_detect_initial i=425 node=0x152006a70
+[LOG] returned_from_detect i=425
+[LOG] calling_detect_initial i=426 node=0x150f04360
+[LOG] returned_from_detect i=426
+[LOG] calling_detect_initial i=427 node=0x152004220
+[LOG] returned_from_detect i=427
+[LOG] calling_detect_initial i=428 node=0x1520067d0
+[LOG] returned_from_detect i=428
+[LOG] calling_detect_initial i=429 node=0x152005470
+[LOG] returned_from_detect i=429
+[LOG] calling_detect_initial i=430 node=0x152006a70
+[LOG] returned_from_detect i=430
+[LOG] calling_detect_initial i=431 node=0x150f04610
+[LOG] returned_from_detect i=431
+[LOG] calling_detect_initial i=432 node=0x152004ca0
+[LOG] returned_from_detect i=432
+[LOG] calling_detect_initial i=433 node=0x152004220
+[LOG] returned_from_detect i=433
+[LOG] calling_detect_initial i=434 node=0x152006a70
+[LOG] returned_from_detect i=434
+[LOG] calling_detect_initial i=435 node=0x152006530
+[LOG] returned_from_detect i=435
+[LOG] calling_detect_initial i=436 node=0x152006fc0
+[LOG] returned_from_detect i=436
+[LOG] calling_detect_initial i=437 node=0x152004220
+[LOG] returned_from_detect i=437
+[LOG] calling_detect_initial i=438 node=0x1520067d0
+[LOG] returned_from_detect i=438
+[LOG] calling_detect_initial i=439 node=0x152005470
+[LOG] returned_from_detect i=439
+[LOG] calling_detect_initial i=440 node=0x152006a70
+[LOG] returned_from_detect i=440
+[LOG] calling_detect_initial i=441 node=0x150f04610
+[LOG] returned_from_detect i=441
+[LOG] calling_detect_initial i=442 node=0x152004ca0
+[LOG] returned_from_detect i=442
+[LOG] calling_detect_initial i=443 node=0x152004220
+[LOG] returned_from_detect i=443
+[LOG] calling_detect_initial i=444 node=0x150f048f0
+[LOG] returned_from_detect i=444
+[LOG] calling_detect_initial i=445 node=0x152006290
+[LOG] returned_from_detect i=445
+[LOG] calling_detect_initial i=446 node=0x152006290
+[LOG] returned_from_detect i=446
+[LOG] calling_detect_initial i=447 node=0x152005470
+[LOG] returned_from_detect i=447
+[LOG] calling_detect_initial i=448 node=0x152006fc0
+[LOG] returned_from_detect i=448
+[LOG] calling_detect_initial i=449 node=0x150f048f0
+[LOG] returned_from_detect i=449
+[LOG] calling_detect_initial i=450 node=0x152006a70
+[LOG] returned_from_detect i=450
+[LOG] calling_detect_initial i=451 node=0x152004f40
+[LOG] returned_from_detect i=451
+[LOG] calling_detect_initial i=452 node=0x152005470
+[LOG] returned_from_detect i=452
+[LOG] calling_detect_initial i=453 node=0x150f04be0
+[LOG] returned_from_detect i=453
+[LOG] calling_detect_initial i=454 node=0x1520067d0
+[LOG] returned_from_detect i=454
+[LOG] calling_detect_initial i=455 node=0x152004220
+[LOG] returned_from_detect i=455
+[LOG] calling_detect_initial i=456 node=0x152006a70
+[LOG] returned_from_detect i=456
+[LOG] calling_detect_initial i=457 node=0x152005ac0
+[LOG] returned_from_detect i=457
+[LOG] calling_detect_initial i=458 node=0x152004f40
+[LOG] returned_from_detect i=458
+[LOG] calling_detect_initial i=459 node=0x152005470
+[LOG] returned_from_detect i=459
+[LOG] calling_detect_initial i=460 node=0x150f04610
+[LOG] returned_from_detect i=460
+[LOG] calling_detect_initial i=461 node=0x152004220
+[LOG] returned_from_detect i=461
+[LOG] calling_detect_initial i=462 node=0x152004f40
+[LOG] returned_from_detect i=462
+[LOG] calling_detect_initial i=463 node=0x1520051d0
+[LOG] returned_from_detect i=463
+[LOG] calling_detect_initial i=464 node=0x152006a70
+[LOG] returned_from_detect i=464
+[LOG] calling_detect_initial i=465 node=0x152004f40
+[LOG] returned_from_detect i=465
+[LOG] calling_detect_initial i=466 node=0x152007a40
+[LOG] returned_from_detect i=466
+[LOG] calling_detect_initial i=467 node=0x152004220
+[LOG] returned_from_detect i=467
+[LOG] calling_detect_initial i=468 node=0x150f040c0
+[LOG] returned_from_detect i=468
+[LOG] calling_detect_initial i=469 node=0x150f04360
+[LOG] returned_from_detect i=469
+[LOG] calling_detect_initial i=470 node=0x150f04610
+[LOG] returned_from_detect i=470
+[LOG] calling_detect_initial i=471 node=0x150f048f0
+[LOG] returned_from_detect i=471
+[LOG] calling_detect_initial i=472 node=0x150f04be0
+[LOG] returned_from_detect i=472
+[LOG] calling_detect_initial i=473 node=0x152004220
+[LOG] returned_from_detect i=473
+[LOG] calling_detect_initial i=474 node=0x152005ac0
+[LOG] returned_from_detect i=474
+[LOG] calling_detect_initial i=475 node=0x150f048f0
+[LOG] returned_from_detect i=475
+[LOG] calling_detect_initial i=476 node=0x152006530
+[LOG] returned_from_detect i=476
+[LOG] calling_detect_initial i=477 node=0x150f048f0
+[LOG] returned_from_detect i=477
+[LOG] calling_detect_initial i=478 node=0x152004ca0
+[LOG] returned_from_detect i=478
+[LOG] calling_detect_initial i=479 node=0x1520051d0
+[LOG] returned_from_detect i=479
+[LOG] calling_detect_initial i=480 node=0x152005470
+[LOG] returned_from_detect i=480
+[LOG] calling_detect_initial i=481 node=0x152004ca0
+[LOG] returned_from_detect i=481
+[LOG] calling_detect_initial i=482 node=0x152004220
+[LOG] returned_from_detect i=482
+[LOG] calling_detect_initial i=483 node=0x152005d50
+[LOG] returned_from_detect i=483
+[LOG] calling_detect_initial i=484 node=0x152006530
+[LOG] returned_from_detect i=484
+[LOG] calling_detect_initial i=485 node=0x152004220
+[LOG] returned_from_detect i=485
+[LOG] calling_detect_initial i=486 node=0x152004f40
+[LOG] returned_from_detect i=486
+[LOG] calling_detect_initial i=487 node=0x1520051d0
+[LOG] returned_from_detect i=487
+[LOG] calling_detect_initial i=488 node=0x152005470
+[LOG] returned_from_detect i=488
+[LOG] calling_detect_initial i=489 node=0x152004220
+[LOG] returned_from_detect i=489
+[LOG] calling_detect_initial i=490 node=0x152004ca0
+[LOG] returned_from_detect i=490
+[LOG] calling_detect_initial i=491 node=0x152006a70
+[LOG] returned_from_detect i=491
+[LOG] calling_detect_initial i=492 node=0x152006290
+[LOG] returned_from_detect i=492
+[LOG] calling_detect_initial i=493 node=0x152005470
+[LOG] returned_from_detect i=493
+[LOG] calling_detect_initial i=494 node=0x152004220
+[LOG] returned_from_detect i=494
+[LOG] calling_detect_initial i=495 node=0x152006fc0
+[LOG] returned_from_detect i=495
+[LOG] calling_detect_initial i=496 node=0x152006a70
+[LOG] returned_from_detect i=496
+[LOG] calling_detect_initial i=497 node=0x1520067d0
+[LOG] returned_from_detect i=497
+[LOG] calling_detect_initial i=498 node=0x152004220
+[LOG] returned_from_detect i=498
+[LOG] calling_detect_initial i=499 node=0x152005d50
+[LOG] returned_from_detect i=499
+[LOG] calling_detect_initial i=500 node=0x152005ac0
+[LOG] returned_from_detect i=500
+[LOG] calling_detect_initial i=501 node=0x152004220
+[LOG] returned_from_detect i=501
+[LOG] calling_detect_initial i=502 node=0x152004f40
+[LOG] returned_from_detect i=502
+[LOG] calling_detect_initial i=503 node=0x1520051d0
+[LOG] returned_from_detect i=503
+[LOG] calling_detect_initial i=504 node=0x152005470
+[LOG] returned_from_detect i=504
+[LOG] calling_detect_initial i=505 node=0x152004220
+[LOG] returned_from_detect i=505
+[LOG] calling_detect_initial i=506 node=0x152007f70
+[LOG] returned_from_detect i=506
+[LOG] calling_detect_initial i=507 node=0x152005470
+[LOG] returned_from_detect i=507
+[LOG] calling_detect_initial i=508 node=0x152005470
+[LOG] returned_from_detect i=508
+[LOG] calling_detect_initial i=509 node=0x152214730
+[LOG] returned_from_detect i=509
+[LOG] calling_detect_initial i=510 node=0x152004220
+[LOG] returned_from_detect i=510
+[LOG] calling_detect_initial i=511 node=0x152006a70
+[LOG] returned_from_detect i=511
+[LOG] calling_detect_initial i=512 node=0x152004ca0
+[LOG] returned_from_detect i=512
+[LOG] calling_detect_initial i=513 node=0x152004220
+[LOG] returned_from_detect i=513
+[LOG] calling_detect_initial i=514 node=0x152006d10
+[LOG] returned_from_detect i=514
+[LOG] calling_detect_initial i=515 node=0x152006a70
+[LOG] returned_from_detect i=515
+[LOG] calling_detect_initial i=516 node=0x152006530
+[LOG] returned_from_detect i=516
+[LOG] calling_detect_initial i=517 node=0x152005ff0
+[LOG] returned_from_detect i=517
+[LOG] calling_detect_initial i=518 node=0x152006a70
+[LOG] returned_from_detect i=518
+[LOG] calling_detect_initial i=519 node=0x150f04610
+[LOG] returned_from_detect i=519
+[LOG] calling_detect_initial i=520 node=0x1520067d0
+[LOG] returned_from_detect i=520
+[LOG] calling_detect_initial i=521 node=0x152004220
+[LOG] returned_from_detect i=521
+[LOG] calling_detect_initial i=522 node=0x152005d50
+[LOG] returned_from_detect i=522
+[LOG] calling_detect_initial i=523 node=0x152005ac0
+[LOG] returned_from_detect i=523
+[LOG] calling_detect_initial i=524 node=0x152004220
+[LOG] returned_from_detect i=524
+[LOG] calling_detect_initial i=525 node=0x152004f40
+[LOG] returned_from_detect i=525
+[LOG] calling_detect_initial i=526 node=0x1520051d0
+[LOG] returned_from_detect i=526
+[LOG] calling_detect_initial i=527 node=0x152005470
+[LOG] returned_from_detect i=527
+[LOG] calling_detect_initial i=528 node=0x152004220
+[LOG] returned_from_detect i=528
+[LOG] calling_detect_initial i=529 node=0x150f04360
+[LOG] returned_from_detect i=529
+[LOG] calling_detect_initial i=530 node=0x150f04610
+[LOG] returned_from_detect i=530
+[LOG] calling_detect_initial i=531 node=0x152005470
+[LOG] returned_from_detect i=531
+[LOG] calling_detect_initial i=532 node=0x152008680
+[LOG] returned_from_detect i=532
+[LOG] calling_detect_initial i=533 node=0x150f048f0
+[LOG] returned_from_detect i=533
+[LOG] calling_detect_initial i=534 node=0x152005d50
+[LOG] returned_from_detect i=534
+[LOG] calling_detect_initial i=535 node=0x152005ff0
+[LOG] returned_from_detect i=535
+[LOG] calling_detect_initial i=536 node=0x152004ca0
+[LOG] returned_from_detect i=536
+[LOG] calling_detect_initial i=537 node=0x152004220
+[LOG] returned_from_detect i=537
+[LOG] calling_detect_initial i=538 node=0x1520067d0
+[LOG] returned_from_detect i=538
+[LOG] calling_detect_initial i=539 node=0x152005470
+[LOG] returned_from_detect i=539
+[LOG] calling_detect_initial i=540 node=0x152006a70
+[LOG] returned_from_detect i=540
+[LOG] calling_detect_initial i=541 node=0x150f04610
+[LOG] returned_from_detect i=541
+[LOG] calling_detect_initial i=542 node=0x152004760
+[LOG] returned_from_detect i=542
+[HIERARCHY] Created level 1: 'In' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'mm' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ta' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ts' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ob' (edge weight 0.00)
+[HIERARCHY] Created level 1: ' p' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'vi' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'us' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ni' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'sh' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'eb' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'br' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ru' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'im' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ed' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'el' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'af' (edge weight 0.00)
+[HIERARCHY] Created level 1: 'ft' (edge weight 0.00)
+[HIERARCHY] Created level 1: 't,' (edge weight 0.00)
+[DEBUG] BEFORE pattern free: pattern=0x152288dd0, pattern_nodes=0x151845600 (HypA)
+[DEBUG] activation_pattern_free ENTRY: pattern=0x152288dd0, nodes=0x153062800, activations=0x153066c00 (HypA)
+[DEBUG] freeing pattern->nodes: 0x153062800 (HypB)
+[DEBUG] freeing pattern struct: 0x152288dd0 (HypA)
+[DEBUG] AFTER pattern free: pattern=0x0 (HypA)
+[DEBUG] BEFORE pattern_nodes free: 0x151845600 (HypB)
+[DEBUG] AFTER pattern_nodes free: 0x0 (HypB)
+[LOG] process_input_entry mfile=0x150e05b40
+[DEBUG] ALLOCATED pattern_nodes: 0x151015c00, size=406 (HypB)
+[DEBUG] activation_pattern_create: pattern=0x150f4e120, nodes=0x15185d600, activations=0x151860a00, cap=1624 (HypA)
+╔════════════════════════════════════════════════════════════╗
+║         MELVIN LARGE CORPUS TRAINING                      ║
+╚════════════════════════════════════════════════════════════╝
+
+Output brain: trained_brain_1gb.m
+Input sources: 1
+
+Creating brain file...
+Starting training...
+
+
+Feeding file: training_data/wikipedia_1gb.txt

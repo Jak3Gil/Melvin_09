@@ -1,0 +1,1937 @@
+Paris is the capital of France
+London is the capital of England
+Berlin is the capital of Germany
+Rome is the capital of Italy
+Madrid is the capital of Spain
+
+France is in Europe
+England is in Europe
+Germany is in Europe
+Italy is in Europe
+Spain is in Europe
+
+The cat is an animal
+The dog is an animal
+The bird is an animal
+The fish is an animal
+The mouse is an animal
+
+Animals can move
+Animals need food
+Animals need water
+Animals can grow
+Animals can reproduce
+
+Red is a color
+Blue is a color
+Green is a color
+Yellow is a color
+Orange is a color
+
+Colors are visible
+Colors have wavelengths
+Colors can mix
+Red and blue make purple
+Yellow and blue make green
+
+Water is a liquid
+Ice is a solid
+Steam is a gas
+Water freezes at zero degrees
+Water boils at one hundred degrees
+
+The sun is a star
+The moon orbits Earth
+Earth orbits the sun
+Mars is a planet
+Jupiter is a planet
+
+Stars produce light
+Planets reflect light
+The sun is hot
+The moon is cold
+Space is a vacuum
+
+One plus one equals two
+Two plus two equals four
+Three plus three equals six
+Four plus four equals eight
+Five plus five equals ten
+
+Addition is commutative
+Multiplication is commutative
+Zero is neutral for addition
+One is neutral for multiplication
+Division by zero is undefined
+
+Morning comes before afternoon
+Afternoon comes before evening
+Evening comes before night
+Night comes before morning
+Days have twenty four hours
+
+January is the first month
+February is the second month
+March is the third month
+April is the fourth month
+May is the fifth month
+
+Spring comes after winter
+Summer comes after spring
+Fall comes after summer
+Winter comes after fall
+Seasons repeat in cycles
+
+Trees have roots
+Trees have trunks
+Trees have branches
+Trees have leaves
+Trees need sunlight
+
+Birds have wings
+Birds have feathers
+Birds can fly
+Birds lay eggs
+Birds build nests
+
+Fish have gills
+Fish have fins
+Fish live in water
+Fish can swim
+Fish lay eggs
+
+Humans have brains
+Humans have hearts
+Humans have lungs
+Humans can think
+Humans can speak
+
+Books contain words
+Words contain letters
+Letters form sentences
+Sentences express ideas
+Ideas can be shared
+
+Computers process data
+Data is stored in memory
+Memory can be read
+Memory can be written
+Programs control computers
+
+Energy cannot be created
+Energy cannot be destroyed
+Energy can change forms
+Heat is energy
+Light is energy
+
+Gravity pulls objects down
+Mass creates gravity
+Weight depends on gravity
+Objects fall at the same rate
+Air resistance slows falling
+
+Sound travels through air
+Sound is a wave
+Light is faster than sound
+Thunder follows lightning
+Echoes are reflected sound
+
+Hot objects emit light
+Cold objects absorb light
+Black absorbs all colors
+White reflects all colors
+Mirrors reflect light
+
+Plants need sunlight
+Plants need water
+Plants need carbon dioxide
+Plants produce oxygen
+Photosynthesis makes food
+
+Cells are basic units
+Cells contain DNA
+DNA stores information
+Genes are DNA segments
+Traits are inherited
+
+Atoms are very small
+Atoms have nuclei
+Nuclei have protons
+Nuclei have neutrons
+Electrons orbit nuclei
+
+Positive and negative attract
+Like charges repel
+Opposite charges attract
+Current is moving charge
+Voltage is electric pressure
+
+Force equals mass times acceleration
+Energy equals mass times speed squared
+Momentum equals mass times velocity
+Work equals force times distance
+Power equals work per time
+
+Circles have no corners
+Squares have four corners
+Triangles have three corners
+Rectangles have four sides
+Spheres are round
+
+Up is opposite to down
+Left is opposite to right
+Forward is opposite to backward
+In is opposite to out
+Hot is opposite to cold
+
+Big is larger than small
+Fast is quicker than slow
+Heavy is heavier than light
+Long is longer than short
+Wide is wider than narrow
+
+The sky is blue
+Grass is green
+Snow is white
+Coal is black
+Blood is red
+
+Morning is early
+Noon is midday
+Evening is late
+Midnight is very late
+Dawn is sunrise
+
+Children are young
+Adults are older
+Elderly are oldest
+Babies are youngest
+Teenagers are adolescent
+
+Happy is positive
+Sad is negative
+Angry is intense
+Calm is peaceful
+Excited is energetic
+
+North is a direction
+South is a direction
+East is a direction
+West is a direction
+Compass shows directions
+
+Mountains are high
+Valleys are low
+Rivers flow downward
+Lakes are still water
+Oceans are salty
+
+Rain falls from clouds
+Snow falls when cold
+Sun shines during day
+Moon shines at night
+Stars shine at night
+
+Fire is hot
+Ice is cold
+Steam is hot gas
+Smoke rises upward
+Ash falls downward
+
+Metal conducts electricity
+Wood does not conduct
+Copper is a metal
+Iron is a metal
+Gold is a metal
+
+Glass is transparent
+Wood is opaque
+Water is transparent
+Milk is opaque
+Air is transparent
+
+Sweet is a taste
+Sour is a taste
+Bitter is a taste
+Salty is a taste
+Umami is a taste
+
+Loud is high volume
+Quiet is low volume
+High is high pitch
+Low is low pitch
+Silence is no sound
+
+Rough is a texture
+Smooth is a texture
+Soft is a texture
+Hard is a texture
+Sticky is a texture
+
+Circle is a shape
+Square is a shape
+Triangle is a shape
+Rectangle is a shape
+Oval is a shape
+
+Cars have wheels
+Cars have engines
+Cars need fuel
+Cars transport people
+Cars drive on roads
+
+Planes have wings
+Planes can fly
+Planes need fuel
+Planes transport people
+Planes fly in air
+
+Boats have hulls
+Boats float on water
+Boats need propulsion
+Boats transport people
+Boats sail on water
+
+Trains have tracks
+Trains have cars
+Trains need power
+Trains transport people
+Trains run on rails
+
+Food provides energy
+Water provides hydration
+Sleep provides rest
+Exercise provides strength
+Medicine provides healing
+
+Reading improves knowledge
+Practice improves skill
+Study improves understanding
+Experience improves wisdom
+Teaching improves mastery
+
+Questions seek answers
+Problems seek solutions
+Mysteries seek explanations
+Puzzles seek completion
+Riddles seek solving
+
+Beginning starts first
+Middle comes next
+End comes last
+Start is beginning
+Finish is end
+
+Cause creates effect
+Action creates reaction
+Input creates output
+Question creates answer
+Problem creates solution
+
+Similar means alike
+Different means unlike
+Same means identical
+Opposite means contrary
+Related means connected
+
+Part is less than whole
+Whole contains parts
+Fragment is small part
+Complete has all parts
+Partial has some parts
+
+Always means every time
+Never means no time
+Sometimes means occasional
+Often means frequent
+Rarely means infrequent
+
+All means everything
+None means nothing
+Some means partial
+Many means numerous
+Few means scarce
+
+True is correct
+False is incorrect
+Right is correct
+Wrong is incorrect
+Accurate is precise
+
+Increase means grow
+Decrease means shrink
+Expand means enlarge
+Contract means reduce
+Maintain means keep
+
+Create means make
+Destroy means unmake
+Build means construct
+Break means damage
+Repair means fix
+
+Give means provide
+Take means receive
+Share means distribute
+Keep means retain
+Store means save
+
+Open means accessible
+Closed means blocked
+Locked means secured
+Unlocked means free
+Hidden means concealed
+
+Visible means seen
+Invisible means unseen
+Clear means obvious
+Obscure means unclear
+Transparent means see through
+
+Strong is powerful
+Weak is feeble
+Mighty is very strong
+Fragile is very weak
+Sturdy is durable
+
+Quick is fast
+Slow is not fast
+Rapid is very fast
+Gradual is slow change
+Instant is immediate
+
+Near is close
+Far is distant
+Adjacent is next to
+Remote is very far
+Nearby is close by
+
+Above is higher
+Below is lower
+Over is on top
+Under is beneath
+Between is middle
+
+Inside is within
+Outside is beyond
+Interior is inside
+Exterior is outside
+Internal is within
+
+Forward is ahead
+Backward is behind
+Onward is continuing
+Return is going back
+Advance is move forward
+
+Simple is easy
+Complex is difficult
+Complicated is very complex
+Basic is fundamental
+Advanced is sophisticated
+
+New is recent
+Old is ancient
+Modern is current
+Vintage is old style
+Contemporary is present
+
+Full is complete
+Empty is vacant
+Partial is incomplete
+Whole is entire
+Half is fifty percent
+
+Clean is pure
+Dirty is soiled
+Fresh is new clean
+Stale is old dirty
+Pristine is perfectly clean
+
+Smooth is even
+Rough is uneven
+Flat is level
+Bumpy is irregular
+Polished is very smooth
+
+Bright is luminous
+Dark is dim
+Light is not dark
+Shadow is blocked light
+Glow is soft light
+
+Warm is heated
+Cool is chilled
+Hot is very warm
+Cold is very cool
+Freezing is extremely cold
+
+Dry is without water
+Wet is with water
+Moist is slightly wet
+Damp is somewhat wet
+Soaked is very wet
+
+Thick is dense
+Thin is sparse
+Wide is broad
+Narrow is slim
+Shallow is not deep
+
+Heavy is weighty
+Light is not heavy
+Dense is concentrated
+Sparse is scattered
+Compact is tightly packed
+
+Soft is yielding
+Hard is rigid
+Flexible is bendable
+Stiff is inflexible
+Elastic is stretchy
+
+Sharp is pointed
+Dull is blunt
+Keen is very sharp
+Blunt is not sharp
+Jagged is irregularly sharp
+
+Straight is direct
+Curved is bent
+Crooked is not straight
+Twisted is spiraled
+Wavy is undulating
+
+Round is circular
+Flat is planar
+Spherical is ball shaped
+Cubic is box shaped
+Cylindrical is tube shaped
+
+Horizontal is level
+Vertical is upright
+Diagonal is slanted
+Parallel is equidistant
+Perpendicular is right angle
+
+Solid is firm
+Liquid flows
+Gas expands
+Plasma is ionized
+Matter has mass
+
+Positive is greater than zero
+Negative is less than zero
+Zero is neutral
+Infinity is endless
+Finite is limited
+
+Whole numbers are integers
+Fractions are parts
+Decimals are fractions
+Percentages are hundredths
+Ratios are comparisons
+
+Equal means same value
+Greater means more than
+Less means fewer than
+Maximum is largest
+Minimum is smallest
+
+First is number one
+Second is number two
+Third is number three
+Last is final
+Next is following
+
+Single is one
+Double is two
+Triple is three
+Quadruple is four
+Multiple is many
+
+Primary is first importance
+Secondary is second importance
+Tertiary is third importance
+Main is most important
+Minor is less important
+
+Essential is necessary
+Optional is not required
+Mandatory is required
+Voluntary is by choice
+Compulsory is forced
+
+Possible is can happen
+Impossible is cannot happen
+Probable is likely
+Improbable is unlikely
+Certain is definite
+
+Real is actual
+Imaginary is not real
+Concrete is tangible
+Abstract is conceptual
+Virtual is simulated
+
+Natural is from nature
+Artificial is man made
+Organic is living matter
+Synthetic is manufactured
+Genuine is authentic
+
+Common is frequent
+Rare is infrequent
+Unique is one of kind
+Typical is usual
+Unusual is atypical
+
+Normal is standard
+Abnormal is not normal
+Regular is consistent
+Irregular is inconsistent
+Ordinary is common
+
+Special is distinctive
+General is broad
+Specific is particular
+Universal is everywhere
+Local is nearby
+
+Public is open to all
+Private is restricted
+Personal is individual
+Shared is communal
+Exclusive is limited access
+
+Active is in motion
+Passive is not active
+Dynamic is changing
+Static is unchanging
+Stable is steady
+
+Temporary is short term
+Permanent is long term
+Eternal is forever
+Momentary is brief
+Lasting is enduring
+
+Past is before now
+Present is now
+Future is after now
+History is past events
+Tomorrow is next day
+
+Cause produces effect
+Effect follows cause
+Result is outcome
+Consequence is result
+Impact is effect
+
+Reason is why
+Purpose is intention
+Goal is objective
+Aim is target
+Objective is goal
+
+Method is how
+Process is procedure
+Technique is method
+Approach is way
+Strategy is plan
+
+Question asks
+Answer responds
+Query seeks information
+Reply is response
+Solution solves problem
+
+Learn is acquire knowledge
+Teach is transfer knowledge
+Study is focused learning
+Practice is repeated action
+Master is expert level
+
+Remember is recall
+Forget is lose memory
+Memorize is intentional remember
+Remind is help remember
+Recognize is identify known
+
+Understand is comprehend
+Know is have knowledge
+Believe is accept as true
+Think is use mind
+Reason is logical thinking
+
+See is visual perception
+Hear is auditory perception
+Touch is tactile perception
+Taste is gustatory perception
+Smell is olfactory perception
+
+Walk is move on feet
+Run is fast walk
+Jump is leap upward
+Climb is ascend
+Crawl is move on ground
+
+Eat is consume food
+Drink is consume liquid
+Breathe is inhale air
+Sleep is rest unconscious
+Wake is become conscious
+
+Speak is produce words
+Listen is receive sound
+Read is interpret text
+Write is create text
+Communicate is exchange information
+
+Think is mental process
+Feel is emotional process
+Act is physical process
+React is respond to stimulus
+Interact is mutual action
+
+Love is strong affection
+Hate is strong aversion
+Like is mild affection
+Dislike is mild aversion
+Prefer is choose over
+
+Want is desire
+Need is require
+Wish is hope for
+Hope is expect positively
+Fear is expect negatively
+
+Happy is joyful emotion
+Sad is sorrowful emotion
+Angry is hostile emotion
+Calm is peaceful emotion
+Excited is energetic emotion
+
+Brave is courageous
+Afraid is fearful
+Confident is self assured
+Nervous is anxious
+Relaxed is at ease
+
+Smart is intelligent
+Wise is experienced intelligence
+Clever is quick thinking
+Foolish is lacking wisdom
+Ignorant is lacking knowledge
+
+Kind is benevolent
+Mean is malevolent
+Generous is giving
+Selfish is taking
+Helpful is assisting
+
+Honest is truthful
+Dishonest is untruthful
+Sincere is genuine
+Fake is not genuine
+Authentic is real
+
+Patient is tolerant waiting
+Impatient is intolerant waiting
+Calm is composed
+Anxious is worried
+Peaceful is tranquil
+
+Careful is cautious
+Careless is reckless
+Attentive is focused
+Distracted is unfocused
+Mindful is aware
+
+Polite is courteous
+Rude is discourteous
+Respectful is honoring
+Disrespectful is dishonoring
+Considerate is thoughtful
+
+Friendly is amicable
+Hostile is antagonistic
+Welcoming is inviting
+Rejecting is refusing
+Accepting is receiving
+
+Agree is concur
+Disagree is dissent
+Approve is accept
+Disapprove is reject
+Consent is permission
+
+Allow is permit
+Forbid is prohibit
+Enable is make possible
+Prevent is make impossible
+Block is obstruct
+
+Help is assist
+Hinder is obstruct
+Support is aid
+Oppose is resist
+Cooperate is work together
+
+Connect is link
+Disconnect is unlink
+Join is unite
+Separate is divide
+Attach is fasten
+
+Combine is merge
+Split is divide
+Mix is blend
+Sort is organize
+Group is cluster
+
+Include is contain
+Exclude is omit
+Comprise is consist of
+Contain is hold within
+Encompass is include all
+
+Begin is start
+End is finish
+Continue is keep going
+Stop is cease
+Pause is temporary stop
+
+Increase is make more
+Decrease is make less
+Multiply is increase greatly
+Divide is split into parts
+Double is make twice
+
+Add is combine
+Subtract is remove
+Sum is total
+Difference is subtraction result
+Product is multiplication result
+
+Move is change position
+Stay is remain position
+Go is depart
+Come is arrive
+Return is go back
+
+Push is force away
+Pull is force toward
+Lift is raise up
+Drop is let fall
+Carry is transport
+
+Hold is grasp
+Release is let go
+Grab is seize quickly
+Catch is intercept
+Throw is propel away
+
+Open is make accessible
+Close is make inaccessible
+Lock is secure shut
+Unlock is open secured
+Seal is close tightly
+
+Turn is rotate
+Spin is rotate rapidly
+Twist is rotate partially
+Roll is rotate while moving
+Revolve is orbit around
+
+Bend is curve
+Straighten is make straight
+Fold is bend over
+Unfold is reverse fold
+Crease is sharp fold
+
+Break is separate forcefully
+Fix is repair broken
+Crack is partial break
+Shatter is break into pieces
+Mend is repair carefully
+
+Cut is divide with blade
+Slice is cut thinly
+Chop is cut roughly
+Trim is cut edges
+Carve is cut shapes
+
+Press is apply pressure
+Squeeze is press firmly
+Crush is press destructively
+Compress is press together
+Flatten is make flat
+
+Stretch is extend
+Shrink is contract
+Expand is grow larger
+Compress is make smaller
+Inflate is fill with gas
+
+Heat is add thermal energy
+Cool is remove thermal energy
+Warm is make warmer
+Chill is make cooler
+Freeze is make solid
+
+Melt is make liquid
+Boil is heat to bubbling
+Evaporate is become gas
+Condense is become liquid
+Solidify is become solid
+
+Light is illuminate
+Darken is remove light
+Brighten is increase light
+Dim is decrease light
+Shine is emit light
+
+Color is add pigment
+Bleach is remove color
+Dye is change color
+Paint is apply color
+Stain is discolor
+
+Clean is remove dirt
+Dirty is add dirt
+Wash is clean with water
+Wipe is clean by rubbing
+Scrub is clean vigorously
+
+Dry is remove water
+Wet is add water
+Soak is saturate with water
+Drain is remove liquid
+Absorb is soak up
+
+Fill is make full
+Empty is make empty
+Pour is transfer liquid
+Spill is accidentally pour
+Overflow is exceed capacity
+
+Grow is increase size
+Shrink is decrease size
+Expand is grow outward
+Contract is shrink inward
+Swell is expand from inside
+
+Build is construct
+Destroy is demolish
+Create is bring into existence
+Eliminate is remove completely
+Produce is make
+
+Start is begin
+Finish is complete
+Continue is persist
+Interrupt is break continuity
+Resume is continue after pause
+
+Accelerate is increase speed
+Decelerate is decrease speed
+Speed up is accelerate
+Slow down is decelerate
+Maintain speed is constant velocity
+
+Rise is move upward
+Fall is move downward
+Ascend is go up
+Descend is go down
+Climb is ascend with effort
+
+Enter is go inside
+Exit is go outside
+Arrive is reach destination
+Depart is leave origin
+Pass through is traverse
+
+Approach is come near
+Retreat is go away
+Advance is move forward
+Withdraw is move backward
+Surround is encircle
+
+Follow is go after
+Lead is go before
+Chase is pursue
+Flee is escape
+Track is follow trail
+
+Search is look for
+Find is discover
+Seek is search actively
+Locate is find position
+Discover is find new
+
+Look is direct gaze
+See is perceive visually
+Watch is observe attentively
+Observe is notice carefully
+Examine is inspect closely
+
+Listen is attend to sound
+Hear is perceive sound
+Speak is produce speech
+Talk is converse
+Whisper is speak quietly
+
+Shout is speak loudly
+Yell is shout
+Scream is loud yell
+Murmur is speak softly
+Mumble is speak unclearly
+
+Ask is request information
+Tell is provide information
+Explain is clarify
+Describe is depict
+Narrate is tell story
+
+Question is interrogate
+Answer is respond
+Reply is answer back
+Respond is react
+Acknowledge is recognize
+
+Agree is share opinion
+Disagree is oppose opinion
+Argue is dispute
+Debate is formal argue
+Discuss is talk about
+
+Suggest is propose
+Recommend is advise
+Advise is give guidance
+Counsel is provide advice
+Guide is direct
+
+Command is order
+Obey is follow command
+Request is polite command
+Demand is forceful request
+Insist is demand firmly
+
+Promise is commit to
+Guarantee is assure
+Pledge is solemn promise
+Vow is sacred promise
+Swear is affirm strongly
+
+Believe is accept truth
+Doubt is question truth
+Trust is have confidence
+Suspect is distrust
+Verify is confirm truth
+
+Prove is demonstrate truth
+Disprove is show false
+Evidence supports proof
+Fact is verified truth
+Opinion is personal belief
+
+Certain is sure
+Uncertain is unsure
+Confident is self sure
+Doubtful is uncertain
+Definite is certain
+
+Likely is probable
+Unlikely is improbable
+Possible is can occur
+Impossible is cannot occur
+Inevitable is must occur
+
+Necessary is required
+Sufficient is enough
+Essential is critically necessary
+Optional is not required
+Mandatory is obligatory
+
+Important is significant
+Trivial is insignificant
+Critical is extremely important
+Vital is essential
+Crucial is decisive
+
+Useful is helpful
+Useless is not helpful
+Valuable is precious
+Worthless is no value
+Beneficial is advantageous
+
+Good is positive quality
+Bad is negative quality
+Better is more good
+Worse is more bad
+Best is most good
+
+Excellent is very good
+Poor is very bad
+Superior is better than
+Inferior is worse than
+Average is typical
+
+Perfect is flawless
+Imperfect is flawed
+Ideal is perfect model
+Defective is faulty
+Optimal is best possible
+
+Complete is finished
+Incomplete is unfinished
+Partial is incomplete
+Total is complete sum
+Entire is complete whole
+
+Success is achievement
+Failure is non achievement
+Victory is win
+Defeat is loss
+Triumph is great victory
+
+Progress is advancement
+Regress is backward movement
+Improve is make better
+Worsen is make worse
+Develop is grow capability
+
+Advantage is benefit
+Disadvantage is drawback
+Benefit is positive result
+Harm is negative result
+Profit is financial gain
+
+Gain is acquire
+Lose is not keep
+Win is succeed in competition
+Lose is fail in competition
+Earn is gain through effort
+
+Give is transfer to
+Receive is accept from
+Send is cause to go
+Get is obtain
+Obtain is acquire
+
+Have is possess
+Own is have property
+Belong is be property of
+Possess is have control
+Control is have power over
+
+Use is employ
+Apply is put to use
+Utilize is make use of
+Employ is use for purpose
+Exploit is use fully
+
+Make is create
+Do is perform
+Act is take action
+Perform is carry out
+Execute is perform fully
+
+Try is attempt
+Attempt is try
+Effort is exertion
+Strive is try hard
+Endeavor is serious attempt
+
+Can is able to
+Cannot is unable to
+Able is capable
+Unable is incapable
+Capable is having ability
+
+Will is future tense
+Would is conditional
+Shall is formal will
+Should is ought to
+Must is have to
+
+May is permitted
+Might is possible
+Could is past can
+Ought is should
+Need is require
+
+Want is desire
+Desire is want strongly
+Wish is hope for
+Hope is desire with expectation
+Expect is anticipate
+
+Plan is intend
+Intend is have purpose
+Purpose is reason
+Aim is direct toward
+Target is aimed at goal
+
+Decide is choose
+Choose is select
+Select is pick
+Pick is choose
+Opt is choose option
+
+Prefer is like better
+Favor is prefer
+Choose is make selection
+Reject is refuse
+Accept is agree to receive
+
+Like is enjoy
+Dislike is not enjoy
+Love is like greatly
+Hate is dislike greatly
+Enjoy is take pleasure
+
+Please is cause satisfaction
+Displease is cause dissatisfaction
+Satisfy is fulfill need
+Frustrate is prevent satisfaction
+Delight is please greatly
+
+Surprise is unexpected event
+Expect is anticipate
+Anticipate is foresee
+Predict is forecast
+Guess is estimate
+
+Know is have knowledge
+Unknown is not known
+Familiar is known
+Strange is unfamiliar
+Recognize is identify as known
+
+Understand is comprehend
+Comprehend is understand fully
+Grasp is understand
+Realize is become aware
+Perceive is become aware through senses
+
+Notice is become aware
+Ignore is not notice
+Attend is pay attention
+Neglect is fail to attend
+Focus is concentrate attention
+
+Remember is recall memory
+Forget is fail to recall
+Recall is bring to mind
+Recollect is remember
+Remind is cause to remember
+
+Learn is acquire knowledge
+Unlearn is forget learned
+Study is learn systematically
+Research is investigate
+Discover is find new knowledge
+
+Teach is impart knowledge
+Instruct is teach formally
+Educate is teach broadly
+Train is teach skill
+Coach is guide learning
+
+Practice is repeat for skill
+Rehearse is practice performance
+Exercise is practice activity
+Drill is repetitive practice
+Review is practice again
+
+Test is evaluate
+Examine is test thoroughly
+Assess is evaluate
+Measure is quantify
+Evaluate is judge value
+
+Compare is find similarities
+Contrast is find differences
+Distinguish is tell apart
+Differentiate is distinguish
+Identify is recognize
+
+Classify is categorize
+Categorize is group by type
+Sort is arrange by criteria
+Organize is arrange systematically
+Arrange is put in order
+
+Analyze is examine parts
+Synthesize is combine parts
+Integrate is unify parts
+Separate is divide parts
+Isolate is separate completely
+
+Simplify is make simpler
+Complicate is make complex
+Clarify is make clear
+Obscure is make unclear
+Explain is make understandable
+
+Describe is depict
+Define is state meaning
+Specify is state precisely
+Detail is describe fully
+Elaborate is explain in detail
+
+Summarize is condense
+Abbreviate is shorten
+Expand is make longer
+Extend is make longer
+Prolong is extend time
+
+Repeat is do again
+Duplicate is make copy
+Copy is reproduce
+Replicate is duplicate exactly
+Reproduce is create again
+
+Change is make different
+Alter is change
+Modify is change partially
+Transform is change completely
+Convert is change form
+
+Replace is substitute
+Substitute is use instead
+Exchange is swap
+Swap is exchange
+Trade is exchange goods
+
+Keep is retain
+Retain is keep
+Maintain is keep in condition
+Preserve is keep from harm
+Conserve is preserve resources
+
+Protect is shield from harm
+Defend is protect against attack
+Guard is watch protectively
+Shield is protect with barrier
+Shelter is provide protection
+
+Attack is assault
+Defend is resist attack
+Fight is engage in combat
+Battle is sustained fight
+War is large scale conflict
+
+Peace is absence of war
+Conflict is disagreement
+Dispute is argument
+Quarrel is angry dispute
+Reconcile is restore peace
+
+Unite is join together
+Divide is separate
+Unify is make one
+Split is divide
+Merge is combine into one
+
+Gather is collect together
+Scatter is spread apart
+Assemble is gather parts
+Disperse is scatter
+Distribute is spread out
+
+Concentrate is gather densely
+Dilute is make less concentrated
+Condense is compress
+Expand is spread out
+Compact is compress tightly
+
+Attract is draw toward
+Repel is push away
+Magnetize is make magnetic
+Charge is add electric charge
+Discharge is remove charge
+
+Balance is equilibrium
+Imbalance is lack of balance
+Stable is balanced
+Unstable is unbalanced
+Steady is consistently stable
+
+Vibrate is oscillate
+Oscillate is swing back and forth
+Wave is oscillating disturbance
+Pulse is rhythmic wave
+Beat is regular pulse
+
+Flow is move smoothly
+Stream is flow continuously
+Current is flowing movement
+Tide is periodic flow
+Flood is excessive flow
+
+Contain is hold within
+Hold is keep in place
+Store is keep for later
+Save is preserve
+Reserve is set aside
+
+Spend is use up
+Consume is use completely
+Waste is use inefficiently
+Conserve is use efficiently
+Economize is minimize use
+
+Produce is create output
+Generate is produce
+Yield is produce result
+Output is produced result
+Product is thing produced
+
+Input is what goes in
+Output is what comes out
+Process is transform input to output
+System is organized process
+Function is purpose of system
+
+Cause is reason for effect
+Effect is result of cause
+Influence is affect
+Affect is have effect on
+Impact is strong effect
+
+Depend is rely on
+Rely is depend on
+Require is need
+Need is require
+Necessitate is make necessary
+
+Enable is make possible
+Disable is make impossible
+Allow is permit
+Prevent is stop from happening
+Block is prevent passage
+
+Facilitate is make easier
+Hinder is make harder
+Help is assist
+Harm is damage
+Benefit is help
+
+Improve is make better
+Degrade is make worse
+Enhance is improve
+Diminish is reduce
+Optimize is make optimal
+
+Maximize is make maximum
+Minimize is make minimum
+Increase is make more
+Decrease is make less
+Adjust is change to fit
+
+Regulate is control
+Control is direct
+Manage is control effectively
+Govern is rule
+Administer is manage
+
+Organize is arrange systematically
+Coordinate is harmonize
+Synchronize is coordinate timing
+Align is arrange in line
+Orient is establish direction
+
+Direct is guide
+Guide is show way
+Lead is go before
+Follow is go after
+Accompany is go with
+
+Assist is help
+Support is provide assistance
+Aid is help
+Collaborate is work together
+Partner is work as pair
+
+Compete is strive against
+Cooperate is work together
+Oppose is resist
+Ally is partner with
+Unite is join forces
+
+Dominate is control completely
+Submit is yield control
+Conquer is overcome
+Surrender is give up
+Yield is give way
+
+Resist is oppose force
+Persist is continue despite resistance
+Endure is withstand
+Tolerate is endure
+Withstand is resist successfully
+
+Adapt is adjust to conditions
+Adjust is adapt
+Accommodate is adapt to
+Conform is match standard
+Comply is follow rules
+
+Innovate is create new
+Invent is create new thing
+Discover is find existing
+Create is bring into being
+Design is plan creation
+
+Construct is build
+Assemble is put together
+Manufacture is make in quantity
+Produce is make
+Fabricate is construct
+
+Install is put in place
+Remove is take away
+Insert is put into
+Extract is take out
+Embed is insert firmly
+
+Attach is fasten to
+Detach is unfasten from
+Connect is link
+Disconnect is unlink
+Bond is attach strongly
+
+Wrap is cover by winding
+Unwrap is remove wrapping
+Cover is place over
+Uncover is remove cover
+Expose is make visible
+
+Hide is conceal
+Reveal is make visible
+Show is display
+Display is exhibit
+Exhibit is show publicly
+
+Demonstrate is show how
+Illustrate is demonstrate with examples
+Exemplify is serve as example
+Represent is stand for
+Symbolize is represent symbolically
+
+Mean is signify
+Signify is indicate meaning
+Indicate is point to
+Denote is explicitly mean
+Connote is implicitly suggest
+
+Imply is suggest indirectly
+Suggest is propose
+Propose is suggest formally
+Recommend is suggest favorably
+Advise is recommend
+
+Warn is alert to danger
+Alert is warn
+Notify is inform
+Inform is give information
+Announce is inform publicly
+
+Declare is state formally
+Proclaim is declare publicly
+Assert is state confidently
+Claim is assert ownership
+Maintain is assert persistently
+
+Confirm is verify truth
+Deny is assert not true
+Admit is acknowledge truth
+Confess is admit wrongdoing
+Acknowledge is accept truth
+
+Affirm is assert positively
+Negate is assert negatively
+Contradict is assert opposite
+Oppose is resist
+Challenge is dispute
+
+Support is back up
+Endorse is support publicly
+Advocate is support actively
+Promote is support advancement
+Champion is defend vigorously
+
+Criticize is point out faults
+Praise is express approval
+Compliment is express admiration
+Commend is praise formally
+Applaud is show approval
+
+Blame is assign fault
+Credit is assign merit
+Accuse is charge with fault
+Excuse is forgive fault
+Forgive is pardon
+
+Punish is penalize
+Reward is give for merit
+Penalize is impose penalty
+Fine is monetary penalty
+Sentence is judicial penalty
+
+Judge is evaluate
+Evaluate is assess value
+Assess is evaluate
+Appraise is evaluate worth
+Estimate is approximate value
+
+Calculate is compute
+Compute is calculate
+Determine is find out
+Ascertain is determine certainly
+Establish is determine firmly
+
+Assume is suppose without proof
+Suppose is assume
+Presume is assume based on probability
+Infer is conclude from evidence
+Deduce is infer logically
+
+Conclude is reach end judgment
+Decide is reach decision
+Resolve is decide firmly
+Determine is conclude
+Settle is resolve finally
+
+Solve is find solution
+Resolve is solve
+Answer is provide solution
+Address is deal with
+Handle is manage
+
+Deal with is address
+Cope with is deal with difficulty
+Manage is handle successfully
+Overcome is defeat difficulty
+Surmount is overcome
+
+Achieve is accomplish
+Accomplish is complete successfully
+Attain is achieve
+Reach is attain
+Fulfill is achieve completely
+
+Succeed is achieve goal
+Fail is not succeed
+Win is succeed in competition
+Lose is fail in competition
+Prevail is win ultimately
+
+Strive is try hard
+Struggle is strive with difficulty
+Labor is work hard
+Toil is labor strenuously
+Work is exert effort
+
+Rest is cease work
+Relax is rest
+Repose is rest peacefully
+Recuperate is recover by rest
+Recover is return to normal
+
+Tire is become weary
+Exhaust is tire completely
+Fatigue is tire
+Weary is tired
+Energize is give energy
+
+Strengthen is make strong
+Weaken is make weak
+Reinforce is strengthen
+Undermine is weaken
+Fortify is strengthen greatly
+
+Encourage is inspire confidence
+Discourage is reduce confidence
+Motivate is provide reason
+Inspire is motivate strongly
+Stimulate is excite to action
+
+Excite is arouse
+Calm is make peaceful
+Soothe is calm
+Agitate is disturb
+Disturb is interrupt peace
+
+Comfort is ease distress
+Distress is cause suffering
+Console is comfort
+Reassure is restore confidence
+Cheer is make happy
+
+Entertain is amuse
+Amuse is entertain
+Bore is fail to interest
+Interest is engage attention
+Fascinate is interest greatly
+
+Attract is draw attention
+Repel is drive away
+Appeal is attract
+Disgust is repel strongly
+Charm is attract by pleasing
+
+Please is satisfy
+Satisfy is please
+Gratify is satisfy
+Delight is please greatly
+Disappoint is fail to satisfy
+
+Surprise is cause wonder
+Astonish is surprise greatly
+Amaze is astonish
+Shock is surprise unpleasantly
+Startle is surprise suddenly
+
+Confuse is make unclear
+Clarify is make clear
+Puzzle is confuse
+Perplex is puzzle greatly
+Mystify is puzzle completely
+
+Understand is comprehend
+Misunderstand is comprehend incorrectly
+Grasp is understand
+Realize is understand fully
+Appreciate is understand value
+
+Value is regard highly
+Treasure is value greatly
+Cherish is treasure
+Prize is value highly
+Esteem is respect highly
+
+Respect is regard with esteem
+Disrespect is lack respect
+Honor is show respect
+Dishonor is show disrespect
+Revere is respect deeply
+
+Admire is regard with approval
+Despise is regard with contempt
+Adore is love deeply
+Loathe is hate intensely
+Worship is revere religiously
+
+Obey is follow commands
+Disobey is not obey
+Comply is obey
+Defy is refuse to obey
+Rebel is resist authority
+
+Submit is yield to authority
+Resist is oppose
+Surrender is give up resistance
+Capitulate is surrender
+Yield is give way
+
+Dominate is exercise control
+Control is exercise authority
+Rule is govern
+Govern is rule
+Reign is rule as monarch
+
+Lead is guide
+Follow is be guided
+Direct is lead
+Guide is lead by showing
+Conduct is lead by directing
+
+Influence is affect behavior
+Persuade is influence by argument
+Convince is persuade successfully
+Coerce is force
+Compel is force strongly
+
+Force is compel
+Pressure is apply force
+Push is exert pressure
+Drive is push forward
+Propel is drive forward
+
+Draw is pull
+Pull is draw toward
+Drag is pull with effort
+Haul is drag with great effort
+Tow is pull behind
+
+Lift is raise
+Raise is lift up
+Elevate is raise
+Hoist is lift with device
+Lower is move down
+
+Drop is let fall
+Fall is descend by gravity
+Descend is go down
+Plunge is fall rapidly
+Tumble is fall rolling
+
+Slide is move smoothly
+Glide is slide effortlessly
+Slip is slide accidentally
+Skid is slide uncontrolled
+Coast is glide by momentum
+
+Roll is rotate while moving
+Rotate is turn around axis
+Spin is rotate rapidly
+Whirl is spin rapidly
+Twirl is spin lightly
+
+Swing is move back and forth
+Sway is swing gently
+Rock is sway
+Wobble is rock unsteadily
+Tilt is lean to side
+
+Shake is move rapidly back and forth
+Tremble is shake slightly
+Shiver is shake from cold
+Quiver is shake slightly
+Vibrate is shake rapidly
+
+Bounce is spring back
+Rebound is bounce back
+Spring is bounce elastically
+Leap is jump high
+Jump is propel upward
+
+Hop is jump on one foot
+Skip is hop alternating
+Bound is leap forward
+Vault is leap over
+Hurdle is leap over obstacle
+
+March is walk rhythmically
+Stride is walk with long steps
+Stroll is walk leisurely
+Wander is walk aimlessly
+Roam is wander widely
+
+Rush is move hastily
+Hurry is rush
+Hasten is hurry
+Speed is move fast
+Race is move very fast
+
+Dash is run short distance
+Sprint is run at top speed
+Jog is run slowly
+Trot is jog
+Gallop is run fast on four legs
+
+Creep is move slowly quietly
+Crawl is creep on hands and knees
+Slither is crawl like snake
+Wriggle is twist while moving
+Squirm is wriggle
+
+Swim is move through water
+Float is rest on water surface
+Sink is descend in water
+Dive is plunge into water
+Submerge is go under water
+
+Fly is move through air
+Soar is fly high
+Glide is fly without power
+Hover is remain in air
+Land is descend to ground
+
+Sail is travel by boat
+Navigate is direct course
+Steer is control direction
+Pilot is navigate vehicle
+Drive is operate vehicle
+
+Ride is travel on vehicle
+Board is get on vehicle
+Disembark is get off vehicle
+Embark is board ship
+Depart is leave
+
+Journey is travel
+Travel is go from place to place
+Voyage is long journey
+Trip is short journey
+Expedition is organized journey
+
+Visit is go to see
+Tour is visit multiple places
+Explore is investigate new place
+Wander is travel aimlessly
+Trek is journey on foot
+
+Arrive is reach destination
+Reach is arrive at
+Attain is reach goal
+Achieve is attain
+Accomplish is achieve
+
+Depart is leave
+Leave is go away
+Exit is go out
+Withdraw is leave
+Retreat is withdraw
+
+Return is come back
+Come back is return
+Go back is return
+Revisit is visit again
+Recur is happen again
+
+Happen is occur
+Occur is take place
+Take place is happen
+Transpire is occur
+Unfold is develop
+
+Develop is grow
+Evolve is develop gradually
+Progress is develop forward
+Advance is progress
+Mature is develop fully
+
+Begin is start
+Start is begin
+Commence is begin formally
+Initiate is start
+Launch is start forcefully
+
+Continue is go on
+Proceed is continue
+Persist is continue firmly
+Endure is continue through hardship
+Last is continue in time
+
+Cease is stop
+Stop is cease
+Halt is stop suddenly
+Terminate is end
+Conclude is end
+
+Finish is complete
+Complete is finish
+Finalize is complete finally
+Consummate is complete perfectly
+Culminate is reach climax
+
+End is final point
+Conclusion is end
+Finale is final part
+Termination is ending
+Closure is final end

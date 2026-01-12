@@ -3,7 +3,7 @@
 #include <string.h>
 #include <time.h>
 #include <sys/time.h>
-#include "melvin.h"
+#include "src/melvin.h"
 
 // Get current time in microseconds
 static double get_time_us(void) {

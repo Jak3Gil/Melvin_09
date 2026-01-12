@@ -1,33 +1,26 @@
+#include "src/melvin.h"
 #include <stdio.h>
-#include "melvin.h"
+#include <string.h>
 
 int main() {
-    // Create brain
+    printf("Creating .m file...\n");
     MelvinMFile *mfile = melvin_m_create("test_debug.m");
     if (!mfile) {
-        fprintf(stderr, "Failed to create brain\n");
+        printf("Failed to create file\n");
         return 1;
     }
     
-    // Input: "hello"
+    printf("Writing input...\n");
     const char *input = "hello";
-    melvin_m_universal_input_write(mfile, (const uint8_t*)input, 5);
+    melvin_m_universal_input_write(mfile, (const uint8_t*)input, strlen(input));
     
-    printf("Before process_input:\n");
-    printf("  Nodes: %zu\n", melvin_m_get_node_count(mfile));
-    printf("  Edges: %zu\n", melvin_m_get_edge_count(mfile));
-    
-    // Process
+    printf("Processing input...\n");
     int result = melvin_m_process_input(mfile);
+    printf("Process result: %d\n", result);
     
-    printf("\nAfter process_input:\n");
-    printf("  Nodes: %zu\n", melvin_m_get_node_count(mfile));
-    printf("  Edges: %zu\n", melvin_m_get_edge_count(mfile));
-    printf("  Output size: %zu\n", melvin_m_universal_output_size(mfile));
-    printf("  Result: %d\n", result);
-    
-    // Close
+    printf("Closing file...\n");
     melvin_m_close(mfile);
     
+    printf("Done!\n");
     return 0;
 }
