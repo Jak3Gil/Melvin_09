@@ -61,6 +61,13 @@ Every decision uses only information available to the node itself and its immedi
 - Scales to billions of nodes efficiently
 - Self-organization emerges from local interactions
 
+**Relative Thresholds (Brain-Like):**
+- Output readiness: Nodes fire relative to strongest signal, not absolute threshold
+- If strongest activation is 0.5, then 0.3 is significant relative to it
+- If strongest is 0.1, then 0.05 might be significant relative to it
+- Threshold adapts to activation variance (high variance = stricter, low variance = more permissive)
+- No hardcoded thresholds: all comparisons are relative to local context
+
 ### 2. No Hardcoded Limits or Thresholds
 
 All thresholds and limits emerge from the data itself, never from programmer decisions. Values are **data-driven** (computed from model outputs), like LLMs use softmax over logits.
@@ -91,6 +98,13 @@ Everything learned helps learn the next thing. Existing knowledge accelerates fi
 - Blank nodes enable generalization through explicit categories
 - Edge weights guide exploration to relevant patterns
 - Knowledge compression: 1,000 patterns → 100 concepts → 10 meta-concepts → 1 super-concept
+
+**Brain-Like Hierarchy Formation:**
+- Hierarchies form naturally from repeated patterns (synaptic consolidation)
+- Pure competition: Strong edges (relative_strength > 1.0) automatically form hierarchies
+- No hardcoded thresholds: More repetitions → stronger edge → hierarchy forms automatically
+- Mini nets learn from outcomes (reinforcement) but don't block formation
+- Self-growing: Patterns that repeat often naturally consolidate into hierarchies
 
 ### 5. Adaptive Behavior
 
@@ -128,6 +142,14 @@ Abstraction levels are tracked explicitly. Hierarchies are concrete nodes, not i
 - Abstraction levels tracked explicitly
 - Enables compression through abstraction
 - Transparent and debuggable
+
+**How Hierarchies Form (Brain-Like):**
+- Repeated patterns strengthen edges through Hebbian learning
+- When an edge is stronger than local average (relative_strength > 1.0), it naturally forms a hierarchy
+- No "if-then" rules: Formation is pure competition, data-driven
+- Mini nets learn from hierarchy outcomes (useful vs not) but don't block formation
+- Recursive: Hierarchies can combine into higher-level hierarchies
+- Self-organizing: System grows its own abstraction levels from experience
 
 ---
 

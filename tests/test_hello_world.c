@@ -1,123 +1,85 @@
-#include "melvin.h"
-#include "melvin_in_port.h"
+/* Test hello world pattern */
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include "../src/melvin.h"
 
-int main(int argc, char *argv[]) {
-    const char *brain_file = (argc > 1) ? argv[1] : "test_hello_world_brain.m";
+int main() {
+    printf("=== Hello World Test ===\n\n");
     
-    printf("=== Testing Hello World Association Learning ===\n\n");
+    const char *test_file = "test_hello.m";
+    unlink(test_file);
     
-    // Create or load brain
-    MelvinMFile *mfile = melvin_m_load(brain_file);
+    MelvinMFile *mfile = melvin_m_create(test_file);
     if (!mfile) {
-        printf("Creating new brain: %s\n", brain_file);
-        mfile = melvin_m_create(brain_file);
-        if (!mfile) {
-            fprintf(stderr, "Failed to create brain file\n");
-            return 1;
-        }
-    } else {
-        printf("Loaded existing brain: %s\n", brain_file);
+        printf("Failed to create mfile\n");
+        return 1;
     }
     
-    // Step 1: Train with "hello world" multiple times
-    printf("\n=== Step 1: Training ===\n");
-    const char *training_input = "hello world";
-    printf("Training input: '%s'\n", training_input);
-    
-    for (int i = 1; i <= 10; i++) {
-        printf("Training iteration %d... ", i);
-        fflush(stdout);
-        
-        // Process input
-        melvin_in_port_handle_buffer(mfile, 0, (uint8_t*)training_input, strlen(training_input));
-        
-        // Check output size
-        size_t output_size = melvin_m_universal_output_size(mfile);
-        if (output_size > 0) {
-            printf("(output: %zu bytes) ", output_size);
-        }
-        
-        // Save after each iteration
-        melvin_m_save(mfile);
-        printf("done\n");
+    // Train on "hello world" multiple times
+    const char *pattern = "hello world";
+    printf("Training on pattern '%s' 20 times...\n", pattern);
+    for (int i = 0; i < 20; i++) {
+        melvin_m_universal_input_write(mfile, (const uint8_t*)pattern, strlen(pattern));
+        melvin_m_process_input(mfile);
+        melvin_m_universal_output_clear(mfile);
     }
     
-    // Show graph stats
-    printf("\nGraph stats: %zu nodes, %zu edges\n", 
-           melvin_m_get_node_count(mfile), 
-           melvin_m_get_edge_count(mfile));
+    // Test generation from "hello"
+    printf("\nTesting generation from 'hello':\n");
     
-    // Step 2: Test with just "hello"
-    printf("\n=== Step 2: Testing Association ===\n");
-    const char *test_input = "hello";
-    printf("Test input: '%s'\n", test_input);
-    printf("Expected: Should output 'world' (or at least start with 'w')\n\n");
+    // Write input
+    melvin_m_universal_input_write(mfile, (const uint8_t*)"hello", 5);
+    melvin_m_process_input(mfile);
     
-    // Clear any previous output
-    melvin_m_universal_output_clear(mfile);
-    
-    // Process test input
-    melvin_in_port_handle_buffer(mfile, 0, (uint8_t*)test_input, strlen(test_input));
-    
-    // Check output
+    // Read output
     size_t output_size = melvin_m_universal_output_size(mfile);
-    printf("Output size: %zu bytes\n", output_size);
-    
-    if (output_size > 0) {
-        uint8_t *output = malloc(output_size);
-        if (output) {
-            size_t read = melvin_m_universal_output_read(mfile, output, output_size);
-            printf("Output bytes: ");
-            for (size_t i = 0; i < read && i < 20; i++) {
-                if (output[i] >= 32 && output[i] < 127) {
-                    printf("'%c' ", output[i]);
-                } else {
-                    printf("0x%02x ", output[i]);
-                }
-            }
-            printf("\n");
-            
-            // Check if output contains 'w' (first letter of 'world')
-            int found_w = 0;
-            for (size_t i = 0; i < read; i++) {
-                if (output[i] == 'w') {
-                    found_w = 1;
-                    break;
-                }
-            }
-            
-            if (found_w) {
-                printf("\n✅ SUCCESS: Output contains 'w' (first letter of 'world')!\n");
-            } else {
-                printf("\n⚠️  Output does not contain 'w'. Let's see what we got:\n");
-                printf("Output as string: ");
-                for (size_t i = 0; i < read && i < 50; i++) {
-                    if (output[i] >= 32 && output[i] < 127) {
-                        printf("%c", output[i]);
-                    } else {
-                        printf(".");
-                    }
-                }
-                printf("\n");
-            }
-            
-            free(output);
-        }
-    } else {
-        printf("\n⚠️  No output generated. This might mean:\n");
-        printf("   - Patterns are not mature enough (need more training)\n");
-        printf("   - Output readiness threshold not met\n");
-        printf("   - System is in 'thinking mode' (internal processing only)\n");
+    uint8_t *output = malloc(output_size + 1);
+    if (!output) {
+        printf("Failed to allocate output buffer\n");
+        melvin_m_close(mfile);
+        unlink(test_file);
+        return 1;
     }
     
-    // Final save
-    melvin_m_save(mfile);
-    melvin_m_close(mfile);
+    size_t read = melvin_m_universal_output_read(mfile, output, output_size);
+    if (read > output_size) read = output_size;
+    output_size = read;
     
-    printf("\n=== Test Complete ===\n");
-    return 0;
+    printf("Input: 'hello'\n");
+    printf("Output: '");
+    for (size_t i = 0; i < output_size && i < 20; i++) {
+        if (output[i] >= 32 && output[i] < 127) {
+            printf("%c", output[i]);
+        } else {
+            printf("?");
+        }
+    }
+    printf("'\n");
+    printf("Expected: ' world'\n");
+    
+    // Check if it predicted ' world'
+    const char *expected = " world";
+    int success = 1;
+    if (output_size < strlen(expected)) {
+        success = 0;
+        printf("Output too short: %zu bytes (expected %zu)\n", output_size, strlen(expected));
+    } else {
+        for (size_t i = 0; i < strlen(expected); i++) {
+            if (output[i] != expected[i]) {
+                success = 0;
+                printf("Mismatch at position %zu: got '%c' expected '%c'\n", i, output[i], expected[i]);
+                break;
+            }
+        }
+    }
+    
+    printf("\nResult: %s\n", success ? "✅ PASS" : "❌ FAIL");
+    
+    free(output);
+    melvin_m_close(mfile);
+    unlink(test_file);
+    
+    return success ? 0 : 1;
 }
-

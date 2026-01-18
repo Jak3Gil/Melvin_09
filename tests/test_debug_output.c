@@ -1,40 +1,58 @@
+/*
+ * Debug test to understand why output generation fails
+ */
+
+#include "../src/melvin.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "melvin.h"
 
-int main() {
+int main(void) {
+    printf("=== Debug Output Generation Test ===\n\n");
+    
     MelvinMFile *mfile = melvin_m_create("debug_test.m");
     if (!mfile) {
-        fprintf(stderr, "Failed to create\n");
+        fprintf(stderr, "Failed to create MFile\n");
         return 1;
     }
     
-    const char *input = "hello";
-    melvin_m_universal_input_write(mfile, (const uint8_t*)input, strlen(input));
+    // Train on "hello world"
+    printf("Training: 'hello world'\n");
+    const char *training = "hello world";
+    melvin_m_universal_input_write(mfile, (const uint8_t*)training, strlen(training));
+    melvin_m_process_input(mfile);
     
-    printf("Before process: nodes=%zu edges=%zu\n", 
-           melvin_m_get_node_count(mfile), melvin_m_get_edge_count(mfile));
+    printf("  Nodes: %zu, Edges: %zu\n", 
+           melvin_m_get_node_count(mfile),
+           melvin_m_get_edge_count(mfile));
     
-    int result = melvin_m_process_input(mfile);
-    
-    printf("After process: nodes=%zu edges=%zu result=%d\n", 
-           melvin_m_get_node_count(mfile), melvin_m_get_edge_count(mfile), result);
+    // Clear and test with "hello"
+    printf("\nTesting: 'hello'\n");
+    melvin_m_universal_input_clear(mfile);
+    melvin_m_universal_input_write(mfile, (const uint8_t*)"hello", 5);
+    melvin_m_process_input(mfile);
     
     size_t output_size = melvin_m_universal_output_size(mfile);
-    printf("Output size: %zu\n", output_size);
+    printf("  Output size: %zu bytes\n", output_size);
     
     if (output_size > 0) {
-        uint8_t *output = malloc(output_size);
-        size_t read = melvin_m_universal_output_read(mfile, output, output_size);
-        printf("Read %zu bytes: ", read);
-        for (size_t i = 0; i < read; i++) {
-            printf("%c", output[i]);
+        uint8_t output[256];
+        size_t read = melvin_m_universal_output_read(mfile, output, sizeof(output));
+        output[read] = '\0';
+        printf("  Output: '%s'\n", output);
+        printf("  Expected: ' world'\n");
+        
+        if (read == 6 && memcmp(output, " world", 6) == 0) {
+            printf("\n✓ SUCCESS: Output matches expected!\n");
+            melvin_m_close(mfile);
+            return 0;
+        } else {
+            printf("\n✗ FAIL: Output doesn't match\n");
         }
-        printf("\n");
-        free(output);
+    } else {
+        printf("  ✗ FAIL: No output generated\n");
     }
     
     melvin_m_close(mfile);
-    return 0;
+    return 1;
 }
